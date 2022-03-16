@@ -1,0 +1,65 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "data-categories",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://includedcc.org/fhir/code-systems/data_categories defines many codes, of which the following are a subset:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Clinical<a name=\"data-categories-Clinical\"> </a></td><td>Clinical</td></tr><tr><td style=\"white-space:nowrap\">Genomic<a name=\"data-categories-Genomic\"> </a></td><td>Genomic</td></tr><tr><td style=\"white-space:nowrap\">Transcriptomic<a name=\"data-categories-Transcriptomic\"> </a></td><td>Transcriptomic</td></tr><tr><td style=\"white-space:nowrap\">Proteomic<a name=\"data-categories-Proteomic\"> </a></td><td>Proteomic</td></tr><tr><td style=\"white-space:nowrap\">Immune-Map<a name=\"data-categories-Immune-Map\"> </a></td><td>Immune Map</td></tr><tr><td style=\"white-space:nowrap\">Metabolomic<a name=\"data-categories-Metabolomic\"> </a></td><td>Metabolomic</td></tr></table></div>"
+  },
+  "url": "https://includedcc.org/fhir/code-systems/data_categories",
+  "version": "0.1.0",
+  "name": "DataCategories",
+  "title": "Data Categories",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-03-16T15:01:13-05:00",
+  "publisher": "NCPI FHIR Working Group",
+  "contact": [
+    {
+      "name": "NCPI FHIR Working Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://github.com/include-dcc"
+        }
+      ]
+    },
+    {
+      "name": "Meen Chul Kim",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "meenchul@d3b.center",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Data Categories Used in INCLUDE Datasets",
+  "content": "fragment",
+  "concept": [
+    {
+      "code": "Clinical",
+      "display": "Clinical"
+    },
+    {
+      "code": "Genomic",
+      "display": "Genomic"
+    },
+    {
+      "code": "Transcriptomic",
+      "display": "Transcriptomic"
+    },
+    {
+      "code": "Proteomic",
+      "display": "Proteomic"
+    },
+    {
+      "code": "Immune-Map",
+      "display": "Immune Map"
+    },
+    {
+      "code": "Metabolomic",
+      "display": "Metabolomic"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: INCLUDE-Model-Forge
+canonical: https://include-dcc.github.io/include-model-forge
+name: INCLUDEModelForgeIG
+title: INCLUDE Model Forge Implementation Guide
+description: "FHIR Implementation Guide for the INCLUDE Portal Launch, 3/21/2022"
+status: draft
+license: CC0-1.0
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2021+
+releaseLabel: ci-build
+publisher:
+  name: NCPI FHIR Working Group
+  url: https://github.com/include-dcc
+contact:
+  - name: Meen Chul Kim
+    telecom:
+      - system: email
+        value: meenchul@d3b.center
+        use: work
+dependencies:
+  hl7.fhir.us.core: 3.1.1
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  IG Home: index.html
+  Table of Contents: toc.html
+  Artifacts: artifacts.html
+  Support: 
+    FHIR Spec: http://hl7.org/fhir/R4/index.html
+    Downloads: downloads.html
