@@ -3,7 +3,7 @@
   "id": "data-access-types",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://includedcc.org/fhir/code-systems/data_access_types defines many codes, of which the following are a subset:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">controlled<a name=\"data-access-types-controlled\"> </a></td><td>Controlled</td></tr><tr><td style=\"white-space:nowrap\">registered<a name=\"data-access-types-registered\"> </a></td><td>Registered</td></tr><tr><td style=\"white-space:nowrap\">open<a name=\"data-access-types-open\"> </a></td><td>Open</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://includedcc.org/fhir/code-systems/data_access_types</code> defines many codes, of which the following are a subset:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">controlled<a name=\"data-access-types-controlled\"> </a></td><td>Controlled</td></tr><tr><td style=\"white-space:nowrap\">registered<a name=\"data-access-types-registered\"> </a></td><td>Registered</td></tr><tr><td style=\"white-space:nowrap\">open<a name=\"data-access-types-open\"> </a></td><td>Open</td></tr></table></div>"
   },
   "url": "https://includedcc.org/fhir/code-systems/data_access_types",
   "version": "0.1.0",
@@ -11,7 +11,7 @@
   "title": "Data Access Types",
   "status": "active",
   "experimental": false,
-  "date": "2022-03-16T15:01:13-05:00",
+  "date": "2023-03-10T10:52:00-06:00",
   "publisher": "NCPI FHIR Working Group",
   "contact": [
     {
