@@ -1,0 +1,57 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "family-types",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://includedcc.org/fhir/code-systems/family_types</code> provides a fragment that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Control-only<a name=\"family-types-Control-only\"> </a></td><td>Control Only</td></tr><tr><td style=\"white-space:nowrap\">Duo<a name=\"family-types-Duo\"> </a></td><td>Duo</td></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"family-types-Other\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">Proband-only<a name=\"family-types-Proband-only\"> </a></td><td>Proband Only</td></tr><tr><td style=\"white-space:nowrap\">Trio<a name=\"family-types-Trio\"> </a></td><td>Trio</td></tr><tr><td style=\"white-space:nowrap\">Trio+<a name=\"family-types-Trio.43\"> </a></td><td>Trio+</td></tr></table></div>"
+  },
+  "url" : "https://includedcc.org/fhir/code-systems/family_types",
+  "version" : "0.1.0",
+  "name" : "FamilyTypes",
+  "title" : "Family TYpes",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-05-25T15:19:51-05:00",
+  "publisher" : "NCPI FHIR Working Group",
+  "contact" : [{
+    "name" : "NCPI FHIR Working Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/include-dcc"
+    }]
+  },
+  {
+    "name" : "Meen Chul Kim",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "meenchul@d3b.center",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Types of Families Used in INCLUDE Dataset",
+  "content" : "fragment",
+  "concept" : [{
+    "code" : "Control-only",
+    "display" : "Control Only"
+  },
+  {
+    "code" : "Duo",
+    "display" : "Duo"
+  },
+  {
+    "code" : "Other",
+    "display" : "Other"
+  },
+  {
+    "code" : "Proband-only",
+    "display" : "Proband Only"
+  },
+  {
+    "code" : "Trio",
+    "display" : "Trio"
+  },
+  {
+    "code" : "Trio+",
+    "display" : "Trio+"
+  }]
+}

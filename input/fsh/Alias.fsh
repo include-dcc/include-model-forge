@@ -34,6 +34,7 @@ Alias: $varnomen = http://varnomen.hgvs.org
 Alias: $experimental_strategies = https://includedcc.org/fhir/code-systems/experimental_strategies
 Alias: $data_types = https://includedcc.org/fhir/code-systems/data_types
 Alias: $data_categories = https://includedcc.org/fhir/code-systems/data_categories
+Alias: $family_types = https://includedcc.org/fhir/code-systems/family_types
 Alias: $include_programs = https://includedcc.org/fhir/code-systems/programs
 Alias: $data_access_types = https://includedcc.org/fhir/code-systems/data_access_types
 // ValueSet

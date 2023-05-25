@@ -1,53 +1,45 @@
 {
-  "resourceType": "CodeSystem",
-  "id": "data-access-types",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://includedcc.org/fhir/code-systems/data_access_types</code> defines many codes, of which the following are a subset:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">controlled<a name=\"data-access-types-controlled\"> </a></td><td>Controlled</td></tr><tr><td style=\"white-space:nowrap\">registered<a name=\"data-access-types-registered\"> </a></td><td>Registered</td></tr><tr><td style=\"white-space:nowrap\">open<a name=\"data-access-types-open\"> </a></td><td>Open</td></tr></table></div>"
+  "resourceType" : "CodeSystem",
+  "id" : "data-access-types",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://includedcc.org/fhir/code-systems/data_access_types</code> provides a fragment that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">controlled<a name=\"data-access-types-controlled\"> </a></td><td>Controlled</td></tr><tr><td style=\"white-space:nowrap\">registered<a name=\"data-access-types-registered\"> </a></td><td>Registered</td></tr><tr><td style=\"white-space:nowrap\">open<a name=\"data-access-types-open\"> </a></td><td>Open</td></tr></table></div>"
   },
-  "url": "https://includedcc.org/fhir/code-systems/data_access_types",
-  "version": "0.1.0",
-  "name": "DataAccessTypes",
-  "title": "Data Access Types",
-  "status": "active",
-  "experimental": false,
-  "date": "2023-04-20T12:24:59-05:00",
-  "publisher": "NCPI FHIR Working Group",
-  "contact": [
-    {
-      "name": "NCPI FHIR Working Group",
-      "telecom": [
-        {
-          "system": "url",
-          "value": "https://github.com/include-dcc"
-        }
-      ]
-    },
-    {
-      "name": "Meen Chul Kim",
-      "telecom": [
-        {
-          "system": "email",
-          "value": "meenchul@d3b.center",
-          "use": "work"
-        }
-      ]
-    }
-  ],
-  "description": "Data Access Types Used in INCLUDE Datasets",
-  "content": "fragment",
-  "concept": [
-    {
-      "code": "controlled",
-      "display": "Controlled"
-    },
-    {
-      "code": "registered",
-      "display": "Registered"
-    },
-    {
-      "code": "open",
-      "display": "Open"
-    }
-  ]
+  "url" : "https://includedcc.org/fhir/code-systems/data_access_types",
+  "version" : "0.1.0",
+  "name" : "DataAccessTypes",
+  "title" : "Data Access Types",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-05-25T15:19:51-05:00",
+  "publisher" : "NCPI FHIR Working Group",
+  "contact" : [{
+    "name" : "NCPI FHIR Working Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/include-dcc"
+    }]
+  },
+  {
+    "name" : "Meen Chul Kim",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "meenchul@d3b.center",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Data Access Types Used in INCLUDE Datasets",
+  "content" : "fragment",
+  "concept" : [{
+    "code" : "controlled",
+    "display" : "Controlled"
+  },
+  {
+    "code" : "registered",
+    "display" : "Registered"
+  },
+  {
+    "code" : "open",
+    "display" : "Open"
+  }]
 }
