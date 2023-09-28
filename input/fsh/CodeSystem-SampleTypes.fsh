@@ -33,3 +33,11 @@ Description: "Sample Types Used in INCLUDE Datasets"
 * #Blood-Smear-Slide "Blood Smear Slide"
 * #Skin-Tape "Skin Tape"
 * #Tongue-Swab "Tongue Swab"
+
+ValueSet: SampleTypesVS
+Id: sample-types-vs
+Title: "Sample Types Codes"
+Description: "A valuse set with all codes used for the expected sample types for INCLUDE/Kids First observations."
+* ^version = "0.1.0"
+* ^status = #active
+* include codes from system $sample_types

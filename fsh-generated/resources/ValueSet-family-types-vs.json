@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "FamilyTypesVS",
+  "id": "family-types-vs",
+  "title": "Family Types Codes",
+  "description": "A value set with all codes used for the expected family types for INCLUDE/Kids First observations.",
+  "url": "https://include-dcc.github.io/include-model-forge/ValueSet/family-types-vs",
+  "version": "0.1.0",
+  "compose": {
+    "include": [
+      {
+        "system": "https://includedcc.org/fhir/code-systems/family_types"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "family-group",
+  "url": "https://include-dcc.github.io/include-model-forge/StructureDefinition/family-group",
+  "version": "0.1.0",
+  "name": "FamilyGroup",
+  "title": "Family Group",
+  "status": "draft",
+  "description": "Representation of family group.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Group",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Group",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Group.type",
+        "path": "Group.type",
+        "patternCode": "person"
+      },
+      {
+        "id": "Group.actual",
+        "path": "Group.actual",
+        "patternBoolean": true
+      },
+      {
+        "id": "Group.code.coding",
+        "path": "Group.code.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "code"
+            }
+          ],
+          "rules": "closed",
+          "ordered": true,
+          "description": "Slice for code.coding"
+        },
+        "min": 2
+      },
+      {
+        "id": "Group.code.coding:family-member",
+        "path": "Group.code.coding",
+        "sliceName": "family-member",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Group.code.coding:family-member.code",
+        "path": "Group.code.coding.code",
+        "min": 1,
+        "patternCode": "FAMMEMB"
+      },
+      {
+        "id": "Group.code.coding:family-type",
+        "path": "Group.code.coding",
+        "sliceName": "family-type",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Group.code.coding:family-type.code",
+        "path": "Group.code.coding.code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://include-dcc.github.io/include-model-forge/ValueSet/family-types-vs"
+        }
+      },
+      {
+        "id": "Group.member.entity",
+        "path": "Group.member.entity",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

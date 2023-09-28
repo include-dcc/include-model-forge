@@ -1,0 +1,27 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "DataAccessTypes",
+  "id": "data-access-types",
+  "title": "Data Access Types",
+  "description": "Data Access Types Used in INCLUDE Datasets",
+  "url": "https://includedcc.org/fhir/code-systems/data_access_types",
+  "concept": [
+    {
+      "code": "controlled",
+      "display": "Controlled"
+    },
+    {
+      "code": "registered",
+      "display": "Registered"
+    },
+    {
+      "code": "open",
+      "display": "Open"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "NCPI FHIR Works"
+}

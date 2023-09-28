@@ -1,0 +1,28 @@
+{
+  "resourceType": "Observation",
+  "id": "patient-0100-BMI",
+  "meta": {
+    "profile": [
+      "https://include-dcc.github.io/include-model-forge/StructureDefinition/measurement"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-0100"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "BMI",
+        "system": "http://includedcc.org/fhir/code-systems/measurement_codes",
+        "display": "Body Mass Index"
+      }
+    ]
+  },
+  "valueQuantity": {
+    "value": 32.5,
+    "code": "kg/m2",
+    "system": "http://unitsofmeasure.org",
+    "unit": "kg/m2"
+  },
+  "status": "final"
+}

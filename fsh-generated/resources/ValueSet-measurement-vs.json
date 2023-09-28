@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "MeasurementVS",
+  "id": "measurement-vs",
+  "title": "Measurement Codes",
+  "description": "A value set with all codes used for the expected measurement types for INCLUDE/Kids First observations.",
+  "url": "https://include-dcc.github.io/include-model-forge/ValueSet/measurement-vs",
+  "version": "0.1.0",
+  "compose": {
+    "include": [
+      {
+        "system": "http://includedcc.org/fhir/code-systems/measurement_codes"
+      }
+    ]
+  }
+}

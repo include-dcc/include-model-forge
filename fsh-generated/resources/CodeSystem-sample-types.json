@@ -1,0 +1,115 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "SampleTypes",
+  "id": "sample-types",
+  "title": "Sample Types",
+  "description": "Sample Types Used in INCLUDE Datasets",
+  "url": "https://includedcc.org/fhir/code-systems/sample_types",
+  "concept": [
+    {
+      "code": "B-Cells",
+      "display": "B Cells"
+    },
+    {
+      "code": "Bone-Marrow",
+      "display": "Bone Marrow"
+    },
+    {
+      "code": "Buccal-Cells",
+      "display": "Buccal Cells"
+    },
+    {
+      "code": "Buffy-Coat",
+      "display": "Buffy Coat"
+    },
+    {
+      "code": "CD4+-Tconv-Cells",
+      "display": "CD4+ Tconv Cells"
+    },
+    {
+      "code": "CD8+T-Cells",
+      "display": "CD8+ T Cells"
+    },
+    {
+      "code": "Derived-Cell-Line",
+      "display": "Derived Cell Line"
+    },
+    {
+      "code": "DNA",
+      "display": "DNA"
+    },
+    {
+      "code": "Epstein-Bar-Virus-Immortalized-Cells",
+      "display": "Epstein-Barr Virus Immortalized Cells"
+    },
+    {
+      "code": "Graunulocytes",
+      "display": "Granulocytes"
+    },
+    {
+      "code": "Monocytes",
+      "display": "Monocytes"
+    },
+    {
+      "code": "NK-Cells",
+      "display": "NK Cells"
+    },
+    {
+      "code": "PMBCs",
+      "display": "PBMCs"
+    },
+    {
+      "code": "Peripheral-Whole-Blood",
+      "display": "Peripheral Whole Blood"
+    },
+    {
+      "code": "Plasma",
+      "display": "Plasma"
+    },
+    {
+      "code": "Red-Blood-Cells",
+      "display": "Red Blood Cells"
+    },
+    {
+      "code": "RNA",
+      "display": "RNA"
+    },
+    {
+      "code": "Saliva",
+      "display": "Saliva"
+    },
+    {
+      "code": "Solid-Tissue",
+      "display": "Solid Tissue"
+    },
+    {
+      "code": "Tregs",
+      "display": "Regulatory T Cells"
+    },
+    {
+      "code": "WBCs",
+      "display": "White Blood Cells"
+    },
+    {
+      "code": "ATAC-Seq-Sample",
+      "display": "ATAC-Seq Sample"
+    },
+    {
+      "code": "Blood-Smear-Slide",
+      "display": "Blood Smear Slide"
+    },
+    {
+      "code": "Skin-Tape",
+      "display": "Skin Tape"
+    },
+    {
+      "code": "Tongue-Swab",
+      "display": "Tongue Swab"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "NCPI FHIR Works"
+}

@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "SampleTypesVS",
+  "id": "sample-types-vs",
+  "title": "Sample Types Codes",
+  "description": "A valuse set with all codes used for the expected sample types for INCLUDE/Kids First observations.",
+  "url": "https://include-dcc.github.io/include-model-forge/ValueSet/sample-types-vs",
+  "version": "0.1.0",
+  "compose": {
+    "include": [
+      {
+        "system": "https://includedcc.org/fhir/code-systems/sample_types"
+      }
+    ]
+  }
+}

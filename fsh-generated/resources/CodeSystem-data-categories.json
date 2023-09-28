@@ -1,0 +1,39 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "DataCategories",
+  "id": "data-categories",
+  "title": "Data Categories",
+  "description": "Data Categories Used in INCLUDE Datasets",
+  "url": "https://includedcc.org/fhir/code-systems/data_categories",
+  "concept": [
+    {
+      "code": "Clinical",
+      "display": "Clinical"
+    },
+    {
+      "code": "Genomics",
+      "display": "Genomics"
+    },
+    {
+      "code": "Transcriptomics",
+      "display": "Transcriptomics"
+    },
+    {
+      "code": "Proteomics",
+      "display": "Proteomics"
+    },
+    {
+      "code": "Immune-Map",
+      "display": "Immune Map"
+    },
+    {
+      "code": "Metabolomics",
+      "display": "Metabolomics"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "NCPI FHIR Works"
+}
