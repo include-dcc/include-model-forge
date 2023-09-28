@@ -1,0 +1,20 @@
+{
+  "resourceType": "Specimen",
+  "id": "biospecimen-0100",
+  "meta": {
+    "profile": [
+      "https://include-dcc.github.io/include-model-forge/StructureDefinition/biospecimen"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-0100"
+  },
+  "type": {
+    "coding": [
+      {
+        "code": "Buccal-Cells",
+        "system": "https://includedcc.org/fhir/code-systems/sample_types"
+      }
+    ]
+  }
+}

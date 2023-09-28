@@ -2,7 +2,7 @@
  All aliases should go in this file.
  */
 
-/**
+/*
  External aliases
  */
 // Extension
@@ -41,7 +41,7 @@ Alias: $data_access_types = https://includedcc.org/fhir/code-systems/data_access
 // ValueSet
 Alias: $v3-FamilyMember = http://terminology.hl7.org/ValueSet/v3-FamilyMember
 Alias: $measurement_codes = http://includedcc.org/fhir/code-systems/measurement_codes
-
+Alias: $family-member = https://terminology.hl7.org/5.2.0/CodeSystem-v3-RoleCode.html
 
 /**
  Local aliases

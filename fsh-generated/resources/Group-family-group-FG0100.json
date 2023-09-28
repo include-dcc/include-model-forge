@@ -1,0 +1,31 @@
+{
+  "resourceType": "Group",
+  "id": "family-group-FG0100",
+  "meta": {
+    "profile": [
+      "https://include-dcc.github.io/include-model-forge/StructureDefinition/family-group"
+    ]
+  },
+  "type": "person",
+  "actual": true,
+  "code": {
+    "coding": [
+      {
+        "code": "FAMMEMB",
+        "system": "https://terminology.hl7.org/5.2.0/CodeSystem-v3-RoleCode.html"
+      },
+      {
+        "code": "Control-only",
+        "system": "https://includedcc.org/fhir/code-systems/family_types",
+        "display": "Control Only"
+      }
+    ]
+  },
+  "member": [
+    {
+      "entity": {
+        "reference": "Patient/patient-0100"
+      }
+    }
+  ]
+}

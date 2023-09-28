@@ -1,0 +1,228 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "INCLUDE-Model-Forge",
+  "url": "https://include-dcc.github.io/include-model-forge/ImplementationGuide/INCLUDE-Model-Forge",
+  "version": "0.1.0",
+  "name": "INCLUDEModelForgeIG",
+  "title": "INCLUDE Model Forge Implementation Guide",
+  "status": "draft",
+  "publisher": "NCPI FHIR Working Group",
+  "contact": [
+    {
+      "name": "NCPI FHIR Working Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://github.com/include-dcc"
+        }
+      ]
+    },
+    {
+      "name": "Meen Chul Kim",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "meenchul@d3b.center",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "FHIR Implementation Guide for the INCLUDE Portal Launch, 3/21/2022",
+  "packageId": "INCLUDE-Model-Forge",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "hl7.fhir.us.core",
+      "version": "3.1.1",
+      "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
+      "id": "hl7_fhir_us_core"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/biospecimen"
+        },
+        "name": "Biospecimen",
+        "description": "Representation of biospecimen.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Specimen/biospecimen-0100"
+        },
+        "name": "biospecimen-0100",
+        "description": "Example of a biospecimen.",
+        "exampleCanonical": "https://include-dcc.github.io/include-model-forge/StructureDefinition/biospecimen"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/data-access-types"
+        },
+        "name": "Data Access Types",
+        "description": "Data Access Types Used in INCLUDE Datasets",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/data-categories"
+        },
+        "name": "Data Categories",
+        "description": "Data Categories Used in INCLUDE Datasets",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/data-types"
+        },
+        "name": "Data Types",
+        "description": "Data Types Used in INCLUDE Datasets",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/experimental-strategy"
+        },
+        "name": "Experimental Strategy",
+        "description": "Experimental Strategies",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/family-group"
+        },
+        "name": "Family Group",
+        "description": "Representation of family group.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/family-id-observation"
+        },
+        "name": "Family Id Observation",
+        "description": "Representation of family id observations.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/family-types"
+        },
+        "name": "Family Types",
+        "description": "Types of Families Used in INCLUDE Dataset",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/family-types-vs"
+        },
+        "name": "Family Types Codes",
+        "description": "A value set with all codes used for the expected family types for INCLUDE/Kids First observations.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Group/family-group-FG0100"
+        },
+        "name": "family-group-FG0100",
+        "description": "Example of a family group.",
+        "exampleCanonical": "https://include-dcc.github.io/include-model-forge/StructureDefinition/family-group"
+      },
+      {
+        "reference": {
+          "reference": "Observation/family-id-observation-F0100"
+        },
+        "name": "family-id-observation-F0100",
+        "description": "Example of Family Id Observation.",
+        "exampleCanonical": "https://include-dcc.github.io/include-model-forge/StructureDefinition/family-id-observation"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/measurement"
+        },
+        "name": "Measurement",
+        "description": "Representation of various measurements including (BMI, height, weight, etc.).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/measurement-vs"
+        },
+        "name": "Measurement Codes",
+        "description": "A value set with all codes used for the expected measurement types for INCLUDE/Kids First observations.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/measurement-codes"
+        },
+        "name": "Measurement Codes",
+        "description": "A complete set of codes used for the expected measurement types for INCLUDE/Kids First observations.\r\n",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Patient/patient-0100"
+        },
+        "name": "patient-0100",
+        "description": "Patient resource used by various examples.",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Observation/patient-0100-BMI"
+        },
+        "name": "patient-0100-BMI",
+        "description": "Example BMI measurement.",
+        "exampleCanonical": "https://include-dcc.github.io/include-model-forge/StructureDefinition/measurement"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/sample-types"
+        },
+        "name": "Sample Types",
+        "description": "Sample Types Used in INCLUDE Datasets",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/sample-types-vs"
+        },
+        "name": "Sample Types Codes",
+        "description": "A valuse set with all codes used for the expected sample types for INCLUDE/Kids First observations.",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "downloads.html",
+          "title": "Downloads",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2021+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

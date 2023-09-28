@@ -1,0 +1,95 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "DataTypes",
+  "id": "data-types",
+  "title": "Data Types",
+  "description": "Data Types Used in INCLUDE Datasets",
+  "url": "https://includedcc.org/fhir/code-systems/data_types",
+  "concept": [
+    {
+      "code": "Preprocessed-metabolite-relative-abundance",
+      "display": "Preprocessed metabolite relative abundance"
+    },
+    {
+      "code": "Protein-abundance-absolute-protein-concentration",
+      "display": "Protein abundance (absolute protein concentration)"
+    },
+    {
+      "code": "Aligned-Reads",
+      "display": "Aligned Reads"
+    },
+    {
+      "code": "Aligned-Reads-Index",
+      "display": "Aligned Reads Index"
+    },
+    {
+      "code": "Unaligned-Reads",
+      "display": "Unaligned Reads"
+    },
+    {
+      "code": "gVCF",
+      "display": "gVCF"
+    },
+    {
+      "code": "gVCF-Index",
+      "display": "gVCF Index"
+    },
+    {
+      "code": "Peddy-Family-Sex",
+      "display": "Peddy - Family/Sex"
+    },
+    {
+      "code": "Variant-Calls",
+      "display": "Variant Calls"
+    },
+    {
+      "code": "Variant-Calls-Index",
+      "display": "Variant Calls Index"
+    },
+    {
+      "code": "Simple-Nucleotide-Variations",
+      "display": "Simple Nucleotide Variations"
+    },
+    {
+      "code": "Somatic-Copy-Number-Variations",
+      "display": "Somatic Copy Number Variations"
+    },
+    {
+      "code": "Somatic-Structural-Variations",
+      "display": "Somatic Structural Variations"
+    },
+    {
+      "code": "Gene-Fusions",
+      "display": "Gene Fusions"
+    },
+    {
+      "code": "Gene-Expression-Quantifications",
+      "display": "Gene Expression Quantifications"
+    },
+    {
+      "code": "Raw-Gene-Fusions",
+      "display": "Raw Gene Fusions"
+    },
+    {
+      "code": "Isoform-Expression-Quantifications",
+      "display": "Isoform Expression Quantifications"
+    },
+    {
+      "code": "Alternative-Splicing",
+      "display": "Alternative Splicing"
+    },
+    {
+      "code": "Annotated-Gene-Fusion",
+      "display": "Annotated Gene Fusion"
+    },
+    {
+      "code": "Other",
+      "display": "Other"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "NCPI FHIR Works"
+}

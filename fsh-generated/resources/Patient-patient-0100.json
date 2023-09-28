@@ -1,0 +1,11 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-0100",
+  "identifier": [
+    {
+      "system": "www.example.com/identifier",
+      "value": "0100"
+    }
+  ],
+  "gender": "female"
+}

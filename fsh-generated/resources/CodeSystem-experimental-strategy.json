@@ -1,0 +1,32 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "ExperimentalStrategy",
+  "id": "experimental-strategy",
+  "title": "Experimental Strategy",
+  "description": "Experimental Strategies",
+  "url": "https://includedcc.org/fhir/code-systems/experimental_strategies",
+  "concept": [
+    {
+      "code": "LCMS-Metabolomics",
+      "display": "LCMS Metabolomics"
+    },
+    {
+      "code": "Multiplex-Immunoassay",
+      "display": "Multiplex Immunoassay"
+    },
+    {
+      "code": "WGS",
+      "display": "Whole Genome Sequencing"
+    },
+    {
+      "code": "RNA-Seq",
+      "display": "RNA-Seq"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "NCPI FHIR Works",
+  "count": 4
+}

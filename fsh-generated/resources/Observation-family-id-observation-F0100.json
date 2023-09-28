@@ -1,0 +1,23 @@
+{
+  "resourceType": "Observation",
+  "id": "family-id-observation-F0100",
+  "meta": {
+    "profile": [
+      "https://include-dcc.github.io/include-model-forge/StructureDefinition/family-id-observation"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-0100"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "Control-only",
+        "system": "https://includedcc.org/fhir/code-systems/family_types",
+        "display": "Control Only"
+      }
+    ]
+  },
+  "valueString": "F0100",
+  "status": "final"
+}

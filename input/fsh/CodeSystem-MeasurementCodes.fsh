@@ -1,7 +1,8 @@
 CodeSystem: MeasurementCodes
 Id: measurement-codes
 Title: "Measurement Codes"
-Description: "Local measurement codes Used in INCLUDE Datasets that aren't currently part of an enumerated field"
+Description: "A complete set of codes used for the expected measurement types for INCLUDE/Kids First observations.
+"
 * ^url = $measurement_codes
 * ^version = "0.1.0"
 * ^status = #active
@@ -19,3 +20,11 @@ Description: "Local measurement codes Used in INCLUDE Datasets that aren't curre
 * #Weight "Body Weight"
 * #Height "Body Height"
 * #BMI "Body Mass Index"
+
+ValueSet: MeasurementVS
+Id: measurement-vs
+Title: "Measurement Codes"
+Description: "A value set with all codes used for the expected measurement types for INCLUDE/Kids First observations."
+* ^version = "0.1.0"
+* ^status = #active
+* include codes from system $measurement_codes

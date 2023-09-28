@@ -1,0 +1,59 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "MeasurementCodes",
+  "id": "measurement-codes",
+  "title": "Measurement Codes",
+  "description": "A complete set of codes used for the expected measurement types for INCLUDE/Kids First observations.\r\n",
+  "url": "http://includedcc.org/fhir/code-systems/measurement_codes",
+  "concept": [
+    {
+      "code": "Hemoglobin-level-at-birth",
+      "display": "Hemoglobin level at birth"
+    },
+    {
+      "code": "White-blood-cell-count-at-birth",
+      "display": "White blood cell count at birth"
+    },
+    {
+      "code": "Platelet-count-at-birth",
+      "display": "Platelet count at birth"
+    },
+    {
+      "code": "Peripheral-blood-blast-percentage-at-birth",
+      "display": "Peripheral blood blast percentage at birth"
+    },
+    {
+      "code": "Hematocrit",
+      "display": "Hematocrit"
+    },
+    {
+      "code": "Gestational-age-at-birth",
+      "display": "Gestational age at birth"
+    },
+    {
+      "code": "Birth-weight",
+      "display": "Birth weight"
+    },
+    {
+      "code": "Visit-count-for-year",
+      "display": "In the past 12 months, how many times has the participant been admitted to a hospital overnight or longer?"
+    },
+    {
+      "code": "Weight",
+      "display": "Body Weight"
+    },
+    {
+      "code": "Height",
+      "display": "Body Height"
+    },
+    {
+      "code": "BMI",
+      "display": "Body Mass Index"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "INCLUDE FHIR"
+}
