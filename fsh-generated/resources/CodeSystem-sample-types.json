@@ -9,8 +9,20 @@
   "url": "https://includedcc.org/fhir/code-systems/sample_types",
   "concept": [
     {
+      "code": "ATAC-Seq-Sample",
+      "display": "ATAC-Seq Sample"
+    },
+    {
       "code": "B-Cells",
       "display": "B Cells"
+    },
+    {
+      "code": "Blood-Smear-Slide",
+      "display": "Blood Smear Slide"
+    },
+    {
+      "code": "Blood-Spots",
+      "display": "Blood Spots"
     },
     {
       "code": "Bone-Marrow",
@@ -41,6 +53,10 @@
       "display": "DNA"
     },
     {
+      "code": "EBV-Cell-Line",
+      "display": "EBV Cell Line"
+    },
+    {
       "code": "Epstein-Bar-Virus-Immortalized-Cells",
       "display": "Epstein-Barr Virus Immortalized Cells"
     },
@@ -57,16 +73,16 @@
       "display": "NK Cells"
     },
     {
-      "code": "PMBCs",
-      "display": "PBMCs"
-    },
-    {
       "code": "Peripheral-Whole-Blood",
       "display": "Peripheral Whole Blood"
     },
     {
       "code": "Plasma",
       "display": "Plasma"
+    },
+    {
+      "code": "PMBCs",
+      "display": "PBMCs"
     },
     {
       "code": "Red-Blood-Cells",
@@ -81,8 +97,20 @@
       "display": "Saliva"
     },
     {
+      "code": "Serum",
+      "display": "Serum"
+    },
+    {
+      "code": "Skin-Tape",
+      "display": "Skin Tape"
+    },
+    {
       "code": "Solid-Tissue",
       "display": "Solid Tissue"
+    },
+    {
+      "code": "Tongue-Swab",
+      "display": "Tongue Swab"
     },
     {
       "code": "Tregs",
@@ -91,22 +119,6 @@
     {
       "code": "WBCs",
       "display": "White Blood Cells"
-    },
-    {
-      "code": "ATAC-Seq-Sample",
-      "display": "ATAC-Seq Sample"
-    },
-    {
-      "code": "Blood-Smear-Slide",
-      "display": "Blood Smear Slide"
-    },
-    {
-      "code": "Skin-Tape",
-      "display": "Skin Tape"
-    },
-    {
-      "code": "Tongue-Swab",
-      "display": "Tongue Swab"
     }
   ],
   "version": "0.1.0",

@@ -5,7 +5,7 @@
   "name": "MeasurementCodes",
   "id": "measurement-codes",
   "title": "Measurement Codes",
-  "description": "A complete set of codes used for the expected measurement types for INCLUDE/Kids First observations.\r\n",
+  "description": "A complete set of codes used for the expected measurement types for INCLUDE/Kids First observations.\n",
   "url": "http://includedcc.org/fhir/code-systems/measurement_codes",
   "concept": [
     {

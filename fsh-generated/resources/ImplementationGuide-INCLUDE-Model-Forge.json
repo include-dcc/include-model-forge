@@ -161,7 +161,7 @@
           "reference": "CodeSystem/measurement-codes"
         },
         "name": "Measurement Codes",
-        "description": "A complete set of codes used for the expected measurement types for INCLUDE/Kids First observations.\r\n",
+        "description": "A complete set of codes used for the expected measurement types for INCLUDE/Kids First observations.\n",
         "exampleBoolean": false
       },
       {
