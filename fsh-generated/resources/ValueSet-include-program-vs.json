@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "IncludeProgramVS",
+  "id": "include-program-vs",
+  "title": "Include Program",
+  "description": "Include Program",
+  "url": "https://include-dcc.github.io/include-model-forge/ValueSet/include-program-vs",
+  "version": "0.1.0",
+  "compose": {
+    "include": [
+      {
+        "system": "https://includedcc.org/fhir/code-systems/include_program"
+      }
+    ]
+  }
+}

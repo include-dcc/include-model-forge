@@ -1,0 +1,103 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "StudyPageCodes",
+  "id": "study-page-codes",
+  "title": "Study Page Codes",
+  "description": "Each column from the study page model as terms",
+  "url": "https://includedcc.org/fhir/code-systems/study_page_codes",
+  "concept": [
+    {
+      "code": "study-code",
+      "display": "Study Code"
+    },
+    {
+      "code": "study-title",
+      "display": "Study Title"
+    },
+    {
+      "code": "program",
+      "display": "Program"
+    },
+    {
+      "code": "study-description",
+      "display": "Study Description"
+    },
+    {
+      "code": "principal-investigator-name",
+      "display": "Principal Investigator Name"
+    },
+    {
+      "code": "study-contact-name",
+      "display": "Study Contact Name"
+    },
+    {
+      "code": "study-contact-institution",
+      "display": "Study Contact Institution"
+    },
+    {
+      "code": "study-contact-email",
+      "display": "Study Contact Email"
+    },
+    {
+      "code": "virtual-biorepository-email",
+      "display": "Virtual Biorepository Email"
+    },
+    {
+      "code": "virtual-biorepository-url",
+      "display": "Virtual Biorepository URL"
+    },
+    {
+      "code": "virtual-biorepository-readme",
+      "display": "Virtual Biorepository Readme"
+    },
+    {
+      "code": "research-domain",
+      "display": "Research Domain"
+    },
+    {
+      "code": "participant-lifespan-stage",
+      "display": "Participant Lifespan Stage"
+    },
+    {
+      "code": "selection-criteria",
+      "display": "Selection Criteria"
+    },
+    {
+      "code": "study-design",
+      "display": "Study Design"
+    },
+    {
+      "code": "clinical-data-source-type",
+      "display": "Clinical Data Source Type"
+    },
+    {
+      "code": "expected-data-category",
+      "display": "Expected Data Category"
+    },
+    {
+      "code": "study-website",
+      "display": "Study Website"
+    },
+    {
+      "code": "dbgap",
+      "display": "dbGaP"
+    },
+    {
+      "code": "publication",
+      "display": "Publication"
+    },
+    {
+      "code": "expected-number-of-participants",
+      "display": "Expected Number of Participants"
+    },
+    {
+      "code": "guid-type",
+      "display": "GUID type"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "INCLUDE FHIR"
+}

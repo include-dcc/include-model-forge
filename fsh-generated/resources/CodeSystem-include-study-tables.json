@@ -1,0 +1,39 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "IncludeStudyTables",
+  "id": "include-study-tables",
+  "title": "Include Study Tables",
+  "description": "High level terms associated with key tables in include model",
+  "url": "https://includedcc.org/fhir/code-systems/include_study_tables",
+  "concept": [
+    {
+      "code": "participant",
+      "display": "Participant"
+    },
+    {
+      "code": "condition",
+      "display": "Condition"
+    },
+    {
+      "code": "specimen",
+      "display": "Specimen"
+    },
+    {
+      "code": "file-manifest",
+      "display": "File Manifest"
+    },
+    {
+      "code": "research-study",
+      "display": "Research Study"
+    },
+    {
+      "code": "dataset",
+      "display": "Dataset"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "INCLUDE FHIR"
+}
