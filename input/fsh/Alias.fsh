@@ -36,7 +36,7 @@ Alias: $study-page-codes = https://includedcc.org/fhir/code-systems/study_page_c
 Alias: $clinical-data-source-types = https://includedcc.org/fhir/code-systems/clinical_data_source_types
 Alias: $expected-data-category = https://includedcc.org/fhir/code-systems/expected_data_category
 Alias: $guid-type = https://includedcc.org/fhir/code-systems/guid_type
-Alias: $include-program = https://includedcc.org/fhir/code-systems/include_program
+//Alias: $include-program = https://includedcc.org/fhir/code-systems/include_program
 Alias: $participant-lifespan-age = https://includedcc.org/fhir/code-systems/participant_lifespan_age
 
 Alias: $include-study-tables = https://includedcc.org/fhir/code-systems/include_study_tables
@@ -44,7 +44,7 @@ Alias: $data_types = https://includedcc.org/fhir/code-systems/data_types
 Alias: $data_categories = https://includedcc.org/fhir/code-systems/data_categories
 Alias: $family_types = https://includedcc.org/fhir/code-systems/family_types
 Alias: $sample_types = https://includedcc.org/fhir/code-systems/sample_types
-Alias: $include_programs = https://includedcc.org/fhir/code-systems/programs
+Alias: $study_programs = https://includedcc.org/fhir/code-systems/programs
 Alias: $data_access_types = https://includedcc.org/fhir/code-systems/data_access_types
 // ValueSet
 Alias: $v3-FamilyMember = http://terminology.hl7.org/ValueSet/v3-FamilyMember

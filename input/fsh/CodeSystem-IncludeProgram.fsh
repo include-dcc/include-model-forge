@@ -1,8 +1,8 @@
-CodeSystem: IncludeProgram
-Id: include-program
-Title: "Include Program"
-Description: "Include Program"
-* ^url = $include-program
+CodeSystem: StudyProgram
+Id: study-program
+Title: "Study Programs"
+Description: "Study Programs"
+* ^url = $study_programs
 * ^version = "0.1.0"
 * ^status = #active
 * ^experimental = false
@@ -11,10 +11,10 @@ Description: "Include Program"
 * #kf "Kids First"
 * #include "INCLUDE"
 
-ValueSet: IncludeProgramVS
-Id: include-program-vs
-Title: "Include Program"
-Description: "Include Program"
+ValueSet: StudyProgramVS
+Id: study-program-vs
+Title: "Study Programs"
+Description: "Study Programs"
 * ^version = "0.1.0"
 * ^status = #active
-* include codes from system $include-program
+* include codes from system $study_programs

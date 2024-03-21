@@ -182,22 +182,6 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/include-program-vs"
-        },
-        "name": "Include Program",
-        "description": "Include Program",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/include-program"
-        },
-        "name": "Include Program",
-        "description": "Include Program",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "CodeSystem/include-study-tables"
         },
         "name": "Include Study Tables",
@@ -298,6 +282,22 @@
         },
         "name": "Study Program",
         "description": "Study Program",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/study-program-vs"
+        },
+        "name": "Study Programs",
+        "description": "Study Programs",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/study-program"
+        },
+        "name": "Study Programs",
+        "description": "Study Programs",
         "exampleBoolean": false
       }
     ],

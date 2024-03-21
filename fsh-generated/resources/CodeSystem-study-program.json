@@ -2,11 +2,11 @@
   "resourceType": "CodeSystem",
   "status": "active",
   "content": "fragment",
-  "name": "IncludeProgram",
-  "id": "include-program",
-  "title": "Include Program",
-  "description": "Include Program",
-  "url": "https://includedcc.org/fhir/code-systems/include_program",
+  "name": "StudyProgram",
+  "id": "study-program",
+  "title": "Study Programs",
+  "description": "Study Programs",
+  "url": "https://includedcc.org/fhir/code-systems/programs",
   "concept": [
     {
       "code": "kf",

@@ -73,8 +73,8 @@
       "display": "Clinical Data Source Type"
     },
     {
-      "code": "expected-data-category",
-      "display": "Expected Data Category"
+      "code": "study-expected-data-category",
+      "display": "Study Expected Data Category"
     },
     {
       "code": "study-website",
@@ -89,8 +89,8 @@
       "display": "Publication"
     },
     {
-      "code": "expected-number-of-participants",
-      "display": "Expected Number of Participants"
+      "code": "study-expected-number-of-participants",
+      "display": "Study Expected Number of Participants"
     },
     {
       "code": "guid-type",

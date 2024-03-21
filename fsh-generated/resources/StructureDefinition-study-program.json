@@ -53,7 +53,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "https://include-dcc.github.io/include-model-forge/ValueSet/include-program-vs"
+          "valueSet": "https://include-dcc.github.io/include-model-forge/ValueSet/study-program-vs"
         }
       }
     ]

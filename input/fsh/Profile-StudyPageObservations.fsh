@@ -11,7 +11,7 @@ Title: "Study Program"
 Description: "Study Program"
 * insert SetContext(ResearchStudy) 
 * value[x] only CodeableConcept
-* valueCodeableConcept from include-program-vs (required) 
+* valueCodeableConcept from study-program-vs (required) 
 
 Profile: StudyPageObservation
 Parent: Observation

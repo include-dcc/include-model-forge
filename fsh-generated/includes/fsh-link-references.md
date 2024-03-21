@@ -15,8 +15,6 @@
 [family-group-FG0100]: Group-family-group-FG0100.html
 [family-id-observation-F0100]: Observation-family-id-observation-F0100.html
 [GuidType]: CodeSystem-guid-type.html
-[IncludeProgramVS]: ValueSet-include-program-vs.html
-[IncludeProgram]: CodeSystem-include-program.html
 [IncludeStudyTables]: CodeSystem-include-study-tables.html
 [Measurement]: StructureDefinition-measurement.html
 [MeasurementVS]: ValueSet-measurement-vs.html
@@ -30,3 +28,5 @@
 [StudyPageCodes]: CodeSystem-study-page-codes.html
 [StudyPageObservation]: StructureDefinition-study-page-observation.html
 [StudyProgram]: StructureDefinition-study-program.html
+[StudyProgramVS]: ValueSet-study-program-vs.html
+[StudyProgram]: CodeSystem-study-program.html
