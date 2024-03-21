@@ -73,8 +73,8 @@
       "display": "Clinical Data Source Type"
     },
     {
-      "code": "study-expected-data-category",
-      "display": "Study Expected Data Category"
+      "code": "expected-data-category",
+      "display": "Expected Data Category"
     },
     {
       "code": "study-website",
