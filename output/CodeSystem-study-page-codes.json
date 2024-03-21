@@ -1,0 +1,121 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "study-page-codes",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://includedcc.org/fhir/code-systems/study_page_codes</code> provides <b>a fragment</b> that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">study-code<a name=\"study-page-codes-study-code\"> </a></td><td>Study Code</td></tr><tr><td style=\"white-space:nowrap\">study-title<a name=\"study-page-codes-study-title\"> </a></td><td>Study Title</td></tr><tr><td style=\"white-space:nowrap\">program<a name=\"study-page-codes-program\"> </a></td><td>Program</td></tr><tr><td style=\"white-space:nowrap\">study-description<a name=\"study-page-codes-study-description\"> </a></td><td>Study Description</td></tr><tr><td style=\"white-space:nowrap\">principal-investigator-name<a name=\"study-page-codes-principal-investigator-name\"> </a></td><td>Principal Investigator Name</td></tr><tr><td style=\"white-space:nowrap\">study-contact-name<a name=\"study-page-codes-study-contact-name\"> </a></td><td>Study Contact Name</td></tr><tr><td style=\"white-space:nowrap\">study-contact-institution<a name=\"study-page-codes-study-contact-institution\"> </a></td><td>Study Contact Institution</td></tr><tr><td style=\"white-space:nowrap\">study-contact-email<a name=\"study-page-codes-study-contact-email\"> </a></td><td>Study Contact Email</td></tr><tr><td style=\"white-space:nowrap\">virtual-biorepository-email<a name=\"study-page-codes-virtual-biorepository-email\"> </a></td><td>Virtual Biorepository Email</td></tr><tr><td style=\"white-space:nowrap\">virtual-biorepository-url<a name=\"study-page-codes-virtual-biorepository-url\"> </a></td><td>Virtual Biorepository URL</td></tr><tr><td style=\"white-space:nowrap\">virtual-biorepository-readme<a name=\"study-page-codes-virtual-biorepository-readme\"> </a></td><td>Virtual Biorepository Readme</td></tr><tr><td style=\"white-space:nowrap\">research-domain<a name=\"study-page-codes-research-domain\"> </a></td><td>Research Domain</td></tr><tr><td style=\"white-space:nowrap\">participant-lifespan-stage<a name=\"study-page-codes-participant-lifespan-stage\"> </a></td><td>Participant Lifespan Stage</td></tr><tr><td style=\"white-space:nowrap\">selection-criteria<a name=\"study-page-codes-selection-criteria\"> </a></td><td>Selection Criteria</td></tr><tr><td style=\"white-space:nowrap\">study-design<a name=\"study-page-codes-study-design\"> </a></td><td>Study Design</td></tr><tr><td style=\"white-space:nowrap\">clinical-data-source-type<a name=\"study-page-codes-clinical-data-source-type\"> </a></td><td>Clinical Data Source Type</td></tr><tr><td style=\"white-space:nowrap\">expected-data-category<a name=\"study-page-codes-expected-data-category\"> </a></td><td>Expected Data Category</td></tr><tr><td style=\"white-space:nowrap\">study-website<a name=\"study-page-codes-study-website\"> </a></td><td>Study Website</td></tr><tr><td style=\"white-space:nowrap\">dbgap<a name=\"study-page-codes-dbgap\"> </a></td><td>dbGaP</td></tr><tr><td style=\"white-space:nowrap\">publication<a name=\"study-page-codes-publication\"> </a></td><td>Publication</td></tr><tr><td style=\"white-space:nowrap\">expected-number-of-participants<a name=\"study-page-codes-expected-number-of-participants\"> </a></td><td>Expected Number of Participants</td></tr><tr><td style=\"white-space:nowrap\">guid-type<a name=\"study-page-codes-guid-type\"> </a></td><td>GUID type</td></tr></table></div>"
+  },
+  "url" : "https://includedcc.org/fhir/code-systems/study_page_codes",
+  "version" : "0.1.0",
+  "name" : "StudyPageCodes",
+  "title" : "Study Page Codes",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-03-20T16:21:56-05:00",
+  "publisher" : "NCPI FHIR Working Group",
+  "contact" : [{
+    "name" : "NCPI FHIR Working Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/include-dcc"
+    }]
+  },
+  {
+    "name" : "Meen Chul Kim",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "meenchul@d3b.center",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Each column from the study page model as terms",
+  "content" : "fragment",
+  "concept" : [{
+    "code" : "study-code",
+    "display" : "Study Code"
+  },
+  {
+    "code" : "study-title",
+    "display" : "Study Title"
+  },
+  {
+    "code" : "program",
+    "display" : "Program"
+  },
+  {
+    "code" : "study-description",
+    "display" : "Study Description"
+  },
+  {
+    "code" : "principal-investigator-name",
+    "display" : "Principal Investigator Name"
+  },
+  {
+    "code" : "study-contact-name",
+    "display" : "Study Contact Name"
+  },
+  {
+    "code" : "study-contact-institution",
+    "display" : "Study Contact Institution"
+  },
+  {
+    "code" : "study-contact-email",
+    "display" : "Study Contact Email"
+  },
+  {
+    "code" : "virtual-biorepository-email",
+    "display" : "Virtual Biorepository Email"
+  },
+  {
+    "code" : "virtual-biorepository-url",
+    "display" : "Virtual Biorepository URL"
+  },
+  {
+    "code" : "virtual-biorepository-readme",
+    "display" : "Virtual Biorepository Readme"
+  },
+  {
+    "code" : "research-domain",
+    "display" : "Research Domain"
+  },
+  {
+    "code" : "participant-lifespan-stage",
+    "display" : "Participant Lifespan Stage"
+  },
+  {
+    "code" : "selection-criteria",
+    "display" : "Selection Criteria"
+  },
+  {
+    "code" : "study-design",
+    "display" : "Study Design"
+  },
+  {
+    "code" : "clinical-data-source-type",
+    "display" : "Clinical Data Source Type"
+  },
+  {
+    "code" : "expected-data-category",
+    "display" : "Expected Data Category"
+  },
+  {
+    "code" : "study-website",
+    "display" : "Study Website"
+  },
+  {
+    "code" : "dbgap",
+    "display" : "dbGaP"
+  },
+  {
+    "code" : "publication",
+    "display" : "Publication"
+  },
+  {
+    "code" : "expected-number-of-participants",
+    "display" : "Expected Number of Participants"
+  },
+  {
+    "code" : "guid-type",
+    "display" : "GUID type"
+  }]
+}

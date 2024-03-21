@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "measurement-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-measurement-codes.html\"><code>http://includedcc.org/fhir/code-systems/measurement_codes</code></a></li></ul></div>"
+  },
+  "url" : "https://include-dcc.github.io/include-model-forge/ValueSet/measurement-vs",
+  "version" : "0.1.0",
+  "name" : "MeasurementVS",
+  "title" : "Measurement Codes",
+  "status" : "active",
+  "date" : "2024-03-20T16:21:56-05:00",
+  "publisher" : "NCPI FHIR Working Group",
+  "contact" : [{
+    "name" : "NCPI FHIR Working Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/include-dcc"
+    }]
+  },
+  {
+    "name" : "Meen Chul Kim",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "meenchul@d3b.center",
+      "use" : "work"
+    }]
+  }],
+  "description" : "A value set with all codes used for the expected measurement types for INCLUDE/Kids First observations.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://includedcc.org/fhir/code-systems/measurement_codes"
+    }]
+  }
+}

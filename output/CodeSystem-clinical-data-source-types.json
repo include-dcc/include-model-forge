@@ -1,0 +1,53 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "clinical-data-source-types",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://includedcc.org/fhir/code-systems/clinical_data_source_types</code> provides <b>a fragment</b> that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">medical-record<a name=\"clinical-data-source-types-medical-record\"> </a></td><td>Medical Record</td></tr><tr><td style=\"white-space:nowrap\">investigator-assessment<a name=\"clinical-data-source-types-investigator-assessment\"> </a></td><td>Investigator Assessment</td></tr><tr><td style=\"white-space:nowrap\">participant-or-caregiver-report<a name=\"clinical-data-source-types-participant-or-caregiver-report\"> </a></td><td>Participant or Caregiver Report</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"clinical-data-source-types-other\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"clinical-data-source-types-unknown\"> </a></td><td>Unknown</td></tr></table></div>"
+  },
+  "url" : "https://includedcc.org/fhir/code-systems/clinical_data_source_types",
+  "version" : "0.1.0",
+  "name" : "ClinicalDataSourceTypes",
+  "title" : "Clinical Data Source Types",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-03-20T16:21:56-05:00",
+  "publisher" : "NCPI FHIR Working Group",
+  "contact" : [{
+    "name" : "NCPI FHIR Working Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/include-dcc"
+    }]
+  },
+  {
+    "name" : "Meen Chul Kim",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "meenchul@d3b.center",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Clinical Data Source Types",
+  "content" : "fragment",
+  "concept" : [{
+    "code" : "medical-record",
+    "display" : "Medical Record"
+  },
+  {
+    "code" : "investigator-assessment",
+    "display" : "Investigator Assessment"
+  },
+  {
+    "code" : "participant-or-caregiver-report",
+    "display" : "Participant or Caregiver Report"
+  },
+  {
+    "code" : "other",
+    "display" : "Other"
+  },
+  {
+    "code" : "unknown",
+    "display" : "Unknown"
+  }]
+}

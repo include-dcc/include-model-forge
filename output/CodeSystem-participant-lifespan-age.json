@@ -1,0 +1,49 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "participant-lifespan-age",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://includedcc.org/fhir/code-systems/participant_lifespan_age</code> provides <b>a fragment</b> that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">fetal<a name=\"participant-lifespan-age-fetal\"> </a></td><td>Fetal</td></tr><tr><td style=\"white-space:nowrap\">Neonatal<a name=\"participant-lifespan-age-Neonatal\"> </a></td><td>Neonatal</td></tr><tr><td style=\"white-space:nowrap\">Pediatric<a name=\"participant-lifespan-age-Pediatric\"> </a></td><td>Pediatric</td></tr><tr><td style=\"white-space:nowrap\">Adult<a name=\"participant-lifespan-age-Adult\"> </a></td><td>Adult</td></tr></table></div>"
+  },
+  "url" : "https://includedcc.org/fhir/code-systems/participant_lifespan_age",
+  "version" : "0.1.0",
+  "name" : "ParticipantLifespanAge",
+  "title" : "Participant Lifespan Age",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-03-20T16:21:56-05:00",
+  "publisher" : "NCPI FHIR Working Group",
+  "contact" : [{
+    "name" : "NCPI FHIR Working Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/include-dcc"
+    }]
+  },
+  {
+    "name" : "Meen Chul Kim",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "meenchul@d3b.center",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Participant Lifespan Age",
+  "content" : "fragment",
+  "concept" : [{
+    "code" : "fetal",
+    "display" : "Fetal"
+  },
+  {
+    "code" : "Neonatal",
+    "display" : "Neonatal"
+  },
+  {
+    "code" : "Pediatric",
+    "display" : "Pediatric"
+  },
+  {
+    "code" : "Adult",
+    "display" : "Adult"
+  }]
+}

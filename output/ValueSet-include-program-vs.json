@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "include-program-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-include-program.html\"><code>https://includedcc.org/fhir/code-systems/include_program</code></a></li></ul></div>"
+  },
+  "url" : "https://include-dcc.github.io/include-model-forge/ValueSet/include-program-vs",
+  "version" : "0.1.0",
+  "name" : "IncludeProgramVS",
+  "title" : "Include Program",
+  "status" : "active",
+  "date" : "2024-03-20T16:21:56-05:00",
+  "publisher" : "NCPI FHIR Working Group",
+  "contact" : [{
+    "name" : "NCPI FHIR Working Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/include-dcc"
+    }]
+  },
+  {
+    "name" : "Meen Chul Kim",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "meenchul@d3b.center",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Include Program",
+  "compose" : {
+    "include" : [{
+      "system" : "https://includedcc.org/fhir/code-systems/include_program"
+    }]
+  }
+}

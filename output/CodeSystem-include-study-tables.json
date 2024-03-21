@@ -1,0 +1,57 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "include-study-tables",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://includedcc.org/fhir/code-systems/include_study_tables</code> provides <b>a fragment</b> that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">participant<a name=\"include-study-tables-participant\"> </a></td><td>Participant</td></tr><tr><td style=\"white-space:nowrap\">condition<a name=\"include-study-tables-condition\"> </a></td><td>Condition</td></tr><tr><td style=\"white-space:nowrap\">specimen<a name=\"include-study-tables-specimen\"> </a></td><td>Specimen</td></tr><tr><td style=\"white-space:nowrap\">file-manifest<a name=\"include-study-tables-file-manifest\"> </a></td><td>File Manifest</td></tr><tr><td style=\"white-space:nowrap\">research-study<a name=\"include-study-tables-research-study\"> </a></td><td>Research Study</td></tr><tr><td style=\"white-space:nowrap\">dataset<a name=\"include-study-tables-dataset\"> </a></td><td>Dataset</td></tr></table></div>"
+  },
+  "url" : "https://includedcc.org/fhir/code-systems/include_study_tables",
+  "version" : "0.1.0",
+  "name" : "IncludeStudyTables",
+  "title" : "Include Study Tables",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-03-20T16:21:56-05:00",
+  "publisher" : "NCPI FHIR Working Group",
+  "contact" : [{
+    "name" : "NCPI FHIR Working Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/include-dcc"
+    }]
+  },
+  {
+    "name" : "Meen Chul Kim",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "meenchul@d3b.center",
+      "use" : "work"
+    }]
+  }],
+  "description" : "High level terms associated with key tables in include model",
+  "content" : "fragment",
+  "concept" : [{
+    "code" : "participant",
+    "display" : "Participant"
+  },
+  {
+    "code" : "condition",
+    "display" : "Condition"
+  },
+  {
+    "code" : "specimen",
+    "display" : "Specimen"
+  },
+  {
+    "code" : "file-manifest",
+    "display" : "File Manifest"
+  },
+  {
+    "code" : "research-study",
+    "display" : "Research Study"
+  },
+  {
+    "code" : "dataset",
+    "display" : "Dataset"
+  }]
+}

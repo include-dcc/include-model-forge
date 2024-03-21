@@ -1,0 +1,45 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "guid-type",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://includedcc.org/fhir/code-systems/guid_type</code> provides <b>a fragment</b> that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ndar<a name=\"guid-type-ndar\"> </a></td><td>NDAR</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"guid-type-other\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">none<a name=\"guid-type-none\"> </a></td><td>None</td></tr></table></div>"
+  },
+  "url" : "https://includedcc.org/fhir/code-systems/guid_type",
+  "version" : "0.1.0",
+  "name" : "GuidType",
+  "title" : "GUID Type",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-03-20T16:21:56-05:00",
+  "publisher" : "NCPI FHIR Working Group",
+  "contact" : [{
+    "name" : "NCPI FHIR Working Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/include-dcc"
+    }]
+  },
+  {
+    "name" : "Meen Chul Kim",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "meenchul@d3b.center",
+      "use" : "work"
+    }]
+  }],
+  "description" : "GUID Type",
+  "content" : "fragment",
+  "concept" : [{
+    "code" : "ndar",
+    "display" : "NDAR"
+  },
+  {
+    "code" : "other",
+    "display" : "Other"
+  },
+  {
+    "code" : "none",
+    "display" : "None"
+  }]
+}

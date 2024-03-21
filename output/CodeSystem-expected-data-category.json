@@ -1,0 +1,77 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "expected-data-category",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://includedcc.org/fhir/code-systems/expected_data_category</code> provides <b>a fragment</b> that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">unharmonized-demographic/clinical-data<a name=\"expected-data-category-unharmonized-demographic.47clinical-data\"> </a></td><td>Unharmonized Demographic/Clinical Data</td></tr><tr><td style=\"white-space:nowrap\">harmonized-demographic/clinical-data<a name=\"expected-data-category-harmonized-demographic.47clinical-data\"> </a></td><td>Harmonized Demographic/Clinical Data</td></tr><tr><td style=\"white-space:nowrap\">genomics<a name=\"expected-data-category-genomics\"> </a></td><td>Genomics</td></tr><tr><td style=\"white-space:nowrap\">transcriptomics<a name=\"expected-data-category-transcriptomics\"> </a></td><td>Transcriptomics</td></tr><tr><td style=\"white-space:nowrap\">proteomics<a name=\"expected-data-category-proteomics\"> </a></td><td>Proteomics</td></tr><tr><td style=\"white-space:nowrap\">metabolomics<a name=\"expected-data-category-metabolomics\"> </a></td><td>Metabolomics</td></tr><tr><td style=\"white-space:nowrap\">cognitive/behavioral<a name=\"expected-data-category-cognitive.47behavioral\"> </a></td><td>Cognitive/Behavioral</td></tr><tr><td style=\"white-space:nowrap\">immune-maps<a name=\"expected-data-category-immune-maps\"> </a></td><td>Immune Maps</td></tr><tr><td style=\"white-space:nowrap\">imaging<a name=\"expected-data-category-imaging\"> </a></td><td>Imaging</td></tr><tr><td style=\"white-space:nowrap\">microbiome<a name=\"expected-data-category-microbiome\"> </a></td><td>Microbiome</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"expected-data-category-other\"> </a></td><td>Other</td></tr></table></div>"
+  },
+  "url" : "https://includedcc.org/fhir/code-systems/expected_data_category",
+  "version" : "0.1.0",
+  "name" : "ExpectedDataCategory",
+  "title" : "Expected Data Category",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-03-20T16:21:56-05:00",
+  "publisher" : "NCPI FHIR Working Group",
+  "contact" : [{
+    "name" : "NCPI FHIR Working Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/include-dcc"
+    }]
+  },
+  {
+    "name" : "Meen Chul Kim",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "meenchul@d3b.center",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Expected Data Category",
+  "content" : "fragment",
+  "concept" : [{
+    "code" : "unharmonized-demographic/clinical-data",
+    "display" : "Unharmonized Demographic/Clinical Data"
+  },
+  {
+    "code" : "harmonized-demographic/clinical-data",
+    "display" : "Harmonized Demographic/Clinical Data"
+  },
+  {
+    "code" : "genomics",
+    "display" : "Genomics"
+  },
+  {
+    "code" : "transcriptomics",
+    "display" : "Transcriptomics"
+  },
+  {
+    "code" : "proteomics",
+    "display" : "Proteomics"
+  },
+  {
+    "code" : "metabolomics",
+    "display" : "Metabolomics"
+  },
+  {
+    "code" : "cognitive/behavioral",
+    "display" : "Cognitive/Behavioral"
+  },
+  {
+    "code" : "immune-maps",
+    "display" : "Immune Maps"
+  },
+  {
+    "code" : "imaging",
+    "display" : "Imaging"
+  },
+  {
+    "code" : "microbiome",
+    "display" : "Microbiome"
+  },
+  {
+    "code" : "other",
+    "display" : "Other"
+  }]
+}
