@@ -32,6 +32,14 @@ Alias: $refseq = http://www.ncbi.nlm.nih.gov/refseq
 Alias: $varnomen = http://varnomen.hgvs.org
 
 Alias: $experimental_strategies = https://includedcc.org/fhir/code-systems/experimental_strategies
+Alias: $study-page-codes = https://includedcc.org/fhir/code-systems/study_page_codes
+Alias: $clinical-data-source-types = https://includedcc.org/fhir/code-systems/clinical_data_source_types
+Alias: $expected-data-category = https://includedcc.org/fhir/code-systems/expected_data_category
+Alias: $guid-type = https://includedcc.org/fhir/code-systems/guid_type
+Alias: $include-program = https://includedcc.org/fhir/code-systems/include_program
+Alias: $participant-lifespan-age = https://includedcc.org/fhir/code-systems/participant_lifespan_age
+
+Alias: $include-study-tables = https://includedcc.org/fhir/code-systems/include_study_tables
 Alias: $data_types = https://includedcc.org/fhir/code-systems/data_types
 Alias: $data_categories = https://includedcc.org/fhir/code-systems/data_categories
 Alias: $family_types = https://includedcc.org/fhir/code-systems/family_types

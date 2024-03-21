@@ -1,0 +1,35 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "ClinicalDataSourceTypes",
+  "id": "clinical-data-source-types",
+  "title": "Clinical Data Source Types",
+  "description": "Clinical Data Source Types",
+  "url": "https://includedcc.org/fhir/code-systems/clinical_data_source_types",
+  "concept": [
+    {
+      "code": "medical-record",
+      "display": "Medical Record"
+    },
+    {
+      "code": "investigator-assessment",
+      "display": "Investigator Assessment"
+    },
+    {
+      "code": "participant-or-caregiver-report",
+      "display": "Participant or Caregiver Report"
+    },
+    {
+      "code": "other",
+      "display": "Other"
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "INCLUDE FHIR"
+}

@@ -1,0 +1,27 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "GuidType",
+  "id": "guid-type",
+  "title": "GUID Type",
+  "description": "GUID Type",
+  "url": "https://includedcc.org/fhir/code-systems/guid_type",
+  "concept": [
+    {
+      "code": "ndar",
+      "display": "NDAR"
+    },
+    {
+      "code": "other",
+      "display": "Other"
+    },
+    {
+      "code": "none",
+      "display": "None"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "INCLUDE FHIR"
+}

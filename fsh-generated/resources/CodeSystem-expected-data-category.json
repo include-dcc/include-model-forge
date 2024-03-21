@@ -1,0 +1,59 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "ExpectedDataCategory",
+  "id": "expected-data-category",
+  "title": "Expected Data Category",
+  "description": "Expected Data Category",
+  "url": "https://includedcc.org/fhir/code-systems/expected_data_category",
+  "concept": [
+    {
+      "code": "unharmonized-demographic/clinical-data",
+      "display": "Unharmonized Demographic/Clinical Data"
+    },
+    {
+      "code": "harmonized-demographic/clinical-data",
+      "display": "Harmonized Demographic/Clinical Data"
+    },
+    {
+      "code": "genomics",
+      "display": "Genomics"
+    },
+    {
+      "code": "transcriptomics",
+      "display": "Transcriptomics"
+    },
+    {
+      "code": "proteomics",
+      "display": "Proteomics"
+    },
+    {
+      "code": "metabolomics",
+      "display": "Metabolomics"
+    },
+    {
+      "code": "cognitive/behavioral",
+      "display": "Cognitive/Behavioral"
+    },
+    {
+      "code": "immune-maps",
+      "display": "Immune Maps"
+    },
+    {
+      "code": "imaging",
+      "display": "Imaging"
+    },
+    {
+      "code": "microbiome",
+      "display": "Microbiome"
+    },
+    {
+      "code": "other",
+      "display": "Other"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "INCLUDE FHIR"
+}
