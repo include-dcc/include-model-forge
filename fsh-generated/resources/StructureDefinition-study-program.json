@@ -1,0 +1,61 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "study-program",
+  "url": "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-program",
+  "name": "StudyProgram",
+  "title": "Study Program",
+  "status": "draft",
+  "description": "Study Program",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "ResearchStudy"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Study Program",
+        "definition": "Study Program"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-program"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://include-dcc.github.io/include-model-forge/ValueSet/include-program-vs"
+        }
+      }
+    ]
+  }
+}

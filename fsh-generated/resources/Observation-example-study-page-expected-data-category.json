@@ -1,0 +1,60 @@
+{
+  "resourceType": "Observation",
+  "id": "example-study-page-expected-data-category",
+  "meta": {
+    "profile": [
+      "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-page-observation"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "expected-data-category",
+        "system": "https://includedcc.org/fhir/code-systems/study_page_codes",
+        "display": "Expected Data Category"
+      }
+    ]
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "unharmonized-demographic/clinical-data",
+        "system": "https://includedcc.org/fhir/code-systems/expected_data_category"
+      },
+      {
+        "code": "harmonized-demographic/clinical-data",
+        "system": "https://includedcc.org/fhir/code-systems/expected_data_category"
+      },
+      {
+        "code": "genomics",
+        "system": "https://includedcc.org/fhir/code-systems/expected_data_category"
+      },
+      {
+        "code": "Transcriptomics",
+        "system": "https://includedcc.org/fhir/code-systems/expected_data_category"
+      },
+      {
+        "code": "proteomics",
+        "system": "https://includedcc.org/fhir/code-systems/expected_data_category"
+      },
+      {
+        "code": "metabolomics",
+        "system": "https://includedcc.org/fhir/code-systems/expected_data_category"
+      },
+      {
+        "code": "immune-maps",
+        "system": "https://includedcc.org/fhir/code-systems/expected_data_category"
+      },
+      {
+        "code": "microbiome",
+        "system": "https://includedcc.org/fhir/code-systems/expected_data_category"
+      },
+      {
+        "code": "imaging",
+        "system": "https://includedcc.org/fhir/code-systems/expected_data_category"
+      }
+    ],
+    "text": "Unharmonized Demographic/Clinical Data|Harmonized Demographic/Clinical Data|Genomics|Transcriptomics|Proteomics|Metabolomics|Immune Maps|Microbiome|Imaging"
+  }
+}

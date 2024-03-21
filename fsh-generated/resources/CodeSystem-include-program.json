@@ -1,0 +1,23 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "IncludeProgram",
+  "id": "include-program",
+  "title": "Include Program",
+  "description": "Include Program",
+  "url": "https://includedcc.org/fhir/code-systems/include_program",
+  "concept": [
+    {
+      "code": "kf",
+      "display": "Kids First"
+    },
+    {
+      "code": "include",
+      "display": "INCLUDE"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "INCLUDE FHIR"
+}

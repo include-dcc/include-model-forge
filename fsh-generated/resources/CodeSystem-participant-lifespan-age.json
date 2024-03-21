@@ -1,0 +1,31 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "ParticipantLifespanAge",
+  "id": "participant-lifespan-age",
+  "title": "Participant Lifespan Age",
+  "description": "Participant Lifespan Age",
+  "url": "https://includedcc.org/fhir/code-systems/participant_lifespan_age",
+  "concept": [
+    {
+      "code": "fetal",
+      "display": "Fetal"
+    },
+    {
+      "code": "Neonatal",
+      "display": "Neonatal"
+    },
+    {
+      "code": "Pediatric",
+      "display": "Pediatric"
+    },
+    {
+      "code": "Adult",
+      "display": "Adult"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "INCLUDE FHIR"
+}
