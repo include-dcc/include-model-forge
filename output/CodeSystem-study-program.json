@@ -1,0 +1,41 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "study-program",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://includedcc.org/fhir/code-systems/programs</code> provides <b>a fragment</b> that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">kf<a name=\"study-program-kf\"> </a></td><td>Kids First</td></tr><tr><td style=\"white-space:nowrap\">include<a name=\"study-program-include\"> </a></td><td>INCLUDE</td></tr></table></div>"
+  },
+  "url" : "https://includedcc.org/fhir/code-systems/programs",
+  "version" : "0.1.0",
+  "name" : "StudyProgram",
+  "title" : "Study Programs",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-03-21T15:28:01-05:00",
+  "publisher" : "NCPI FHIR Working Group",
+  "contact" : [{
+    "name" : "NCPI FHIR Working Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/include-dcc"
+    }]
+  },
+  {
+    "name" : "Meen Chul Kim",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "meenchul@d3b.center",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Study Programs",
+  "content" : "fragment",
+  "concept" : [{
+    "code" : "kf",
+    "display" : "Kids First"
+  },
+  {
+    "code" : "include",
+    "display" : "INCLUDE"
+  }]
+}
