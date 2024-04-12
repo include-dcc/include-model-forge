@@ -46,6 +46,7 @@ Alias: $family_types = https://includedcc.org/fhir/code-systems/family_types
 Alias: $sample_types = https://includedcc.org/fhir/code-systems/sample_types
 Alias: $study_programs = https://includedcc.org/fhir/code-systems/programs
 Alias: $data_access_types = https://includedcc.org/fhir/code-systems/data_access_types
+Alias: $dataset-meta = https://includedcc.org/fhir/CodeSystem/data-dictionary/dataset_meta
 // ValueSet
 Alias: $v3-FamilyMember = http://terminology.hl7.org/ValueSet/v3-FamilyMember
 Alias: $measurement_codes = http://includedcc.org/fhir/code-systems/measurement_codes
