@@ -1,0 +1,290 @@
+[
+  {
+    "outputFile": "CodeSystem-clinical-data-source-types.json",
+    "fshName": "ClinicalDataSourceTypes",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystem-ClinicalDataSourceTypes.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "CodeSystem-data-access-types.json",
+    "fshName": "DataAccessTypes",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystem-DataAccessTypes.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "CodeSystem-data-categories.json",
+    "fshName": "DataCategories",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystem-DataCategories.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "CodeSystem-data-types.json",
+    "fshName": "DataTypes",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystem-DataType.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
+    "outputFile": "CodeSystem-dataset-page-codes.json",
+    "fshName": "DatasetPageCodes",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystem-DatasetMeta.fsh",
+    "startLine": 1,
+    "endLine": 31
+  },
+  {
+    "outputFile": "CodeSystem-expected-data-category.json",
+    "fshName": "ExpectedDataCategory",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystem-ExpectedDataCategory.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "CodeSystem-experimental-strategy.json",
+    "fshName": "ExperimentalStrategy",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystem-ExperimentalStrategy.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "CodeSystem-family-types.json",
+    "fshName": "FamilyTypes",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystem-FamilyTypes.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "CodeSystem-guid-type.json",
+    "fshName": "GuidType",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystem-guid-type.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "CodeSystem-include-study-tables.json",
+    "fshName": "IncludeStudyTables",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystem-IncludeStudyTables.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "CodeSystem-measurement-codes.json",
+    "fshName": "MeasurementCodes",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystem-MeasurementCodes.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "CodeSystem-participant-lifespan-age.json",
+    "fshName": "ParticipantLifespanAge",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystem-ParticipantLifespanAge.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "CodeSystem-sample-types.json",
+    "fshName": "SampleTypes",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystem-SampleTypes.fsh",
+    "startLine": 1,
+    "endLine": 38
+  },
+  {
+    "outputFile": "CodeSystem-study-page-codes.json",
+    "fshName": "StudyPageCodes",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystem-StudyPageCodes.fsh",
+    "startLine": 1,
+    "endLine": 32
+  },
+  {
+    "outputFile": "CodeSystem-study-program.json",
+    "fshName": "StudyProgram",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystem-IncludeProgram.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "Group-family-group-FG0100.json",
+    "fshName": "family-group-FG0100",
+    "fshType": "Instance",
+    "fshFile": "Examples.fsh",
+    "startLine": 27,
+    "endLine": 35
+  },
+  {
+    "outputFile": "Observation-brainpower-dataset.json",
+    "fshName": "brainpower-dataset",
+    "fshType": "Instance",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 16,
+    "endLine": 26
+  },
+  {
+    "outputFile": "Observation-example-study-page-expected-data-category.json",
+    "fshName": "example-study-page-expected-data-category",
+    "fshType": "Instance",
+    "fshFile": "Example-HtpResearchStudy.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "Observation-family-id-observation-F0100.json",
+    "fshName": "family-id-observation-F0100",
+    "fshType": "Instance",
+    "fshFile": "Examples.fsh",
+    "startLine": 18,
+    "endLine": 25
+  },
+  {
+    "outputFile": "Observation-patient-0100-BMI.json",
+    "fshName": "patient-0100-BMI",
+    "fshType": "Instance",
+    "fshFile": "Examples.fsh",
+    "startLine": 9,
+    "endLine": 16
+  },
+  {
+    "outputFile": "Patient-patient-0100.json",
+    "fshName": "patient-0100",
+    "fshType": "Instance",
+    "fshFile": "Examples.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Specimen-biospecimen-0100.json",
+    "fshName": "biospecimen-0100",
+    "fshType": "Instance",
+    "fshFile": "Examples.fsh",
+    "startLine": 37,
+    "endLine": 42
+  },
+  {
+    "outputFile": "StructureDefinition-biospecimen.json",
+    "fshName": "Biospecimen",
+    "fshType": "Profile",
+    "fshFile": "profiles/Profile-Biospecimen.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "StructureDefinition-contact-detail-institution.json",
+    "fshName": "ContactDetailInstitution",
+    "fshType": "Extension",
+    "fshFile": "profiles/Profile-StudyPageObservations.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "StructureDefinition-family-group.json",
+    "fshName": "FamilyGroup",
+    "fshType": "Profile",
+    "fshFile": "profiles/Profile-FamilyGroup.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "StructureDefinition-family-id-observation.json",
+    "fshName": "FamilyIdObservation",
+    "fshType": "Profile",
+    "fshFile": "profiles/Profile-FamilyIdObservation.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "StructureDefinition-measurement.json",
+    "fshName": "Measurement",
+    "fshType": "Profile",
+    "fshFile": "profiles/Profile-Measurement.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "StructureDefinition-study-dataset.json",
+    "fshName": "StudyDataset",
+    "fshType": "Profile",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 2,
+    "endLine": 14
+  },
+  {
+    "outputFile": "StructureDefinition-study-page-observation.json",
+    "fshName": "StudyPageObservation",
+    "fshType": "Profile",
+    "fshFile": "profiles/Profile-StudyPageObservations.fsh",
+    "startLine": 16,
+    "endLine": 24
+  },
+  {
+    "outputFile": "StructureDefinition-study-program.json",
+    "fshName": "StudyProgram",
+    "fshType": "Extension",
+    "fshFile": "profiles/Profile-StudyPageObservations.fsh",
+    "startLine": 8,
+    "endLine": 14
+  },
+  {
+    "outputFile": "ValueSet-dataset-page-codes-vs.json",
+    "fshName": "DatasetPageCodesVS",
+    "fshType": "ValueSet",
+    "fshFile": "codesystems/CodeSystem-DatasetMeta.fsh",
+    "startLine": 33,
+    "endLine": 39
+  },
+  {
+    "outputFile": "ValueSet-family-types-vs.json",
+    "fshName": "FamilyTypesVS",
+    "fshType": "ValueSet",
+    "fshFile": "codesystems/CodeSystem-FamilyTypes.fsh",
+    "startLine": 18,
+    "endLine": 24
+  },
+  {
+    "outputFile": "ValueSet-measurement-vs.json",
+    "fshName": "MeasurementVS",
+    "fshType": "ValueSet",
+    "fshFile": "codesystems/CodeSystem-MeasurementCodes.fsh",
+    "startLine": 24,
+    "endLine": 30
+  },
+  {
+    "outputFile": "ValueSet-sample-types-vs.json",
+    "fshName": "SampleTypesVS",
+    "fshType": "ValueSet",
+    "fshFile": "codesystems/CodeSystem-SampleTypes.fsh",
+    "startLine": 40,
+    "endLine": 46
+  },
+  {
+    "outputFile": "ValueSet-study-page-codes-vs.json",
+    "fshName": "StudyPageCodesVS",
+    "fshType": "ValueSet",
+    "fshFile": "codesystems/CodeSystem-StudyPageCodes.fsh",
+    "startLine": 34,
+    "endLine": 40
+  },
+  {
+    "outputFile": "ValueSet-study-program-vs.json",
+    "fshName": "StudyProgramVS",
+    "fshType": "ValueSet",
+    "fshFile": "codesystems/CodeSystem-IncludeProgram.fsh",
+    "startLine": 14,
+    "endLine": 20
+  }
+]
