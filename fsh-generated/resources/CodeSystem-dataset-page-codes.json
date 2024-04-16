@@ -1,0 +1,94 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "DatasetPageCodes",
+  "id": "dataset-page-codes",
+  "title": "Dataset Page Codes",
+  "description": "Variables associated with table, dataset_meta, from INCLUDE datasets.",
+  "url": "https://includedcc.org/fhir/CodeSystem/data-dictionary/dataset_meta",
+  "concept": [
+    {
+      "code": "study-code",
+      "display": "Study Code"
+    },
+    {
+      "code": "dataset-name",
+      "display": "Dataset Name"
+    },
+    {
+      "code": "dataset-global-id",
+      "display": "Dataset Global ID"
+    },
+    {
+      "code": "dataset-external-id",
+      "display": "Dataset External ID"
+    },
+    {
+      "code": "dataset-expected-number-of-participants",
+      "display": "Dataset Expected Number of Participants"
+    },
+    {
+      "code": "expected-number-of-files",
+      "display": "Expected Number of Files"
+    },
+    {
+      "code": "data-collection-start-year",
+      "display": "Data Collection Start Year"
+    },
+    {
+      "code": "data-collection-end-year",
+      "display": "Data Collection End Year"
+    },
+    {
+      "code": "dataset-data-category",
+      "display": "Dataset Data Category"
+    },
+    {
+      "code": "dataset-data-type",
+      "display": "Dataset Data Type"
+    },
+    {
+      "code": "dataset-experimental-strategy",
+      "display": "Dataset Experimental Strategy"
+    },
+    {
+      "code": "dataset-experimental-platform",
+      "display": "Dataset Experimental Platform"
+    },
+    {
+      "code": "dataset-publication",
+      "display": "Dataset Publication"
+    },
+    {
+      "code": "access-limitations",
+      "display": "Access Limitations"
+    },
+    {
+      "code": "access-requirements",
+      "display": "Access Requirements"
+    },
+    {
+      "code": "dataset-dbGaP",
+      "display": "Dataset dbGaP"
+    },
+    {
+      "code": "other-repository",
+      "display": "Other Repository"
+    },
+    {
+      "code": "other-access-authority",
+      "display": "Other Access Authority"
+    }
+  ],
+  "count": 18,
+  "identifier": [
+    {
+      "system": "https://includedcc.org/fhir/data-dictionary/CodeSystem",
+      "use": "official",
+      "value": "dataset_meta"
+    }
+  ],
+  "publisher": "NCPI FHIR Working Group",
+  "experimental": false
+}

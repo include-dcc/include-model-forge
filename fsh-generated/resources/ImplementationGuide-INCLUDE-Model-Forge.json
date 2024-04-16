@@ -62,6 +62,14 @@
       },
       {
         "reference": {
+          "reference": "Observation/brainpower-dataset"
+        },
+        "name": "BrainPower Dataset",
+        "description": "Example Dataset resource",
+        "exampleCanonical": "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset"
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/clinical-data-source-types"
         },
         "name": "Clinical Data Source Types",
@@ -98,6 +106,22 @@
         },
         "name": "Data Types",
         "description": "Data Types Used in INCLUDE Datasets",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/dataset-page-codes-vs"
+        },
+        "name": "Dataset Page Codes",
+        "description": "Valueset representing columns from the table, dataset_meta, from INCLUDE datasets.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/dataset-page-codes"
+        },
+        "name": "Dataset Page Codes",
+        "description": "Variables associated with table, dataset_meta, from INCLUDE datasets.",
         "exampleBoolean": false
       },
       {
@@ -250,6 +274,14 @@
         },
         "name": "Sample Types Codes",
         "description": "A valuse set with all codes used for the expected sample types for INCLUDE/Kids First observations.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/study-dataset"
+        },
+        "name": "Study Dataset",
+        "description": "Information about a specific grouping of data files",
         "exampleBoolean": false
       },
       {

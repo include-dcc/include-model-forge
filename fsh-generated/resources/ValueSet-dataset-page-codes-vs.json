@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "DatasetPageCodesVS",
+  "id": "dataset-page-codes-vs",
+  "title": "Dataset Page Codes",
+  "description": "Valueset representing columns from the table, dataset_meta, from INCLUDE datasets.",
+  "url": "https://include-dcc.github.io/include-model-forge/ValueSet/dataset-page-codes-vs",
+  "version": "0.1.0",
+  "compose": {
+    "include": [
+      {
+        "system": "https://includedcc.org/fhir/CodeSystem/data-dictionary/dataset_meta"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "study-dataset",
+  "url": "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset",
+  "name": "StudyDataset",
+  "title": "Study Dataset",
+  "status": "draft",
+  "description": "Information about a specific grouping of data files",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "sct-concept",
+      "uri": "http://snomed.info/conceptdomain",
+      "name": "SNOMED CT Concept Domain Binding"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "sct-attr",
+      "uri": "http://snomed.org/attributebinding",
+      "name": "SNOMED CT Attribute Binding"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "code"
+            }
+          ],
+          "rules": "openAtEnd",
+          "ordered": true,
+          "description": "Slice for dataset variables (codes are column ids)"
+        },
+        "min": 1
+      },
+      {
+        "id": "Observation.component:dataset-field",
+        "path": "Observation.component",
+        "sliceName": "dataset-field",
+        "min": 1,
+        "max": "*"
+      },
+      {
+        "id": "Observation.component:dataset-field.code",
+        "path": "Observation.component.code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://include-dcc.github.io/include-model-forge/ValueSet/dataset-page-codes-vs"
+        }
+      }
+    ]
+  }
+}

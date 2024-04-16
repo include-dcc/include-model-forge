@@ -1,10 +1,13 @@
 [Biospecimen]: StructureDefinition-biospecimen.html
 [biospecimen-0100]: Specimen-biospecimen-0100.html
+[brainpower-dataset]: Observation-brainpower-dataset.html
 [ClinicalDataSourceTypes]: CodeSystem-clinical-data-source-types.html
 [ContactDetailInstitution]: StructureDefinition-contact-detail-institution.html
 [DataAccessTypes]: CodeSystem-data-access-types.html
 [DataCategories]: CodeSystem-data-categories.html
 [DataTypes]: CodeSystem-data-types.html
+[DatasetPageCodesVS]: ValueSet-dataset-page-codes-vs.html
+[DatasetPageCodes]: CodeSystem-dataset-page-codes.html
 [example-study-page-expected-data-category]: Observation-example-study-page-expected-data-category.html
 [ExpectedDataCategory]: CodeSystem-expected-data-category.html
 [ExperimentalStrategy]: CodeSystem-experimental-strategy.html
@@ -24,6 +27,7 @@
 [patient-0100-BMI]: Observation-patient-0100-BMI.html
 [SampleTypes]: CodeSystem-sample-types.html
 [SampleTypesVS]: ValueSet-sample-types-vs.html
+[StudyDataset]: StructureDefinition-study-dataset.html
 [StudyPageCodesVS]: ValueSet-study-page-codes-vs.html
 [StudyPageCodes]: CodeSystem-study-page-codes.html
 [StudyPageObservation]: StructureDefinition-study-page-observation.html

@@ -10,7 +10,7 @@
   "name" : "INCLUDEModelForgeIG",
   "title" : "INCLUDE Model Forge Implementation Guide",
   "status" : "draft",
-  "date" : "2024-03-21T16:34:30-05:00",
+  "date" : "2024-04-16T14:03:40-05:00",
   "publisher" : "NCPI FHIR Working Group",
   "contact" : [{
     "name" : "NCPI FHIR Working Group",
@@ -639,6 +639,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/brainpower-dataset"
+      },
+      "name" : "BrainPower Dataset",
+      "description" : "Example Dataset resource",
+      "exampleCanonical" : "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -694,6 +706,30 @@
       },
       "name" : "Data Types",
       "description" : "Data Types Used in INCLUDE Datasets",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/dataset-page-codes-vs"
+      },
+      "name" : "Dataset Page Codes",
+      "description" : "Valueset representing columns from the table, dataset_meta, from INCLUDE datasets.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/dataset-page-codes"
+      },
+      "name" : "Dataset Page Codes",
+      "description" : "Variables associated with table, dataset_meta, from INCLUDE datasets.",
       "exampleBoolean" : false
     },
     {
@@ -922,6 +958,18 @@
       },
       "name" : "Sample Types Codes",
       "description" : "A valuse set with all codes used for the expected sample types for INCLUDE/Kids First observations.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/study-dataset"
+      },
+      "name" : "Study Dataset",
+      "description" : "Information about a specific grouping of data files",
       "exampleBoolean" : false
     },
     {

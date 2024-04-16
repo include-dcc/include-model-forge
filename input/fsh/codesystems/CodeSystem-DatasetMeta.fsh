@@ -36,4 +36,4 @@ Title: "Dataset Page Codes"
 Description: "Valueset representing columns from the table, dataset_meta, from INCLUDE datasets."
 * ^version = "0.1.0"
 * ^status = #active
-* include codes from system $study-page-codes
+* include codes from system $dataset-meta 
