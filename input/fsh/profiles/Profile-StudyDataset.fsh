@@ -1,17 +1,24 @@
+Extension: ResearchStudy
+Id: research-study
+Title: "Research Study"
+Description: "Research study to which this resource is part of"
+* insert SetContext(DocumentManifest)
+* value[x] only Reference(ResearchStudy)
+
 Profile: StudyDataset
 Parent: DocumentManifest
 Id: study-dataset
 Title: "Research Study Dataset"
 Description: "Files that, together, represent a Dataset"
 /* We should identify a good term for Dataset */
-* code.coding = $include-study-tables#dataset
+* type = $include-study-tables#dataset
 /* We should reference the population covered by this dataset
 *  subject Reference (Group) 
 */
 /* Technically, is it a DRS document reference? I don't know. I haven't 
    actually gotten the data and wasn't given enough time to link
    this IG with the other IGs. */
-* content from Reference(DocumentReference)
+* content only Reference(DocumentReference)
 
 Profile: StudyDatasetDetails
 Parent: Observation
@@ -60,6 +67,7 @@ InstanceOf: StudyDataset
 Title: "BrainPower Dataset"
 Usage: #example
 Description: "example dataset resource"
+* status = #current
 * content[0] = Reference(brainpower-example-file)
 
 
