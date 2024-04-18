@@ -120,6 +120,22 @@
     "endLine": 12
   },
   {
+    "outputFile": "DocumentManifest-brainpower-dataset.json",
+    "fshName": "brainpower-dataset",
+    "fshType": "Instance",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 65,
+    "endLine": 71
+  },
+  {
+    "outputFile": "DocumentReference-brainpower-example-file.json",
+    "fshName": "brainpower-example-file",
+    "fshType": "Instance",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 44,
+    "endLine": 55
+  },
+  {
     "outputFile": "Group-family-group-FG0100.json",
     "fshName": "family-group-FG0100",
     "fshType": "Instance",
@@ -128,12 +144,12 @@
     "endLine": 35
   },
   {
-    "outputFile": "Observation-brainpower-dataset.json",
-    "fshName": "brainpower-dataset",
+    "outputFile": "Observation-brainpower-dataset-details.json",
+    "fshName": "brainpower-dataset-details",
     "fshType": "Instance",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 16,
-    "endLine": 26
+    "startLine": 74,
+    "endLine": 85
   },
   {
     "outputFile": "Observation-example-study-page-expected-data-category.json",
@@ -216,12 +232,28 @@
     "endLine": 12
   },
   {
+    "outputFile": "StructureDefinition-research-study.json",
+    "fshName": "ResearchStudy",
+    "fshType": "Extension",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "StructureDefinition-study-dataset-details.json",
+    "fshName": "StudyDatasetDetails",
+    "fshType": "Profile",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 23,
+    "endLine": 42
+  },
+  {
     "outputFile": "StructureDefinition-study-dataset.json",
     "fshName": "StudyDataset",
     "fshType": "Profile",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 2,
-    "endLine": 14
+    "startLine": 8,
+    "endLine": 21
   },
   {
     "outputFile": "StructureDefinition-study-page-observation.json",

@@ -1,6 +1,7 @@
 [Biospecimen]: StructureDefinition-biospecimen.html
 [biospecimen-0100]: Specimen-biospecimen-0100.html
-[brainpower-dataset]: Observation-brainpower-dataset.html
+[brainpower-dataset]: DocumentManifest-brainpower-dataset.html
+[brainpower-dataset-details]: Observation-brainpower-dataset-details.html
 [ClinicalDataSourceTypes]: CodeSystem-clinical-data-source-types.html
 [ContactDetailInstitution]: StructureDefinition-contact-detail-institution.html
 [DataAccessTypes]: CodeSystem-data-access-types.html
@@ -8,6 +9,7 @@
 [DataTypes]: CodeSystem-data-types.html
 [DatasetPageCodesVS]: ValueSet-dataset-page-codes-vs.html
 [DatasetPageCodes]: CodeSystem-dataset-page-codes.html
+[brainpower-example-file]: DocumentReference-brainpower-example-file.html
 [example-study-page-expected-data-category]: Observation-example-study-page-expected-data-category.html
 [ExpectedDataCategory]: CodeSystem-expected-data-category.html
 [ExperimentalStrategy]: CodeSystem-experimental-strategy.html
@@ -25,9 +27,11 @@
 [ParticipantLifespanAge]: CodeSystem-participant-lifespan-age.html
 [patient-0100]: Patient-patient-0100.html
 [patient-0100-BMI]: Observation-patient-0100-BMI.html
+[ResearchStudy]: StructureDefinition-research-study.html
+[StudyDataset]: StructureDefinition-study-dataset.html
 [SampleTypes]: CodeSystem-sample-types.html
 [SampleTypesVS]: ValueSet-sample-types-vs.html
-[StudyDataset]: StructureDefinition-study-dataset.html
+[StudyDatasetDetails]: StructureDefinition-study-dataset-details.html
 [StudyPageCodesVS]: ValueSet-study-page-codes-vs.html
 [StudyPageCodes]: CodeSystem-study-page-codes.html
 [StudyPageObservation]: StructureDefinition-study-page-observation.html

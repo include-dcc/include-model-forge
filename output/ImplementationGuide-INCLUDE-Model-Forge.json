@@ -10,7 +10,7 @@
   "name" : "INCLUDEModelForgeIG",
   "title" : "INCLUDE Model Forge Implementation Guide",
   "status" : "draft",
-  "date" : "2024-04-16T14:03:40-05:00",
+  "date" : "2024-04-18T13:09:29-05:00",
   "publisher" : "NCPI FHIR Working Group",
   "contact" : [{
     "name" : "NCPI FHIR Working Group",
@@ -639,14 +639,26 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "DocumentManifest"
+      }],
+      "reference" : {
+        "reference" : "DocumentManifest/brainpower-dataset"
+      },
+      "name" : "BrainPower Dataset",
+      "description" : "example dataset resource",
+      "exampleCanonical" : "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
       }],
       "reference" : {
-        "reference" : "Observation/brainpower-dataset"
+        "reference" : "Observation/brainpower-dataset-details"
       },
-      "name" : "BrainPower Dataset",
-      "description" : "Example Dataset resource",
-      "exampleCanonical" : "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset"
+      "name" : "BrainPower Dataset Details",
+      "description" : "Example resource of a dataset details observation",
+      "exampleCanonical" : "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset-details"
     },
     {
       "extension" : [{
@@ -731,6 +743,18 @@
       "name" : "Dataset Page Codes",
       "description" : "Variables associated with table, dataset_meta, from INCLUDE datasets.",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "DocumentReference"
+      }],
+      "reference" : {
+        "reference" : "DocumentReference/brainpower-example-file"
+      },
+      "name" : "Example File from BrainPower dataset",
+      "description" : "Example file that might be contained in a dataset",
+      "exampleBoolean" : true
     },
     {
       "extension" : [{
@@ -939,6 +963,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/research-study"
+      },
+      "name" : "Research Study",
+      "description" : "Research study to which this resource is part of",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/study-dataset"
+      },
+      "name" : "Research Study Dataset",
+      "description" : "Files that, together, represent a Dataset",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -966,9 +1014,9 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/study-dataset"
+        "reference" : "StructureDefinition/study-dataset-details"
       },
-      "name" : "Study Dataset",
+      "name" : "Study Dataset Details",
       "description" : "Information about a specific grouping of data files",
       "exampleBoolean" : false
     },

@@ -63,6 +63,9 @@
             "code": "CodeableConcept"
           },
           {
+            "code": "string"
+          },
+          {
             "code": "integer"
           }
         ]
