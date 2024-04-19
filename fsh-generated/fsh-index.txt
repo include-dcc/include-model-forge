@@ -22,6 +22,8 @@ Observation-example-study-page-expected-data-category.json  example-study-page-e
 Observation-family-id-observation-F0100.json                family-id-observation-F0100                Instance    Examples.fsh                                        18 - 25
 Observation-patient-0100-BMI.json                           patient-0100-BMI                           Instance    Examples.fsh                                        9 - 16
 Patient-patient-0100.json                                   patient-0100                               Instance    Examples.fsh                                        1 - 7
+SearchParameter-us-core-ethnicity.json                      us-core-ethnicity                          Instance    us-core-ethnicity.fsh                               1 - 28
+SearchParameter-us-core-race.json                           us-core-race                               Instance    us-core-race.fsh                                    1 - 28
 Specimen-biospecimen-0100.json                              biospecimen-0100                           Instance    Examples.fsh                                        37 - 42
 StructureDefinition-biospecimen.json                        Biospecimen                                Profile     profiles/Profile-Biospecimen.fsh                    1 - 11
 StructureDefinition-contact-detail-institution.json         ContactDetailInstitution                   Extension   profiles/Profile-StudyPageObservations.fsh          1 - 6

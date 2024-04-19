@@ -1,0 +1,15 @@
+{
+  "resourceType": "DocumentManifest",
+  "id": "brainpower-dataset",
+  "meta": {
+    "profile": [
+      "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset"
+    ]
+  },
+  "status": "current",
+  "content": [
+    {
+      "reference": "DocumentReference/brainpower-example-file"
+    }
+  ]
+}

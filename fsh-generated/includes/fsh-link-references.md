@@ -38,3 +38,5 @@
 [StudyProgram]: StructureDefinition-study-program.html
 [StudyProgramVS]: ValueSet-study-program-vs.html
 [StudyProgram]: CodeSystem-study-program.html
+[us-core-ethnicity]: SearchParameter-us-core-ethnicity.html
+[us-core-race]: SearchParameter-us-core-race.html

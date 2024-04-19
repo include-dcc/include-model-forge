@@ -363,6 +363,22 @@
         "name": "Study Programs",
         "description": "Study Programs",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/us-core-ethnicity"
+        },
+        "name": "us-core-ethnicity",
+        "description": "Returns patients with an ethnicity extension matching the specified code.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/us-core-race"
+        },
+        "name": "us-core-race",
+        "description": "Returns patients with a race extension matching the specified code.",
+        "exampleBoolean": false
       }
     ],
     "page": {

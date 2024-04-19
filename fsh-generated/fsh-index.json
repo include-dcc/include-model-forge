@@ -184,6 +184,22 @@
     "endLine": 7
   },
   {
+    "outputFile": "SearchParameter-us-core-ethnicity.json",
+    "fshName": "us-core-ethnicity",
+    "fshType": "Instance",
+    "fshFile": "us-core-ethnicity.fsh",
+    "startLine": 1,
+    "endLine": 28
+  },
+  {
+    "outputFile": "SearchParameter-us-core-race.json",
+    "fshName": "us-core-race",
+    "fshType": "Instance",
+    "fshFile": "us-core-race.fsh",
+    "startLine": 1,
+    "endLine": 28
+  },
+  {
     "outputFile": "Specimen-biospecimen-0100.json",
     "fshName": "biospecimen-0100",
     "fshType": "Instance",
