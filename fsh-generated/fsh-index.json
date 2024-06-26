@@ -101,7 +101,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/CodeSystem-SampleTypes.fsh",
     "startLine": 1,
-    "endLine": 38
+    "endLine": 75
   },
   {
     "outputFile": "CodeSystem-study-page-codes.json",
@@ -316,8 +316,8 @@
     "fshName": "SampleTypesVS",
     "fshType": "ValueSet",
     "fshFile": "codesystems/CodeSystem-SampleTypes.fsh",
-    "startLine": 40,
-    "endLine": 46
+    "startLine": 77,
+    "endLine": 83
   },
   {
     "outputFile": "ValueSet-study-page-codes-vs.json",
