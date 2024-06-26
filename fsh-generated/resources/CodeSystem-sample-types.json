@@ -13,6 +13,10 @@
       "display": "ATAC-Seq Sample"
     },
     {
+      "code": "Amniotic-Fluid",
+      "display": "Amniotic Fluid"
+    },
+    {
       "code": "B-Cells",
       "display": "B Cells"
     },
@@ -25,8 +29,24 @@
       "display": "Blood Spots"
     },
     {
+      "code": "Bone",
+      "display": "Bone"
+    },
+    {
       "code": "Bone-Marrow",
       "display": "Bone Marrow"
+    },
+    {
+      "code": "Brain",
+      "display": "Brain"
+    },
+    {
+      "code": "Buccal-Mucosa",
+      "display": "Buccal Mucosa"
+    },
+    {
+      "code": "Buccal-Swab",
+      "display": "Buccal Swab"
     },
     {
       "code": "Buccal-Cells",
@@ -37,12 +57,32 @@
       "display": "Buffy Coat"
     },
     {
+      "code": "Cartilage",
+      "display": "Cartilage"
+    },
+    {
       "code": "CD4+-Tconv-Cells",
       "display": "CD4+ Tconv Cells"
     },
     {
       "code": "CD8+T-Cells",
       "display": "CD8+ T Cells"
+    },
+    {
+      "code": "Cell",
+      "display": "Cell"
+    },
+    {
+      "code": "Cerebrospinal-Fluid-Sample",
+      "display": "Cerebrospinal Fluid Sample"
+    },
+    {
+      "code": "Chest-Wall",
+      "display": "Chest Wall"
+    },
+    {
+      "code": "Cyst",
+      "display": "Cyst"
     },
     {
       "code": "Derived-Cell-Line",
@@ -53,24 +93,112 @@
       "display": "DNA"
     },
     {
+      "code": "Dura-Mater",
+      "display": "Dura Mater"
+    },
+    {
+      "code": "EBV-Immortalized-Lymphocytes",
+      "display": "EBV Immortalized Lymphocytes"
+    },
+    {
       "code": "EBV-Cell-Line",
       "display": "EBV Cell Line"
+    },
+    {
+      "code": "EDTA-Blood-Cell-Fraction",
+      "display": "EDTA Blood Cell Fraction"
     },
     {
       "code": "Epstein-Bar-Virus-Immortalized-Cells",
       "display": "Epstein-Barr Virus Immortalized Cells"
     },
     {
+      "code": "Fetal-Liver",
+      "display": "Fetal Liver"
+    },
+    {
+      "code": "Fetal-Tissue",
+      "display": "Fetal Tissue"
+    },
+    {
+      "code": "Fibroblast",
+      "display": "Fibroblast"
+    },
+    {
+      "code": "Formalin-Fixed-Paraffin-Embedded-Tissue-Sample",
+      "display": "Formalin-Fixed Paraffin-Embedded Tissue Sample"
+    },
+    {
+      "code": "Frozen-Tissue",
+      "display": "Frozen Tissue"
+    },
+    {
       "code": "Graunulocytes",
       "display": "Granulocytes"
+    },
+    {
+      "code": "Hair",
+      "display": "Hair"
+    },
+    {
+      "code": "Inguinal-Region",
+      "display": "Inguinal Region"
+    },
+    {
+      "code": "Lateral-Ligament",
+      "display": "Lateral Ligament"
+    },
+    {
+      "code": "Leukocyte",
+      "display": "Leukocyte"
+    },
+    {
+      "code": "Lung-Tissue",
+      "display": "Lung Tissue"
+    },
+    {
+      "code": "Lymph-Node",
+      "display": "Lymph Node"
+    },
+    {
+      "code": "Lymphocyte",
+      "display": "Lymphocyte"
+    },
+    {
+      "code": "Mediastinum",
+      "display": "Mediastinum"
     },
     {
       "code": "Monocytes",
       "display": "Monocytes"
     },
     {
+      "code": "Muscle-Cell",
+      "display": "Muscle Cell"
+    },
+    {
+      "code": "Muscle-Tissue",
+      "display": "Muscle Tissue"
+    },
+    {
+      "code": "Negative-Lymph-Node",
+      "display": "Negative Lymph Node"
+    },
+    {
       "code": "NK-Cells",
       "display": "NK Cells"
+    },
+    {
+      "code": "Patient-Derived-Xenograft",
+      "display": "Patient Derived Xenograft"
+    },
+    {
+      "code": "Perineum",
+      "display": "Perineum"
+    },
+    {
+      "code": "Peripheral-Blood-Mononuclear-Cell-Sample",
+      "display": "Peripheral Blood Mononuclear Cell Sample"
     },
     {
       "code": "Peripheral-Whole-Blood",
@@ -83,6 +211,10 @@
     {
       "code": "PMBCs",
       "display": "PBMCs"
+    },
+    {
+      "code": "Reactive-Amniocyte",
+      "display": "Reactive Amniocyte"
     },
     {
       "code": "Red-Blood-Cells",
@@ -101,6 +233,10 @@
       "display": "Serum"
     },
     {
+      "code": "Skin-Tissue",
+      "display": "Skin Tissue"
+    },
+    {
       "code": "Skin-Tape",
       "display": "Skin Tape"
     },
@@ -109,12 +245,24 @@
       "display": "Solid Tissue"
     },
     {
+      "code": "Tissue-Culture",
+      "display": "Tissue Culture"
+    },
+    {
       "code": "Tongue-Swab",
       "display": "Tongue Swab"
     },
     {
       "code": "Tregs",
       "display": "Regulatory T Cells"
+    },
+    {
+      "code": "Tumor-Tissue",
+      "display": "Tumor Tissue"
+    },
+    {
+      "code": "Vascular-Smooth-Muscle-Tissue",
+      "display": "Vascular Smooth Muscle Tissue"
     },
     {
       "code": "WBCs",
