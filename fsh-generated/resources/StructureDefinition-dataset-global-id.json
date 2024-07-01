@@ -1,18 +1,22 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "contact-detail-institution",
-  "url": "https://include-dcc.github.io/include-model-forge/StructureDefinition/contact-detail-institution",
-  "name": "ContactDetailInstitution",
-  "title": "Contact Detail Institution",
+  "id": "dataset-global-id",
+  "url": "https://include-dcc.github.io/include-model-forge/StructureDefinition/dataset-global-id",
+  "name": "DatasetGlobalId",
+  "title": "Dataset Global Id",
   "status": "draft",
-  "description": "Add institution to a contact detail entry.",
+  "description": "INCLUDE global file identifier, assigned by DCC",
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
   "context": [
     {
       "type": "element",
-      "expression": "ContactDetail"
+      "expression": "Extension"
+    },
+    {
+      "type": "element",
+      "expression": "DocumentReference.extension"
     }
   ],
   "type": "Extension",
@@ -23,8 +27,8 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Contact Detail Institution",
-        "definition": "Add institution to a contact detail entry."
+        "short": "Dataset Global Id",
+        "definition": "INCLUDE global file identifier, assigned by DCC"
       },
       {
         "id": "Extension.extension",
@@ -34,7 +38,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://include-dcc.github.io/include-model-forge/StructureDefinition/contact-detail-institution"
+        "fixedUri": "https://include-dcc.github.io/include-model-forge/StructureDefinition/dataset-global-id"
       },
       {
         "id": "Extension.value[x]",

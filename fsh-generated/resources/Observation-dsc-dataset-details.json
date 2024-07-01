@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "brainpower-dataset-details",
+  "id": "dsc-dataset-details",
   "meta": {
     "profile": [
       "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset-details"
@@ -25,7 +25,7 @@
           }
         ]
       },
-      "valueString": "BrainPower"
+      "valueString": "DSC"
     },
     {
       "code": {
@@ -36,12 +36,12 @@
           }
         ]
       },
-      "valueString": "BrainPower Health History Data"
+      "valueString": "DS-Connect Unharmonized Demographic/Clinical Data"
     }
   ],
   "focus": [
     {
-      "reference": "DocumentManifest/brainpower-dataset"
+      "reference": "List/dsc-dataset-manifest"
     }
   ]
 }

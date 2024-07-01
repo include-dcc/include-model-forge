@@ -21,7 +21,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/CodeSystem-DataCategories.fsh",
     "startLine": 1,
-    "endLine": 16
+    "endLine": 25
   },
   {
     "outputFile": "CodeSystem-data-types.json",
@@ -37,7 +37,15 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/CodeSystem-DatasetMeta.fsh",
     "startLine": 1,
-    "endLine": 31
+    "endLine": 33
+  },
+  {
+    "outputFile": "CodeSystem-enum-dataCategory.json",
+    "fshName": "EnumDataCategory",
+    "fshType": "CodeSystem",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 225,
+    "endLine": 244
   },
   {
     "outputFile": "CodeSystem-expected-data-category.json",
@@ -101,7 +109,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/CodeSystem-SampleTypes.fsh",
     "startLine": 1,
-    "endLine": 38
+    "endLine": 75
   },
   {
     "outputFile": "CodeSystem-study-page-codes.json",
@@ -120,36 +128,52 @@
     "endLine": 12
   },
   {
-    "outputFile": "DocumentManifest-brainpower-dataset.json",
-    "fshName": "brainpower-dataset",
+    "outputFile": "DocumentReference-dsc-example-condition-file.json",
+    "fshName": "dsc-example-condition-file",
     "fshType": "Instance",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 65,
-    "endLine": 71
+    "startLine": 136,
+    "endLine": 155
   },
   {
-    "outputFile": "DocumentReference-brainpower-example-file.json",
-    "fshName": "brainpower-example-file",
+    "outputFile": "DocumentReference-dsc-example-dd-file.json",
+    "fshName": "dsc-example-dd-file",
     "fshType": "Instance",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 44,
-    "endLine": 55
+    "startLine": 157,
+    "endLine": 177
+  },
+  {
+    "outputFile": "DocumentReference-dsc-example-demographic-file.json",
+    "fshName": "dsc-example-demographic-file",
+    "fshType": "Instance",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 115,
+    "endLine": 134
   },
   {
     "outputFile": "Group-family-group-FG0100.json",
     "fshName": "family-group-FG0100",
     "fshType": "Instance",
     "fshFile": "Examples.fsh",
-    "startLine": 27,
-    "endLine": 35
+    "startLine": 29,
+    "endLine": 37
   },
   {
-    "outputFile": "Observation-brainpower-dataset-details.json",
-    "fshName": "brainpower-dataset-details",
+    "outputFile": "List-dsc-dataset-manifest.json",
+    "fshName": "dsc-dataset-manifest",
     "fshType": "Instance",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 74,
-    "endLine": 85
+    "startLine": 189,
+    "endLine": 205
+  },
+  {
+    "outputFile": "Observation-dsc-dataset-details.json",
+    "fshName": "dsc-dataset-details",
+    "fshType": "Instance",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 209,
+    "endLine": 222
   },
   {
     "outputFile": "Observation-example-study-page-expected-data-category.json",
@@ -164,24 +188,32 @@
     "fshName": "family-id-observation-F0100",
     "fshType": "Instance",
     "fshFile": "Examples.fsh",
-    "startLine": 18,
-    "endLine": 25
+    "startLine": 20,
+    "endLine": 27
   },
   {
     "outputFile": "Observation-patient-0100-BMI.json",
     "fshName": "patient-0100-BMI",
     "fshType": "Instance",
     "fshFile": "Examples.fsh",
-    "startLine": 9,
-    "endLine": 16
+    "startLine": 11,
+    "endLine": 18
   },
   {
     "outputFile": "Patient-patient-0100.json",
     "fshName": "patient-0100",
     "fshType": "Instance",
     "fshFile": "Examples.fsh",
-    "startLine": 1,
-    "endLine": 7
+    "startLine": 3,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ResearchStudy-dsc-study.json",
+    "fshName": "dsc-study",
+    "fshType": "Instance",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 108,
+    "endLine": 113
   },
   {
     "outputFile": "SearchParameter-us-core-ethnicity.json",
@@ -204,8 +236,24 @@
     "fshName": "biospecimen-0100",
     "fshType": "Instance",
     "fshFile": "Examples.fsh",
-    "startLine": 37,
-    "endLine": 42
+    "startLine": 39,
+    "endLine": 44
+  },
+  {
+    "outputFile": "StructureDefinition-IncludeLogicalDataset.json",
+    "fshName": "IncludeDataset",
+    "fshType": "Logical",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 265,
+    "endLine": 289
+  },
+  {
+    "outputFile": "StructureDefinition-IncludeLogicalDatasetManifest.json",
+    "fshName": "IncludeDatasetManifest",
+    "fshType": "Logical",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 254,
+    "endLine": 263
   },
   {
     "outputFile": "StructureDefinition-biospecimen.json",
@@ -224,6 +272,38 @@
     "endLine": 6
   },
   {
+    "outputFile": "StructureDefinition-dataset-external-id.json",
+    "fshName": "DatasetExternalId",
+    "fshType": "Extension",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 46,
+    "endLine": 52
+  },
+  {
+    "outputFile": "StructureDefinition-dataset-global-id.json",
+    "fshName": "DatasetGlobalId",
+    "fshType": "Extension",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 38,
+    "endLine": 44
+  },
+  {
+    "outputFile": "StructureDefinition-dataset-name.json",
+    "fshName": "DatasetName",
+    "fshType": "Extension",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 30,
+    "endLine": 36
+  },
+  {
+    "outputFile": "StructureDefinition-dataset-parent.json",
+    "fshName": "DatasetParent",
+    "fshType": "Extension",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 54,
+    "endLine": 66
+  },
+  {
     "outputFile": "StructureDefinition-family-group.json",
     "fshName": "FamilyGroup",
     "fshType": "Profile",
@@ -240,6 +320,22 @@
     "endLine": 11
   },
   {
+    "outputFile": "StructureDefinition-file-size-unit.json",
+    "fshName": "FileSizeUnit",
+    "fshType": "Extension",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 8,
+    "endLine": 13
+  },
+  {
+    "outputFile": "StructureDefinition-file-size.json",
+    "fshName": "FileSize",
+    "fshType": "Extension",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
     "outputFile": "StructureDefinition-measurement.json",
     "fshName": "Measurement",
     "fshType": "Profile",
@@ -248,28 +344,36 @@
     "endLine": 12
   },
   {
-    "outputFile": "StructureDefinition-research-study.json",
-    "fshName": "ResearchStudy",
+    "outputFile": "StructureDefinition-research-study-reference.json",
+    "fshName": "ResearchStudyReference",
     "fshType": "Extension",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 1,
-    "endLine": 6
+    "startLine": 15,
+    "endLine": 20
+  },
+  {
+    "outputFile": "StructureDefinition-study-code.json",
+    "fshName": "StudyCode",
+    "fshType": "Extension",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 22,
+    "endLine": 28
   },
   {
     "outputFile": "StructureDefinition-study-dataset-details.json",
     "fshName": "StudyDatasetDetails",
     "fshType": "Profile",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 23,
-    "endLine": 42
+    "startLine": 87,
+    "endLine": 106
   },
   {
-    "outputFile": "StructureDefinition-study-dataset.json",
-    "fshName": "StudyDataset",
+    "outputFile": "StructureDefinition-study-dataset-manifest.json",
+    "fshName": "StudyDatasetManifest",
     "fshType": "Profile",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 8,
-    "endLine": 21
+    "startLine": 69,
+    "endLine": 85
   },
   {
     "outputFile": "StructureDefinition-study-page-observation.json",
@@ -292,8 +396,16 @@
     "fshName": "DatasetPageCodesVS",
     "fshType": "ValueSet",
     "fshFile": "codesystems/CodeSystem-DatasetMeta.fsh",
-    "startLine": 33,
-    "endLine": 39
+    "startLine": 35,
+    "endLine": 41
+  },
+  {
+    "outputFile": "ValueSet-enum-dataCategory-vs.json",
+    "fshName": "EnumDataCategoryVS",
+    "fshType": "ValueSet",
+    "fshFile": "profiles/Profile-StudyDataset.fsh",
+    "startLine": 247,
+    "endLine": 252
   },
   {
     "outputFile": "ValueSet-family-types-vs.json",
@@ -316,8 +428,8 @@
     "fshName": "SampleTypesVS",
     "fshType": "ValueSet",
     "fshFile": "codesystems/CodeSystem-SampleTypes.fsh",
-    "startLine": 40,
-    "endLine": 46
+    "startLine": 77,
+    "endLine": 83
   },
   {
     "outputFile": "ValueSet-study-page-codes-vs.json",

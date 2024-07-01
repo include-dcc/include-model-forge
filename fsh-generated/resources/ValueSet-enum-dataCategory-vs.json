@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "EnumDataCategoryVS",
+  "id": "enum-dataCategory-vs",
+  "title": "Data Category",
+  "description": "None",
+  "url": "https://include-dcc.github.io/include-model-forge/ValueSet/enum-dataCategory-vs",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "https://includedcc.org/fhir/code-systems/enum_dataCategory"
+      }
+    ]
+  }
+}

@@ -1,12 +1,12 @@
 {
   "resourceType": "CodeSystem",
-  "status": "active",
-  "content": "fragment",
-  "name": "DataCategories",
-  "id": "data-categories",
-  "title": "Data Categories",
-  "description": "Data Categories Used in INCLUDE Datasets",
-  "url": "https://includedcc.org/fhir/code-systems/data_categories",
+  "status": "draft",
+  "content": "complete",
+  "name": "EnumDataCategory",
+  "id": "enum-dataCategory",
+  "title": "Data Category",
+  "description": "TBD",
+  "url": "https://includedcc.org/fhir/code-systems/enum_dataCategory",
   "concept": [
     {
       "code": "unharmonized_demographic_clinical_data",
@@ -17,27 +17,19 @@
       "display": "Harmonized Demographic/Clinical Data"
     },
     {
-      "code": "Clinical",
-      "display": "Clinical"
-    },
-    {
-      "code": "Genomics",
+      "code": "genomics",
       "display": "Genomics"
     },
     {
-      "code": "Transcriptomics",
+      "code": "transcriptomics",
       "display": "Transcriptomics"
     },
     {
-      "code": "Proteomics",
+      "code": "proteomics",
       "display": "Proteomics"
     },
     {
-      "code": "Immune-Map",
-      "display": "Immune Map"
-    },
-    {
-      "code": "Metabolomics",
+      "code": "metabolomics",
       "display": "Metabolomics"
     },
     {
@@ -69,7 +61,7 @@
       "display": "Other"
     }
   ],
-  "version": "0.1.0",
   "experimental": false,
-  "publisher": "NCPI FHIR Works"
+  "caseSensitive": true,
+  "count": 13
 }

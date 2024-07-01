@@ -62,22 +62,6 @@
       },
       {
         "reference": {
-          "reference": "DocumentManifest/brainpower-dataset"
-        },
-        "name": "BrainPower Dataset",
-        "description": "example dataset resource",
-        "exampleCanonical": "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset"
-      },
-      {
-        "reference": {
-          "reference": "Observation/brainpower-dataset-details"
-        },
-        "name": "BrainPower Dataset Details",
-        "description": "Example resource of a dataset details observation",
-        "exampleCanonical": "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset-details"
-      },
-      {
-        "reference": {
           "reference": "CodeSystem/clinical-data-source-types"
         },
         "name": "Clinical Data Source Types",
@@ -110,10 +94,50 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/enum-dataCategory-vs"
+        },
+        "name": "Data Category",
+        "description": "None",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/enum-dataCategory"
+        },
+        "name": "Data Category",
+        "description": "TBD",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/data-types"
         },
         "name": "Data Types",
         "description": "Data Types Used in INCLUDE Datasets",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/dataset-external-id"
+        },
+        "name": "Dataset External Id",
+        "description": "INCLUDE external dataset identifier, assigned by DCC",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/dataset-global-id"
+        },
+        "name": "Dataset Global Id",
+        "description": "INCLUDE global file identifier, assigned by DCC",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/dataset-name"
+        },
+        "name": "Dataset Name",
+        "description": "Dataset Name a file is associated with",
         "exampleBoolean": false
       },
       {
@@ -134,10 +158,58 @@
       },
       {
         "reference": {
-          "reference": "DocumentReference/brainpower-example-file"
+          "reference": "StructureDefinition/dataset-parent"
         },
-        "name": "Example File from BrainPower dataset",
-        "description": "Example file that might be contained in a dataset",
+        "name": "Dataset Parent",
+        "description": "Extension containing both the filename IDs",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ResearchStudy/dsc-study"
+        },
+        "name": "DS-Connect Research Study",
+        "description": "Example resource to be used to show how to link back to a research study",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "List/dsc-dataset-manifest"
+        },
+        "name": "DSC Dataset",
+        "description": "example dataset resource",
+        "exampleCanonical": "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset-manifest"
+      },
+      {
+        "reference": {
+          "reference": "Observation/dsc-dataset-details"
+        },
+        "name": "DSC Dataset Details",
+        "description": "Example resource of a dataset details observation",
+        "exampleCanonical": "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset-details"
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/dsc-example-condition-file"
+        },
+        "name": "Example condition File from DSC dataset",
+        "description": "Example condition file that might be contained in a dataset",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/dsc-example-dd-file"
+        },
+        "name": "Example data-dictionary File from DSC dataset",
+        "description": "Example data-dictionary file that might be contained in a dataset",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/dsc-example-demographic-file"
+        },
+        "name": "Example Demographics File from DSC dataset",
+        "description": "Example demographics that might be contained in a dataset",
         "exampleBoolean": true
       },
       {
@@ -214,6 +286,22 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/file-size"
+        },
+        "name": "File Size",
+        "description": "KF File Size Extension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/file-size-unit"
+        },
+        "name": "File Size Unit",
+        "description": "File Size Unit",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/guid-type"
         },
         "name": "GUID Type",
@@ -222,10 +310,26 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/IncludeLogicalDatasetManifest"
+        },
+        "name": "Include Logical Model for Dataset Manifest",
+        "description": "Mapping information for files in Dataset",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/include-study-tables"
         },
         "name": "Include Study Tables",
         "description": "High level terms associated with key tables in include model",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/IncludeLogicalDataset"
+        },
+        "name": "Information about a specific grouping of data files",
+        "description": "Information about a specific grouping of data files",
         "exampleBoolean": false
       },
       {
@@ -278,7 +382,7 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/research-study"
+          "reference": "StructureDefinition/research-study-reference"
         },
         "name": "Research Study",
         "description": "Research study to which this resource is part of",
@@ -286,7 +390,7 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/study-dataset"
+          "reference": "StructureDefinition/study-dataset-manifest"
         },
         "name": "Research Study Dataset",
         "description": "Files that, together, represent a Dataset",
@@ -306,6 +410,14 @@
         },
         "name": "Sample Types Codes",
         "description": "A valuse set with all codes used for the expected sample types for INCLUDE/Kids First observations.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/study-code"
+        },
+        "name": "Study Code",
+        "description": "Code for the study to which this file is a part of.",
         "exampleBoolean": false
       },
       {

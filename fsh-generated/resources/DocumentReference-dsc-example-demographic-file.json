@@ -1,0 +1,55 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "dsc-example-demographic-file",
+  "extension": [
+    {
+      "url": "https://include-dcc.github.io/include-model-forge/StructureDefinition/dataset-parent",
+      "extension": [
+        {
+          "url": "https://include-dcc.github.io/include-model-forge/StructureDefinition/dataset-name",
+          "valueString": "DS-Connect Unharmonized Demographic/Clinical Data"
+        },
+        {
+          "url": "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-code",
+          "valueString": "DSC"
+        },
+        {
+          "url": "https://include-dcc.github.io/include-model-forge/StructureDefinition/dataset-external-id",
+          "valueString": "DS-Connect-UNHAR (subject to change)"
+        }
+      ]
+    },
+    {
+      "url": "https://include-dcc.github.io/include-model-forge/StructureDefinition/file-size",
+      "valueDecimal": 625.6
+    },
+    {
+      "url": "https://include-dcc.github.io/include-model-forge/StructureDefinition/file-size-unit",
+      "valueString": "KB"
+    }
+  ],
+  "status": "current",
+  "docStatus": "final",
+  "securityLabel": [
+    {
+      "coding": [
+        {
+          "code": "registered",
+          "system": "https://includedcc.org/fhir/code-systems/data_access_types"
+        }
+      ],
+      "text": "Registered"
+    }
+  ],
+  "content": [
+    {
+      "attachment": {
+        "title": "dsc_demographic_unharmonized_2024-02-26.csv",
+        "url": "https://www.synapse.org/#!Synapse:syn58623423"
+      },
+      "format": {
+        "display": "csv"
+      }
+    }
+  ]
+}

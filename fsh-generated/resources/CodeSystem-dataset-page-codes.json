@@ -17,6 +17,10 @@
       "display": "Dataset Name"
     },
     {
+      "code": "dataset-description",
+      "display": "Dataset Description"
+    },
+    {
       "code": "dataset-global-id",
       "display": "Dataset Global ID"
     },
@@ -41,23 +45,23 @@
       "display": "Data Collection End Year"
     },
     {
-      "code": "dataset-data-category",
+      "code": "data-category",
       "display": "Dataset Data Category"
     },
     {
-      "code": "dataset-data-type",
+      "code": "data-type",
       "display": "Dataset Data Type"
     },
     {
-      "code": "dataset-experimental-strategy",
+      "code": "experimental-strategy",
       "display": "Dataset Experimental Strategy"
     },
     {
-      "code": "dataset-experimental-platform",
+      "code": "experimental-platform",
       "display": "Dataset Experimental Platform"
     },
     {
-      "code": "dataset-publication",
+      "code": "publication",
       "display": "Dataset Publication"
     },
     {
@@ -69,7 +73,7 @@
       "display": "Access Requirements"
     },
     {
-      "code": "dataset-dbGaP",
+      "code": "dbGaP",
       "display": "Dataset dbGaP"
     },
     {
@@ -79,6 +83,10 @@
     {
       "code": "other-access-authority",
       "display": "Other Access Authority"
+    },
+    {
+      "code": "is-harmonized",
+      "display": "Is Harmonized"
     }
   ],
   "count": 18,

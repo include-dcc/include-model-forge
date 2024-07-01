@@ -1,18 +1,18 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "contact-detail-institution",
-  "url": "https://include-dcc.github.io/include-model-forge/StructureDefinition/contact-detail-institution",
-  "name": "ContactDetailInstitution",
-  "title": "Contact Detail Institution",
+  "id": "file-size",
+  "url": "https://include-dcc.github.io/include-model-forge/StructureDefinition/file-size",
+  "name": "FileSize",
+  "title": "File Size",
   "status": "draft",
-  "description": "Add institution to a contact detail entry.",
+  "description": "KF File Size Extension",
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
   "context": [
     {
       "type": "element",
-      "expression": "ContactDetail"
+      "expression": "DocumentReference"
     }
   ],
   "type": "Extension",
@@ -23,8 +23,8 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Contact Detail Institution",
-        "definition": "Add institution to a contact detail entry."
+        "short": "File Size",
+        "definition": "KF File Size Extension"
       },
       {
         "id": "Extension.extension",
@@ -34,14 +34,14 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://include-dcc.github.io/include-model-forge/StructureDefinition/contact-detail-institution"
+        "fixedUri": "https://include-dcc.github.io/include-model-forge/StructureDefinition/file-size"
       },
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
         "type": [
           {
-            "code": "string"
+            "code": "decimal"
           }
         ]
       }

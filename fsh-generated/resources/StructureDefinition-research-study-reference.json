@@ -1,25 +1,18 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "research-study",
-  "url": "https://include-dcc.github.io/include-model-forge/StructureDefinition/research-study",
-  "name": "ResearchStudy",
+  "id": "research-study-reference",
+  "url": "https://include-dcc.github.io/include-model-forge/StructureDefinition/research-study-reference",
+  "name": "ResearchStudyReference",
   "title": "Research Study",
   "status": "draft",
   "description": "Research study to which this resource is part of",
   "fhirVersion": "4.0.1",
-  "mapping": [
-    {
-      "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
-    }
-  ],
   "kind": "complex-type",
   "abstract": false,
   "context": [
     {
       "type": "element",
-      "expression": "DocumentManifest"
+      "expression": "List"
     }
   ],
   "type": "Extension",
@@ -41,7 +34,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://include-dcc.github.io/include-model-forge/StructureDefinition/research-study"
+        "fixedUri": "https://include-dcc.github.io/include-model-forge/StructureDefinition/research-study-reference"
       },
       {
         "id": "Extension.value[x]",
@@ -50,7 +43,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://include-dcc.github.io/include-model-forge/StructureDefinition/research-study"
+              "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
             ]
           }
         ]
