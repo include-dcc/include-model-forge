@@ -1,0 +1,87 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "enum-dataCategory",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem enum-dataCategory</b></p><a name=\"enum-dataCategory\"> </a><a name=\"hcenum-dataCategory\"> </a><a name=\"hcenum-dataCategory-en-US\"> </a><p>This case-sensitive code system <code>https://includedcc.org/fhir/code-systems/enum_dataCategory</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">unharmonized_demographic_clinical_data<a name=\"enum-dataCategory-unharmonized_demographic_clinical_data\"> </a></td><td>Unharmonized Demographic/Clinical Data</td></tr><tr><td style=\"white-space:nowrap\">harmonized_demographic_clinical_data<a name=\"enum-dataCategory-harmonized_demographic_clinical_data\"> </a></td><td>Harmonized Demographic/Clinical Data</td></tr><tr><td style=\"white-space:nowrap\">genomics<a name=\"enum-dataCategory-genomics\"> </a></td><td>Genomics</td></tr><tr><td style=\"white-space:nowrap\">transcriptomics<a name=\"enum-dataCategory-transcriptomics\"> </a></td><td>Transcriptomics</td></tr><tr><td style=\"white-space:nowrap\">proteomics<a name=\"enum-dataCategory-proteomics\"> </a></td><td>Proteomics</td></tr><tr><td style=\"white-space:nowrap\">metabolomics<a name=\"enum-dataCategory-metabolomics\"> </a></td><td>Metabolomics</td></tr><tr><td style=\"white-space:nowrap\">cognitive_behavioral<a name=\"enum-dataCategory-cognitive_behavioral\"> </a></td><td>Cognitive/Behavioral</td></tr><tr><td style=\"white-space:nowrap\">immune_maps<a name=\"enum-dataCategory-immune_maps\"> </a></td><td>Immune Maps</td></tr><tr><td style=\"white-space:nowrap\">imaging<a name=\"enum-dataCategory-imaging\"> </a></td><td>Imaging</td></tr><tr><td style=\"white-space:nowrap\">microbiome<a name=\"enum-dataCategory-microbiome\"> </a></td><td>Microbiome</td></tr><tr><td style=\"white-space:nowrap\">fitness<a name=\"enum-dataCategory-fitness\"> </a></td><td>Fitness</td></tr><tr><td style=\"white-space:nowrap\">physical_activity<a name=\"enum-dataCategory-physical_activity\"> </a></td><td>Physical Activity</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"enum-dataCategory-other\"> </a></td><td>Other</td></tr></table></div>"
+  },
+  "url" : "https://includedcc.org/fhir/code-systems/enum_dataCategory",
+  "version" : "0.1.0",
+  "name" : "EnumDataCategory",
+  "title" : "Data Category",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2024-07-01T13:52:34-05:00",
+  "publisher" : "NCPI FHIR Working Group",
+  "contact" : [{
+    "name" : "NCPI FHIR Working Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/include-dcc"
+    }]
+  },
+  {
+    "name" : "Meen Chul Kim",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "meenchul@d3b.center",
+      "use" : "work"
+    }]
+  }],
+  "description" : "TBD",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 13,
+  "concept" : [{
+    "code" : "unharmonized_demographic_clinical_data",
+    "display" : "Unharmonized Demographic/Clinical Data"
+  },
+  {
+    "code" : "harmonized_demographic_clinical_data",
+    "display" : "Harmonized Demographic/Clinical Data"
+  },
+  {
+    "code" : "genomics",
+    "display" : "Genomics"
+  },
+  {
+    "code" : "transcriptomics",
+    "display" : "Transcriptomics"
+  },
+  {
+    "code" : "proteomics",
+    "display" : "Proteomics"
+  },
+  {
+    "code" : "metabolomics",
+    "display" : "Metabolomics"
+  },
+  {
+    "code" : "cognitive_behavioral",
+    "display" : "Cognitive/Behavioral"
+  },
+  {
+    "code" : "immune_maps",
+    "display" : "Immune Maps"
+  },
+  {
+    "code" : "imaging",
+    "display" : "Imaging"
+  },
+  {
+    "code" : "microbiome",
+    "display" : "Microbiome"
+  },
+  {
+    "code" : "fitness",
+    "display" : "Fitness"
+  },
+  {
+    "code" : "physical_activity",
+    "display" : "Physical Activity"
+  },
+  {
+    "code" : "other",
+    "display" : "Other"
+  }]
+}

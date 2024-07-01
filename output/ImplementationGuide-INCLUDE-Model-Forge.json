@@ -2,15 +2,15 @@
   "resourceType" : "ImplementationGuide",
   "id" : "INCLUDE-Model-Forge",
   "text" : {
-    "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>INCLUDEModelForgeIG</h2><p>The official URL for this implementation guide is: </p><pre>https://include-dcc.github.io/include-model-forge/ImplementationGuide/INCLUDE-Model-Forge</pre><div><p>FHIR Implementation Guide for the INCLUDE Portal Launch, 3/21/2022</p>\n</div></div>"
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide INCLUDE-Model-Forge</b></p><a name=\"INCLUDE-Model-Forge\"> </a><a name=\"hcINCLUDE-Model-Forge\"> </a><a name=\"hcINCLUDE-Model-Forge-en-US\"> </a><h2>INCLUDEModelForgeIG</h2><p>The official URL for this implementation guide is: </p><pre>https://include-dcc.github.io/include-model-forge/ImplementationGuide/INCLUDE-Model-Forge</pre><div><p>FHIR Implementation Guide for the INCLUDE Portal Launch, 3/21/2022</p>\n</div></div>"
   },
   "url" : "https://include-dcc.github.io/include-model-forge/ImplementationGuide/INCLUDE-Model-Forge",
   "version" : "0.1.0",
   "name" : "INCLUDEModelForgeIG",
   "title" : "INCLUDE Model Forge Implementation Guide",
   "status" : "draft",
-  "date" : "2024-04-18T13:09:29-05:00",
+  "date" : "2024-07-01T13:52:34-05:00",
   "publisher" : "NCPI FHIR Working Group",
   "contact" : [{
     "name" : "NCPI FHIR Working Group",
@@ -39,7 +39,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "5.3.0"
+    "version" : "5.5.0"
   },
   {
     "id" : "hl7ext",
@@ -49,7 +49,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "1.0.0"
+    "version" : "5.1.0"
   },
   {
     "id" : "hl7_fhir_us_core",
@@ -335,7 +335,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools#current"
+      "valueCode" : "hl7.fhir.uv.tools#0.1.0"
     },
     {
       "extension" : [{
@@ -639,30 +639,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "DocumentManifest"
-      }],
-      "reference" : {
-        "reference" : "DocumentManifest/brainpower-dataset"
-      },
-      "name" : "BrainPower Dataset",
-      "description" : "example dataset resource",
-      "exampleCanonical" : "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/brainpower-dataset-details"
-      },
-      "name" : "BrainPower Dataset Details",
-      "description" : "Example resource of a dataset details observation",
-      "exampleCanonical" : "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset-details"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -711,6 +687,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/enum-dataCategory-vs"
+      },
+      "name" : "Data Category",
+      "description" : "None",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/enum-dataCategory"
+      },
+      "name" : "Data Category",
+      "description" : "TBD",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -718,6 +718,42 @@
       },
       "name" : "Data Types",
       "description" : "Data Types Used in INCLUDE Datasets",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/dataset-external-id"
+      },
+      "name" : "Dataset External Id",
+      "description" : "INCLUDE external dataset identifier, assigned by DCC",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/dataset-global-id"
+      },
+      "name" : "Dataset Global Id",
+      "description" : "INCLUDE global file identifier, assigned by DCC",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/dataset-name"
+      },
+      "name" : "Dataset Name",
+      "description" : "Dataset Name a file is associated with",
       "exampleBoolean" : false
     },
     {
@@ -747,13 +783,85 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/dataset-parent"
+      },
+      "name" : "Dataset Parent",
+      "description" : "Extension containing both the filename IDs",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ResearchStudy"
+      }],
+      "reference" : {
+        "reference" : "ResearchStudy/dsc-study"
+      },
+      "name" : "DS-Connect Research Study",
+      "description" : "Example resource to be used to show how to link back to a research study",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "List"
+      }],
+      "reference" : {
+        "reference" : "List/dsc-dataset-manifest"
+      },
+      "name" : "DSC Dataset",
+      "description" : "example dataset resource",
+      "exampleCanonical" : "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset-manifest"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/dsc-dataset-details"
+      },
+      "name" : "DSC Dataset Details",
+      "description" : "Example resource of a dataset details observation",
+      "exampleCanonical" : "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset-details"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "DocumentReference"
       }],
       "reference" : {
-        "reference" : "DocumentReference/brainpower-example-file"
+        "reference" : "DocumentReference/dsc-example-condition-file"
       },
-      "name" : "Example File from BrainPower dataset",
-      "description" : "Example file that might be contained in a dataset",
+      "name" : "Example condition File from DSC dataset",
+      "description" : "Example condition file that might be contained in a dataset",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "DocumentReference"
+      }],
+      "reference" : {
+        "reference" : "DocumentReference/dsc-example-dd-file"
+      },
+      "name" : "Example data-dictionary File from DSC dataset",
+      "description" : "Example data-dictionary file that might be contained in a dataset",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "DocumentReference"
+      }],
+      "reference" : {
+        "reference" : "DocumentReference/dsc-example-demographic-file"
+      },
+      "name" : "Example Demographics File from DSC dataset",
+      "description" : "Example demographics that might be contained in a dataset",
       "exampleBoolean" : true
     },
     {
@@ -867,6 +975,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/file-size"
+      },
+      "name" : "File Size",
+      "description" : "KF File Size Extension",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/file-size-unit"
+      },
+      "name" : "File Size Unit",
+      "description" : "File Size Unit",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -879,6 +1011,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/IncludeLogicalDatasetManifest"
+      },
+      "name" : "Include Logical Model for Dataset Manifest",
+      "description" : "Mapping information for files in Dataset",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -886,6 +1030,18 @@
       },
       "name" : "Include Study Tables",
       "description" : "High level terms associated with key tables in include model",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/IncludeLogicalDataset"
+      },
+      "name" : "Information about a specific grouping of data files",
+      "description" : "Information about a specific grouping of data files",
       "exampleBoolean" : false
     },
     {
@@ -966,7 +1122,7 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/research-study"
+        "reference" : "StructureDefinition/research-study-reference"
       },
       "name" : "Research Study",
       "description" : "Research study to which this resource is part of",
@@ -978,7 +1134,7 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/study-dataset"
+        "reference" : "StructureDefinition/study-dataset-manifest"
       },
       "name" : "Research Study Dataset",
       "description" : "Files that, together, represent a Dataset",
@@ -1006,6 +1162,18 @@
       },
       "name" : "Sample Types Codes",
       "description" : "A valuse set with all codes used for the expected sample types for INCLUDE/Kids First observations.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/study-code"
+      },
+      "name" : "Study Code",
+      "description" : "Code for the study to which this file is a part of.",
       "exampleBoolean" : false
     },
     {
@@ -1090,6 +1258,30 @@
       },
       "name" : "Study Programs",
       "description" : "Study Programs",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "SearchParameter"
+      }],
+      "reference" : {
+        "reference" : "SearchParameter/us-core-ethnicity"
+      },
+      "name" : "us-core-ethnicity",
+      "description" : "Returns patients with an ethnicity extension matching the specified code.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "SearchParameter"
+      }],
+      "reference" : {
+        "reference" : "SearchParameter/us-core-race"
+      },
+      "name" : "us-core-race",
+      "description" : "Returns patients with a race extension matching the specified code.",
       "exampleBoolean" : false
     }],
     "page" : {

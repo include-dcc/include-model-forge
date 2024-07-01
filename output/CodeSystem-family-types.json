@@ -3,7 +3,7 @@
   "id" : "family-types",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://includedcc.org/fhir/code-systems/family_types</code> provides <b>a fragment</b> that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Control-only<a name=\"family-types-Control-only\"> </a></td><td>Control Only</td></tr><tr><td style=\"white-space:nowrap\">Duo<a name=\"family-types-Duo\"> </a></td><td>Duo</td></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"family-types-Other\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">Proband-only<a name=\"family-types-Proband-only\"> </a></td><td>Proband Only</td></tr><tr><td style=\"white-space:nowrap\">Trio<a name=\"family-types-Trio\"> </a></td><td>Trio</td></tr><tr><td style=\"white-space:nowrap\">Trio+<a name=\"family-types-Trio.43\"> </a></td><td>Trio+</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem family-types</b></p><a name=\"family-types\"> </a><a name=\"hcfamily-types\"> </a><a name=\"hcfamily-types-en-US\"> </a><p>This  code system <code>https://includedcc.org/fhir/code-systems/family_types</code> provides <b>a fragment</b> that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Control-only<a name=\"family-types-Control-only\"> </a></td><td>Control Only</td></tr><tr><td style=\"white-space:nowrap\">Duo<a name=\"family-types-Duo\"> </a></td><td>Duo</td></tr><tr><td style=\"white-space:nowrap\">Other<a name=\"family-types-Other\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">Proband-only<a name=\"family-types-Proband-only\"> </a></td><td>Proband Only</td></tr><tr><td style=\"white-space:nowrap\">Trio<a name=\"family-types-Trio\"> </a></td><td>Trio</td></tr><tr><td style=\"white-space:nowrap\">Trio+<a name=\"family-types-Trio.43\"> </a></td><td>Trio+</td></tr></table></div>"
   },
   "url" : "https://includedcc.org/fhir/code-systems/family_types",
   "version" : "0.1.0",
@@ -11,7 +11,7 @@
   "title" : "Family Types",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-04-18T13:09:29-05:00",
+  "date" : "2024-07-01T13:52:34-05:00",
   "publisher" : "NCPI FHIR Working Group",
   "contact" : [{
     "name" : "NCPI FHIR Working Group",
