@@ -1,0 +1,75 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "PreservationMethod",
+  "id": "preservation-method",
+  "title": "Preservation Method",
+  "description": "Codes used to reference Preservation Method",
+  "url": "https://includedcc.org/fhir/code-systems/preservation_method",
+  "concept": [
+    {
+      "code": "CRYO",
+      "display": "Cryo"
+    },
+    {
+      "code": "EDTA",
+      "display": "EDTA tube"
+    },
+    {
+      "code": "FFPE",
+      "display": "Formalin Fixed Parrafin Embedded"
+    },
+    {
+      "code": "FFRZ",
+      "display": "Flash Frozen"
+    },
+    {
+      "code": "FRZM",
+      "display": "Freezing Media"
+    },
+    {
+      "code": "FRZN",
+      "display": "Frozen"
+    },
+    {
+      "code": "FRZN20",
+      "display": "Frozen at -20"
+    },
+    {
+      "code": "FRZN80",
+      "display": "Frozen at -80"
+    },
+    {
+      "code": "FRZNDI",
+      "display": "Frozen Dry Ice"
+    },
+    {
+      "code": "FRZNLN",
+      "display": "Frozen in Liquid Nitrogen Vapor"
+    },
+    {
+      "code": "OCT",
+      "display": "Optimal cutting temperature compound"
+    },
+    {
+      "code": "RNAL",
+      "display": "RNAlater"
+    },
+    {
+      "code": "RT",
+      "display": "Room Temp"
+    },
+    {
+      "code": "UFPE",
+      "display": "Unknown Fixed Parrafin Embedded"
+    },
+    {
+      "code": "not-reported",
+      "display": "Not Reported"
+    }
+  ],
+  "version": "0.0.1",
+  "experimental": false,
+  "publisher": "INCLUDE FHIR"
+}
