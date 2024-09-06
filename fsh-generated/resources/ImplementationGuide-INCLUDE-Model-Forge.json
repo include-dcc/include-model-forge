@@ -382,6 +382,14 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/preservation-method"
+        },
+        "name": "Preservation Method",
+        "description": "Codes used to reference Preservation Method",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/research-study-reference"
         },
         "name": "Research Study",

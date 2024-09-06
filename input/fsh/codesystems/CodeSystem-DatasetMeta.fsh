@@ -3,7 +3,6 @@ Id: dataset-page-codes
 Title: "Dataset Page Codes"
 Description: "Variables associated with table, dataset_meta, from INCLUDE datasets."
 * ^content = #complete
-* ^count = 18
 * ^identifier.system = "https://includedcc.org/fhir/data-dictionary/CodeSystem"
 * ^identifier.use = #official
 * ^identifier.value = "dataset_meta"

@@ -3,7 +3,7 @@
   "id" : "experimental-strategy",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem experimental-strategy</b></p><a name=\"experimental-strategy\"> </a><a name=\"hcexperimental-strategy\"> </a><a name=\"hcexperimental-strategy-en-US\"> </a><p>This  code system <code>https://includedcc.org/fhir/code-systems/experimental_strategies</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">LCMS-Metabolomics<a name=\"experimental-strategy-LCMS-Metabolomics\"> </a></td><td>LCMS Metabolomics</td></tr><tr><td style=\"white-space:nowrap\">Multiplex-Immunoassay<a name=\"experimental-strategy-Multiplex-Immunoassay\"> </a></td><td>Multiplex Immunoassay</td></tr><tr><td style=\"white-space:nowrap\">WGS<a name=\"experimental-strategy-WGS\"> </a></td><td>Whole Genome Sequencing</td></tr><tr><td style=\"white-space:nowrap\">RNA-Seq<a name=\"experimental-strategy-RNA-Seq\"> </a></td><td>RNA-Seq</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem experimental-strategy</b></p><a name=\"experimental-strategy\"> </a><a name=\"hcexperimental-strategy\"> </a><a name=\"experimental-strategy-en-US\"> </a><p>This  code system <code>https://includedcc.org/fhir/code-systems/experimental_strategies</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">LCMS-Metabolomics<a name=\"experimental-strategy-LCMS-Metabolomics\"> </a></td><td>LCMS Metabolomics</td></tr><tr><td style=\"white-space:nowrap\">Multiplex-Immunoassay<a name=\"experimental-strategy-Multiplex-Immunoassay\"> </a></td><td>Multiplex Immunoassay</td></tr><tr><td style=\"white-space:nowrap\">WGS<a name=\"experimental-strategy-WGS\"> </a></td><td>Whole Genome Sequencing</td></tr><tr><td style=\"white-space:nowrap\">RNA-Seq<a name=\"experimental-strategy-RNA-Seq\"> </a></td><td>RNA-Seq</td></tr></table></div>"
   },
   "url" : "https://includedcc.org/fhir/code-systems/experimental_strategies",
   "version" : "0.1.0",
@@ -11,7 +11,7 @@
   "title" : "Experimental Strategy",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-07-01T13:52:34-05:00",
+  "date" : "2024-09-06T13:24:05-05:00",
   "publisher" : "NCPI FHIR Working Group",
   "contact" : [{
     "name" : "NCPI FHIR Working Group",

@@ -40,6 +40,7 @@
 [ParticipantLifespanAge]: CodeSystem-participant-lifespan-age.html
 [patient-0100]: Patient-patient-0100.html
 [patient-0100-BMI]: Observation-patient-0100-BMI.html
+[PreservationMethod]: CodeSystem-preservation-method.html
 [ResearchStudyReference]: StructureDefinition-research-study-reference.html
 [StudyDatasetManifest]: StructureDefinition-study-dataset-manifest.html
 [SampleTypes]: CodeSystem-sample-types.html

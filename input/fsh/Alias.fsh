@@ -43,6 +43,7 @@ Alias: $include-study-tables = https://includedcc.org/fhir/code-systems/include_
 Alias: $data_types = https://includedcc.org/fhir/code-systems/data_types
 Alias: $data_categories = https://includedcc.org/fhir/code-systems/data_categories
 Alias: $family_types = https://includedcc.org/fhir/code-systems/family_types
+Alias: $preservation-method = https://includedcc.org/fhir/code-systems/preservation_method
 Alias: $sample_types = https://includedcc.org/fhir/code-systems/sample_types
 Alias: $study_programs = https://includedcc.org/fhir/code-systems/programs
 Alias: $data_access_types = https://includedcc.org/fhir/code-systems/data_access_types

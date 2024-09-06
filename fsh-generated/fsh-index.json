@@ -37,7 +37,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/CodeSystem-DatasetMeta.fsh",
     "startLine": 1,
-    "endLine": 33
+    "endLine": 32
   },
   {
     "outputFile": "CodeSystem-enum-dataCategory.json",
@@ -102,6 +102,14 @@
     "fshFile": "codesystems/CodeSystem-ParticipantLifespanAge.fsh",
     "startLine": 1,
     "endLine": 14
+  },
+  {
+    "outputFile": "CodeSystem-preservation-method.json",
+    "fshName": "PreservationMethod",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystem-PreservationMethod.fsh",
+    "startLine": 1,
+    "endLine": 25
   },
   {
     "outputFile": "CodeSystem-sample-types.json",
@@ -396,8 +404,8 @@
     "fshName": "DatasetPageCodesVS",
     "fshType": "ValueSet",
     "fshFile": "codesystems/CodeSystem-DatasetMeta.fsh",
-    "startLine": 35,
-    "endLine": 41
+    "startLine": 34,
+    "endLine": 40
   },
   {
     "outputFile": "ValueSet-enum-dataCategory-vs.json",

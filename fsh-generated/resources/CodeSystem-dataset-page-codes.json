@@ -89,7 +89,6 @@
       "display": "Is Harmonized"
     }
   ],
-  "count": 18,
   "identifier": [
     {
       "system": "https://includedcc.org/fhir/data-dictionary/CodeSystem",
@@ -98,5 +97,6 @@
     }
   ],
   "publisher": "NCPI FHIR Working Group",
-  "experimental": false
+  "experimental": false,
+  "count": 20
 }
