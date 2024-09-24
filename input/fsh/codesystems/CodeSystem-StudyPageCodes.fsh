@@ -30,7 +30,7 @@ Description: "Each column from the study page model as terms"
 * #publication "Publication"
 * #study-expected-number-of-participants "Study Expected Number of Participants"
 * #guid-type "GUID type"
-* #acknowledgements "Acknowledgements"
+* #acknowledgments "Acknowledgments"
 * #citation-statement "Citation Statement"
 
 ValueSet: StudyPageCodesVS
