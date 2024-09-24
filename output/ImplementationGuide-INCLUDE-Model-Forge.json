@@ -10,7 +10,7 @@
   "name" : "INCLUDEModelForgeIG",
   "title" : "INCLUDE Model Forge Implementation Guide",
   "status" : "draft",
-  "date" : "2024-09-06T13:24:05-05:00",
+  "date" : "2024-09-24T12:01:41-05:00",
   "publisher" : "NCPI FHIR Working Group",
   "contact" : [{
     "name" : "NCPI FHIR Working Group",
@@ -810,11 +810,11 @@
         "valueString" : "List"
       }],
       "reference" : {
-        "reference" : "List/dsc-dataset-manifest"
+        "reference" : "List/dsc-dataset"
       },
       "name" : "DSC Dataset",
       "description" : "example dataset resource",
-      "exampleCanonical" : "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset-manifest"
+      "exampleCanonical" : "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset"
     },
     {
       "extension" : [{
@@ -1146,10 +1146,10 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/study-dataset-manifest"
+        "reference" : "StructureDefinition/study-dataset"
       },
       "name" : "Research Study Dataset",
-      "description" : "Files that, together, represent a Dataset",
+      "description" : "Research Study Dataset",
       "exampleBoolean" : false
     },
     {

@@ -174,11 +174,11 @@
       },
       {
         "reference": {
-          "reference": "List/dsc-dataset-manifest"
+          "reference": "List/dsc-dataset"
         },
         "name": "DSC Dataset",
         "description": "example dataset resource",
-        "exampleCanonical": "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset-manifest"
+        "exampleCanonical": "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset"
       },
       {
         "reference": {
@@ -398,10 +398,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/study-dataset-manifest"
+          "reference": "StructureDefinition/study-dataset"
         },
         "name": "Research Study Dataset",
-        "description": "Files that, together, represent a Dataset",
+        "description": "Research Study Dataset",
         "exampleBoolean": false
       },
       {

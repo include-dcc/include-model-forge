@@ -44,8 +44,8 @@
     "fshName": "EnumDataCategory",
     "fshType": "CodeSystem",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 225,
-    "endLine": 244
+    "startLine": 227,
+    "endLine": 246
   },
   {
     "outputFile": "CodeSystem-expected-data-category.json",
@@ -125,7 +125,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/CodeSystem-StudyPageCodes.fsh",
     "startLine": 1,
-    "endLine": 32
+    "endLine": 34
   },
   {
     "outputFile": "CodeSystem-study-program.json",
@@ -140,24 +140,24 @@
     "fshName": "dsc-example-condition-file",
     "fshType": "Instance",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 136,
-    "endLine": 155
+    "startLine": 138,
+    "endLine": 157
   },
   {
     "outputFile": "DocumentReference-dsc-example-dd-file.json",
     "fshName": "dsc-example-dd-file",
     "fshType": "Instance",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 157,
-    "endLine": 177
+    "startLine": 159,
+    "endLine": 179
   },
   {
     "outputFile": "DocumentReference-dsc-example-demographic-file.json",
     "fshName": "dsc-example-demographic-file",
     "fshType": "Instance",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 115,
-    "endLine": 134
+    "startLine": 117,
+    "endLine": 136
   },
   {
     "outputFile": "Group-family-group-FG0100.json",
@@ -168,20 +168,20 @@
     "endLine": 37
   },
   {
-    "outputFile": "List-dsc-dataset-manifest.json",
-    "fshName": "dsc-dataset-manifest",
+    "outputFile": "List-dsc-dataset.json",
+    "fshName": "dsc-dataset",
     "fshType": "Instance",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 189,
-    "endLine": 205
+    "startLine": 191,
+    "endLine": 207
   },
   {
     "outputFile": "Observation-dsc-dataset-details.json",
     "fshName": "dsc-dataset-details",
     "fshType": "Instance",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 209,
-    "endLine": 222
+    "startLine": 211,
+    "endLine": 224
   },
   {
     "outputFile": "Observation-example-study-page-expected-data-category.json",
@@ -220,8 +220,8 @@
     "fshName": "dsc-study",
     "fshType": "Instance",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 108,
-    "endLine": 113
+    "startLine": 110,
+    "endLine": 115
   },
   {
     "outputFile": "SearchParameter-us-core-ethnicity.json",
@@ -252,16 +252,16 @@
     "fshName": "IncludeDataset",
     "fshType": "Logical",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 265,
-    "endLine": 289
+    "startLine": 267,
+    "endLine": 291
   },
   {
     "outputFile": "StructureDefinition-IncludeLogicalDatasetManifest.json",
     "fshName": "IncludeDatasetManifest",
     "fshType": "Logical",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 254,
-    "endLine": 263
+    "startLine": 256,
+    "endLine": 265
   },
   {
     "outputFile": "StructureDefinition-biospecimen.json",
@@ -372,16 +372,16 @@
     "fshName": "StudyDatasetDetails",
     "fshType": "Profile",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 87,
-    "endLine": 106
+    "startLine": 89,
+    "endLine": 108
   },
   {
-    "outputFile": "StructureDefinition-study-dataset-manifest.json",
-    "fshName": "StudyDatasetManifest",
+    "outputFile": "StructureDefinition-study-dataset.json",
+    "fshName": "StudyDataset",
     "fshType": "Profile",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
     "startLine": 69,
-    "endLine": 85
+    "endLine": 87
   },
   {
     "outputFile": "StructureDefinition-study-page-observation.json",
@@ -412,8 +412,8 @@
     "fshName": "EnumDataCategoryVS",
     "fshType": "ValueSet",
     "fshFile": "profiles/Profile-StudyDataset.fsh",
-    "startLine": 247,
-    "endLine": 252
+    "startLine": 249,
+    "endLine": 254
   },
   {
     "outputFile": "ValueSet-family-types-vs.json",
@@ -444,8 +444,8 @@
     "fshName": "StudyPageCodesVS",
     "fshType": "ValueSet",
     "fshFile": "codesystems/CodeSystem-StudyPageCodes.fsh",
-    "startLine": 34,
-    "endLine": 40
+    "startLine": 36,
+    "endLine": 42
   },
   {
     "outputFile": "ValueSet-study-program-vs.json",

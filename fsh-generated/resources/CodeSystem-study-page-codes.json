@@ -95,6 +95,14 @@
     {
       "code": "guid-type",
       "display": "GUID type"
+    },
+    {
+      "code": "acknowledgements",
+      "display": "Acknowledgements"
+    },
+    {
+      "code": "citation-statement",
+      "display": "Citation Statement"
     }
   ],
   "version": "0.1.0",

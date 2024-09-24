@@ -41,7 +41,7 @@
   ],
   "focus": [
     {
-      "reference": "List/dsc-dataset-manifest"
+      "reference": "dsc-dataset-manifest"
     }
   ]
 }

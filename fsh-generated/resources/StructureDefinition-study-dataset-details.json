@@ -21,7 +21,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset-manifest"
+              "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset"
             ]
           }
         ]

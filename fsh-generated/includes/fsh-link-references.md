@@ -14,7 +14,7 @@
 [DatasetPageCodes]: CodeSystem-dataset-page-codes.html
 [DatasetParent]: StructureDefinition-dataset-parent.html
 [dsc-study]: ResearchStudy-dsc-study.html
-[dsc-dataset-manifest]: List-dsc-dataset-manifest.html
+[dsc-dataset]: List-dsc-dataset.html
 [dsc-dataset-details]: Observation-dsc-dataset-details.html
 [dsc-example-condition-file]: DocumentReference-dsc-example-condition-file.html
 [dsc-example-dd-file]: DocumentReference-dsc-example-dd-file.html
@@ -42,7 +42,7 @@
 [patient-0100-BMI]: Observation-patient-0100-BMI.html
 [PreservationMethod]: CodeSystem-preservation-method.html
 [ResearchStudyReference]: StructureDefinition-research-study-reference.html
-[StudyDatasetManifest]: StructureDefinition-study-dataset-manifest.html
+[StudyDataset]: StructureDefinition-study-dataset.html
 [SampleTypes]: CodeSystem-sample-types.html
 [SampleTypesVS]: ValueSet-sample-types-vs.html
 [StudyCode]: StructureDefinition-study-code.html

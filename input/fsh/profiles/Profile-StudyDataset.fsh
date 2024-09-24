@@ -66,11 +66,13 @@ Description: "Extension containing both the filename IDs"
 * extension[external_id] ^short = "INCLUDE dataset external identifier, assigned by DCC"
 
 
-Profile: StudyDatasetManifest
+Profile: StudyDataset
 Parent: List
-Id: study-dataset-manifest
+Id: study-dataset
 Title: "Research Study Dataset"
-Description: "Files that, together, represent a Dataset"
+Description: "Research Study Dataset"
+* identifier 1..*
+  * ^short = "Global ID, External ID"
 * title 1..1
   * ^short = "Full name of the dataset, provided by contributor"
 /* We should identify a good term for Dataset */
@@ -103,7 +105,7 @@ Description: "Information about a specific grouping of data files"
     dataset represents. 
 * subject only Reference(Group) -- or relevant profile
 */
-* focus only Reference(StudyDatasetManifest)
+* focus only Reference(StudyDataset)
 
 Instance: dsc-study
 InstanceOf: ResearchStudy
@@ -186,8 +188,8 @@ Description: "Example data-dictionary file that might be contained in a dataset"
 */
 
 
-Instance: dsc-dataset-manifest
-InstanceOf: StudyDatasetManifest
+Instance: dsc-dataset
+InstanceOf: StudyDataset
 Title: "DSC Dataset"
 Usage: #example
 Description: "example dataset resource"
