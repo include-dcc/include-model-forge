@@ -10,4 +10,4 @@ Description: "GUID Type"
 * ^content = #fragment
 * #ndar "NDAR"
 * #other "Other"
-* #none "None"
+* #No-GUID "No GUID"

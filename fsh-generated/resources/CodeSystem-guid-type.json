@@ -17,8 +17,8 @@
       "display": "Other"
     },
     {
-      "code": "none",
-      "display": "None"
+      "code": "No-GUID",
+      "display": "No GUID"
     }
   ],
   "version": "0.1.0",
