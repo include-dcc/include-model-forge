@@ -3,7 +3,7 @@
   "id" : "guid-type",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem guid-type</b></p><a name=\"guid-type\"> </a><a name=\"hcguid-type\"> </a><a name=\"guid-type-en-US\"> </a><p>This  code system <code>https://includedcc.org/fhir/code-systems/guid_type</code> provides <b>a fragment</b> that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ndar<a name=\"guid-type-ndar\"> </a></td><td>NDAR</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"guid-type-other\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">none<a name=\"guid-type-none\"> </a></td><td>None</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem guid-type</b></p><a name=\"guid-type\"> </a><a name=\"hcguid-type\"> </a><a name=\"guid-type-en-US\"> </a><p>This  code system <code>https://includedcc.org/fhir/code-systems/guid_type</code> provides <b>a fragment</b> that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ndar<a name=\"guid-type-ndar\"> </a></td><td>NDAR</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"guid-type-other\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">No-GUID<a name=\"guid-type-No-GUID\"> </a></td><td>No GUID</td></tr></table></div>"
   },
   "url" : "https://includedcc.org/fhir/code-systems/guid_type",
   "version" : "0.1.0",
@@ -11,7 +11,7 @@
   "title" : "GUID Type",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-09-24T15:31:50-05:00",
+  "date" : "2024-10-14T10:59:31-05:00",
   "publisher" : "NCPI FHIR Working Group",
   "contact" : [{
     "name" : "NCPI FHIR Working Group",
@@ -39,7 +39,7 @@
     "display" : "Other"
   },
   {
-    "code" : "none",
-    "display" : "None"
+    "code" : "No-GUID",
+    "display" : "No GUID"
   }]
 }
