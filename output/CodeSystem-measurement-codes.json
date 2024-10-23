@@ -11,7 +11,7 @@
   "title" : "Measurement Codes",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-10-14T10:59:31-05:00",
+  "date" : "2024-10-23T13:59:29-04:00",
   "publisher" : "NCPI FHIR Working Group",
   "contact" : [{
     "name" : "NCPI FHIR Working Group",
@@ -28,7 +28,7 @@
       "use" : "work"
     }]
   }],
-  "description" : "A complete set of codes used for the expected measurement types for INCLUDE/Kids First observations.\n",
+  "description" : "A complete set of codes used for the expected measurement types for INCLUDE/Kids First observations.\r\n",
   "content" : "fragment",
   "concept" : [{
     "code" : "Hemoglobin-level-at-birth",

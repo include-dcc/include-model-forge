@@ -21,7 +21,7 @@
         "coding": [
           {
             "code": "study-code",
-            "system": "https://includedcc.org/fhir/CodeSystem/data-dictionary/dataset_meta"
+            "system": "https://includedcc.org/fhir/code-systems/dataset_meta"
           }
         ]
       },
@@ -32,7 +32,7 @@
         "coding": [
           {
             "code": "dataset-name",
-            "system": "https://includedcc.org/fhir/CodeSystem/data-dictionary/dataset_meta"
+            "system": "https://includedcc.org/fhir/code-systems/dataset_meta"
           }
         ]
       },
