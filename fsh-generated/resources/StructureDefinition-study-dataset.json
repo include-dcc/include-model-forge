@@ -1,0 +1,60 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "study-dataset",
+  "url": "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset",
+  "name": "StudyDataset",
+  "title": "Research Study Dataset",
+  "status": "draft",
+  "description": "Research Study Dataset",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "List",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/List",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "List.identifier",
+        "path": "List.identifier",
+        "short": "Global ID, External ID",
+        "min": 1
+      },
+      {
+        "id": "List.title",
+        "path": "List.title",
+        "short": "Full name of the dataset, provided by contributor",
+        "min": 1
+      },
+      {
+        "id": "List.code",
+        "path": "List.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "dataset",
+              "system": "https://includedcc.org/fhir/code-systems/include_study_tables"
+            }
+          ]
+        }
+      },
+      {
+        "id": "List.entry",
+        "path": "List.entry",
+        "min": 1
+      },
+      {
+        "id": "List.entry.item",
+        "path": "List.entry.item",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -3,14 +3,14 @@
   "id" : "dataset-page-codes-vs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet dataset-page-codes-vs</b></p><a name=\"dataset-page-codes-vs\"> </a><a name=\"hcdataset-page-codes-vs\"> </a><a name=\"dataset-page-codes-vs-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-dataset-page-codes.html\"><code>https://includedcc.org/fhir/CodeSystem/data-dictionary/dataset_meta</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet dataset-page-codes-vs</b></p><a name=\"dataset-page-codes-vs\"> </a><a name=\"hcdataset-page-codes-vs\"> </a><a name=\"dataset-page-codes-vs-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-dataset-page-codes.html\"><code>https://includedcc.org/fhir/code-systems/dataset_meta</code></a></li></ul></div>"
   },
   "url" : "https://include-dcc.github.io/include-model-forge/ValueSet/dataset-page-codes-vs",
   "version" : "0.1.0",
   "name" : "DatasetPageCodesVS",
   "title" : "Dataset Page Codes",
   "status" : "active",
-  "date" : "2024-10-14T10:59:31-05:00",
+  "date" : "2024-10-23T13:59:29-04:00",
   "publisher" : "NCPI FHIR Working Group",
   "contact" : [{
     "name" : "NCPI FHIR Working Group",
@@ -30,7 +30,7 @@
   "description" : "Valueset representing columns from the table, dataset_meta, from INCLUDE datasets.",
   "compose" : {
     "include" : [{
-      "system" : "https://includedcc.org/fhir/CodeSystem/data-dictionary/dataset_meta"
+      "system" : "https://includedcc.org/fhir/code-systems/dataset_meta"
     }]
   }
 }

@@ -6,7 +6,7 @@
   "id": "dataset-page-codes",
   "title": "Dataset Page Codes",
   "description": "Variables associated with table, dataset_meta, from INCLUDE datasets.",
-  "url": "https://includedcc.org/fhir/CodeSystem/data-dictionary/dataset_meta",
+  "url": "https://includedcc.org/fhir/code-systems/dataset_meta",
   "concept": [
     {
       "code": "study-code",
