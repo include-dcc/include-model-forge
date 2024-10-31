@@ -87,6 +87,422 @@
     {
       "code": "Other",
       "display": "Other"
+    },
+    {
+      "code": "Adapter-Stats",
+      "display": "Adapter Stats"
+    },
+    {
+      "code": "Alignment-Metrics",
+      "display": "Alignment Metrics"
+    },
+    {
+      "code": "Alignment-Stats",
+      "display": "Alignment Stats"
+    },
+    {
+      "code": "Alignment-Summary",
+      "display": "Alignment Summary"
+    },
+    {
+      "code": "Annotated-Germline-Copy-Number-Segments",
+      "display": "Annotated Germline Copy Number Segments"
+    },
+    {
+      "code": "Annotated-Germline-Structural-Variation",
+      "display": "Annotated Germline Structural Variation"
+    },
+    {
+      "code": "Annotated-Somatic-Copy-Number-Segment",
+      "display": "Annotated Somatic Copy Number Segment"
+    },
+    {
+      "code": "Annotated-Somatic-Mutation",
+      "display": "Annotated Somatic Mutation"
+    },
+    {
+      "code": "Annotated-Somatic-Mutation-Index",
+      "display": "Annotated Somatic Mutation Index"
+    },
+    {
+      "code": "Annotated-Tumor-Only-Mutation",
+      "display": "Annotated Tumor Only Mutation"
+    },
+    {
+      "code": "Annotated-Tumor-Only-Mutation-Index",
+      "display": "Annotated Tumor Only Mutation Index"
+    },
+    {
+      "code": "Annotated-Variant-Call",
+      "display": "Annotated Variant Call"
+    },
+    {
+      "code": "Annotated-Variant-Call-Index",
+      "display": "Annotated Variant Call Index"
+    },
+    {
+      "code": "Artifact-Metrics",
+      "display": "Artifact Metrics"
+    },
+    {
+      "code": "Chimeric-Aligned-Reads",
+      "display": "Chimeric Aligned Reads"
+    },
+    {
+      "code": "Consensus-Somatic-Mutation",
+      "display": "Consensus Somatic Mutation"
+    },
+    {
+      "code": "Consensus-Somatic-Mutation-Index",
+      "display": "Consensus Somatic Mutation Index"
+    },
+    {
+      "code": "Contamination-Estimation",
+      "display": "Contamination Estimation"
+    },
+    {
+      "code": "Control-Copy-Number",
+      "display": "Control Copy Number"
+    },
+    {
+      "code": "Control-Copy-Number-Segment",
+      "display": "Control Copy Number Segment"
+    },
+    {
+      "code": "Cutadapter-Metrics",
+      "display": "Cutadapter Metrics"
+    },
+    {
+      "code": "Denoised-Germline-Copy-Ratios",
+      "display": "Denoised Germline Copy Ratios"
+    },
+    {
+      "code": "Extra-Chromosomal-DNA",
+      "display": "Extra-Chromosomal DNA"
+    },
+    {
+      "code": "Familial-Relationship",
+      "display": "Familial Relationship"
+    },
+    {
+      "code": "Familial-Relationship-Report",
+      "display": "Familial Relationship Report"
+    },
+    {
+      "code": "Familial-Relationships",
+      "display": "Familial Relationships"
+    },
+    {
+      "code": "Familial-Relationships-Report",
+      "display": "Familial Relationships Report"
+    },
+    {
+      "code": "GC-Metrics",
+      "display": "GC Metrics"
+    },
+    {
+      "code": "Gender-Metrics",
+      "display": "Gender Metrics"
+    },
+    {
+      "code": "Gender-QC-Metric",
+      "display": "Gender QC Metric"
+    },
+    {
+      "code": "Gender-QC-Metrics",
+      "display": "Gender QC Metrics"
+    },
+    {
+      "code": "Gene-Expression-Count",
+      "display": "Gene Expression Count"
+    },
+    {
+      "code": "Gene-Expression-Quantification",
+      "display": "Gene Expression Quantification"
+    },
+    {
+      "code": "Gene-Level-Copy-Number",
+      "display": "Gene Level Copy Number"
+    },
+    {
+      "code": "Genome-Aligned-Reads",
+      "display": "Genome Aligned Reads"
+    },
+    {
+      "code": "Genome-Aligned-Reads-Index",
+      "display": "Genome Aligned Reads Index"
+    },
+    {
+      "code": "Genomic-Variant",
+      "display": "Genomic Variant"
+    },
+    {
+      "code": "Genomic-Variant-Index",
+      "display": "Genomic Variant Index"
+    },
+    {
+      "code": "Genotyped-Germline-Copy-Number-Intervals",
+      "display": "Genotyped Germline Copy Number Intervals"
+    },
+    {
+      "code": "Genotyped-Germline-Copy-Number-Intervals-Index",
+      "display": "Genotyped Germline Copy Number Intervals Index"
+    },
+    {
+      "code": "Genotyped-Germline-Copy-Number-Segments",
+      "display": "Genotyped Germline Copy Number Segments"
+    },
+    {
+      "code": "Genotyped-Germline-Copy-Number-Segments-Index",
+      "display": "Genotyped Germline Copy Number Segments Index"
+    },
+    {
+      "code": "Germline-Copy-Number-Read-Depth-Stats",
+      "display": "Germline Copy Number Read Depth Stats"
+    },
+    {
+      "code": "Het-Call-QC-Metric",
+      "display": "Het Call QC Metric"
+    },
+    {
+      "code": "Het-Call-QC-Metrics",
+      "display": "Het Call QC Metrics"
+    },
+    {
+      "code": "HLA-Genotyping",
+      "display": "HLA Genotyping"
+    },
+    {
+      "code": "Insert-Size-Metrics",
+      "display": "Insert Size Metrics"
+    },
+    {
+      "code": "Isoform-Expression-Quantification",
+      "display": "Isoform Expression Quantification"
+    },
+    {
+      "code": "Masked-Consensus-Somatic-Mutation",
+      "display": "Masked Consensus Somatic Mutation"
+    },
+    {
+      "code": "Masked-Consensus-Somatic-Mutation-Index",
+      "display": "Masked Consensus Somatic Mutation Index"
+    },
+    {
+      "code": "Masked-Somatic-Mutation",
+      "display": "Masked Somatic Mutation"
+    },
+    {
+      "code": "Masked-Somatic-Mutation-Index",
+      "display": "Masked Somatic Mutation Index"
+    },
+    {
+      "code": "Masked-Tumor-Only-Mutation",
+      "display": "Masked Tumor Only Mutation"
+    },
+    {
+      "code": "Masked-Tumor-Only-Mutation-Index",
+      "display": "Masked Tumor Only Mutation Index"
+    },
+    {
+      "code": "Pre-pass-Somatic-Structural-Variation",
+      "display": "Pre-pass Somatic Structural Variation"
+    },
+    {
+      "code": "Pre-pass-Somatic-Structural-Variation-Index",
+      "display": "Pre-pass Somatic Structural Variation Index"
+    },
+    {
+      "code": "Pre-pass-Tumor-Only-Structural-Variation",
+      "display": "Pre-pass Tumor Only Structural Variation"
+    },
+    {
+      "code": "Pre-pass-Tumor-Only-Structural-Variation-Index",
+      "display": "Pre-pass Tumor Only Structural Variation Index"
+    },
+    {
+      "code": "QC-Metrics",
+      "display": "QC Metrics"
+    },
+    {
+      "code": "Quality-Score-Distribution",
+      "display": "Quality Score Distribution"
+    },
+    {
+      "code": "Raw-Gene-Fusion",
+      "display": "Raw Gene Fusion"
+    },
+    {
+      "code": "Raw-Germline-Copy-Number-Segments",
+      "display": "Raw Germline Copy Number Segments"
+    },
+    {
+      "code": "Raw-Germline-Structural-Variation",
+      "display": "Raw Germline Structural Variation"
+    },
+    {
+      "code": "Raw-Germline-Structural-Variation-Index",
+      "display": "Raw Germline Structural Variation Index"
+    },
+    {
+      "code": "Raw-Simple-Somatic-Mutation",
+      "display": "Raw Simple Somatic Mutation"
+    },
+    {
+      "code": "Raw-Simple-Somatic-Mutation-Index",
+      "display": "Raw Simple Somatic Mutation Index"
+    },
+    {
+      "code": "Raw-Somatic-Copy-Number-Segment",
+      "display": "Raw Somatic Copy Number Segment"
+    },
+    {
+      "code": "Raw-Somatic-Structural-Variation",
+      "display": "Raw Somatic Structural Variation"
+    },
+    {
+      "code": "Raw-Somatic-Structural-Variation-Index",
+      "display": "Raw Somatic Structural Variation Index"
+    },
+    {
+      "code": "Raw-Tumor-Only-Copy-Number-Segment",
+      "display": "Raw Tumor Only Copy Number Segment"
+    },
+    {
+      "code": "Raw-Tumor-Only-Structural-Variation",
+      "display": "Raw Tumor Only Structural Variation"
+    },
+    {
+      "code": "Raw-Tumor-Only-Structural-Variation-Index",
+      "display": "Raw Tumor Only Structural Variation Index"
+    },
+    {
+      "code": "Raw-Variant-Call",
+      "display": "Raw Variant Call"
+    },
+    {
+      "code": "Raw-Variant-Call-Index",
+      "display": "Raw Variant Call Index"
+    },
+    {
+      "code": "Recalibration-Report",
+      "display": "Recalibration Report"
+    },
+    {
+      "code": "Reference-Copy-Number-Profiling",
+      "display": "Reference Copy Number Profiling"
+    },
+    {
+      "code": "Relatedness-QC-Metric",
+      "display": "Relatedness QC Metric"
+    },
+    {
+      "code": "Relatedness-QC-Metrics",
+      "display": "Relatedness QC Metrics"
+    },
+    {
+      "code": "RNAseq-Alignment-Metrics",
+      "display": "RNAseq Alignment Metrics"
+    },
+    {
+      "code": "Somatic-Copy-Number",
+      "display": "Somatic Copy Number"
+    },
+    {
+      "code": "Somatic-Copy-Number-BAF",
+      "display": "Somatic Copy Number BAF"
+    },
+    {
+      "code": "Somatic-Copy-Number-Diagram",
+      "display": "Somatic Copy Number Diagram"
+    },
+    {
+      "code": "Somatic-Copy-Number-Metrics",
+      "display": "Somatic Copy Number Metrics"
+    },
+    {
+      "code": "Somatic-Copy-Number-Ratio",
+      "display": "Somatic Copy Number Ratio"
+    },
+    {
+      "code": "Somatic-Copy-Number-Scatter",
+      "display": "Somatic Copy Number Scatter"
+    },
+    {
+      "code": "Somatic-Copy-Number-Segment",
+      "display": "Somatic Copy Number Segment"
+    },
+    {
+      "code": "Somatic-Copy-Number-Subclone-Segment",
+      "display": "Somatic Copy Number Subclone Segment"
+    },
+    {
+      "code": "Somatic-Copy-Number-Variation",
+      "display": "Somatic Copy Number Variation"
+    },
+    {
+      "code": "Somatic-Structural-Variation",
+      "display": "Somatic Structural Variation"
+    },
+    {
+      "code": "Splice-Junction",
+      "display": "Splice Junction"
+    },
+    {
+      "code": "Tool-Log",
+      "display": "Tool Log"
+    },
+    {
+      "code": "Tumor-Copy-Number",
+      "display": "Tumor Copy Number"
+    },
+    {
+      "code": "Tumor-Copy-Number-Segment",
+      "display": "Tumor Copy Number Segment"
+    },
+    {
+      "code": "Tumor-Only-Assembled-Haplotypes",
+      "display": "Tumor Only Assembled Haplotypes"
+    },
+    {
+      "code": "Tumor-Only-Assembled-Haplotypes-Index",
+      "display": "Tumor Only Assembled Haplotypes Index"
+    },
+    {
+      "code": "Tumor-Only-Copy-Number-BAF",
+      "display": "Tumor Only Copy Number BAF"
+    },
+    {
+      "code": "Tumor-Only-Copy-Number-Ratio",
+      "display": "Tumor Only Copy Number Ratio"
+    },
+    {
+      "code": "Tumor-Only-Copy-Number-Variation",
+      "display": "Tumor Only Copy Number Variation"
+    },
+    {
+      "code": "Tumor-Only-Structural-Variation",
+      "display": "Tumor Only Structural Variation"
+    },
+    {
+      "code": "Tumor-Ploidy-and-Purity",
+      "display": "Tumor Ploidy and Purity"
+    },
+    {
+      "code": "Tumor-Purity",
+      "display": "Tumor Purity"
+    },
+    {
+      "code": "Variant-Calling-Metrics",
+      "display": "Variant Calling Metrics"
+    },
+    {
+      "code": "WGS-Metrics",
+      "display": "WGS Metrics"
+    },
+    {
+      "code": "WXS-Metrics",
+      "display": "WXS Metrics"
     }
   ],
   "version": "0.1.0",
