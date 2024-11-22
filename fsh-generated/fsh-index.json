@@ -21,7 +21,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/CodeSystem-DataCategories.fsh",
     "startLine": 1,
-    "endLine": 25
+    "endLine": 24
   },
   {
     "outputFile": "CodeSystem-data-types.json",
@@ -29,7 +29,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/CodeSystem-DataType.fsh",
     "startLine": 1,
-    "endLine": 30
+    "endLine": 134
   },
   {
     "outputFile": "CodeSystem-dataset-page-codes.json",

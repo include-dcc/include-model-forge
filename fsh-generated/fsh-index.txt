@@ -1,8 +1,8 @@
 Output File                                                 Name                                       Type        FSH File                                            Lines
 CodeSystem-clinical-data-source-types.json                  ClinicalDataSourceTypes                    CodeSystem  codesystems/CodeSystem-ClinicalDataSourceTypes.fsh  1 - 15
 CodeSystem-data-access-types.json                           DataAccessTypes                            CodeSystem  codesystems/CodeSystem-DataAccessTypes.fsh          1 - 13
-CodeSystem-data-categories.json                             DataCategories                             CodeSystem  codesystems/CodeSystem-DataCategories.fsh           1 - 25
-CodeSystem-data-types.json                                  DataTypes                                  CodeSystem  codesystems/CodeSystem-DataType.fsh                 1 - 30
+CodeSystem-data-categories.json                             DataCategories                             CodeSystem  codesystems/CodeSystem-DataCategories.fsh           1 - 24
+CodeSystem-data-types.json                                  DataTypes                                  CodeSystem  codesystems/CodeSystem-DataType.fsh                 1 - 134
 CodeSystem-dataset-page-codes.json                          DatasetPageCodes                           CodeSystem  codesystems/CodeSystem-DatasetMeta.fsh              1 - 32
 CodeSystem-enum-dataCategory.json                           EnumDataCategory                           CodeSystem  profiles/Profile-StudyDataset.fsh                   227 - 246
 CodeSystem-expected-data-category.json                      ExpectedDataCategory                       CodeSystem  codesystems/CodeSystem-ExpectedDataCategory.fsh     1 - 21

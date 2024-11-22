@@ -17,27 +17,23 @@
       "display": "Harmonized Demographic/Clinical Data"
     },
     {
-      "code": "Clinical",
+      "code": "clinical",
       "display": "Clinical"
     },
     {
-      "code": "Genomics",
+      "code": "genomics",
       "display": "Genomics"
     },
     {
-      "code": "Transcriptomics",
+      "code": "transcriptomics",
       "display": "Transcriptomics"
     },
     {
-      "code": "Proteomics",
+      "code": "proteomics",
       "display": "Proteomics"
     },
     {
-      "code": "Immune-Map",
-      "display": "Immune Map"
-    },
-    {
-      "code": "Metabolomics",
+      "code": "metabolomics",
       "display": "Metabolomics"
     },
     {
