@@ -47,6 +47,7 @@
 [SampleTypesVS]: ValueSet-sample-types-vs.html
 [StudyCode]: StructureDefinition-study-code.html
 [StudyDatasetDetails]: StructureDefinition-study-dataset-details.html
+[StudyDesign]: CodeSystem-study-design.html
 [StudyPageCodesVS]: ValueSet-study-page-codes-vs.html
 [StudyPageCodes]: CodeSystem-study-page-codes.html
 [StudyPageObservation]: StructureDefinition-study-page-observation.html

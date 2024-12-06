@@ -1,0 +1,35 @@
+{
+  "resourceType": "List",
+  "id": "dsc-dataset",
+  "meta": {
+    "profile": [
+      "https://include-dcc.github.io/include-model-forge/StructureDefinition/study-dataset"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://some.url.org/for/external_ids",
+      "value": "DS-Connect-UNHAR (subject to change)"
+    }
+  ],
+  "status": "current",
+  "title": "DS-Connect Unharmonized Demographic/Clinical Data",
+  "mode": "working",
+  "entry": [
+    {
+      "item": {
+        "reference": "DocumentReference/dsc-example-demographic-file"
+      }
+    },
+    {
+      "item": {
+        "reference": "DocumentReference/dsc-example-condition-file"
+      }
+    },
+    {
+      "item": {
+        "reference": "DocumentReference/dsc-example-dd-file"
+      }
+    }
+  ]
+}

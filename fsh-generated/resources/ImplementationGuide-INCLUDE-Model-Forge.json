@@ -438,6 +438,14 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/study-design"
+        },
+        "name": "Study Designs",
+        "description": "Study Designs Used in INCLUDE Datasets",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/study-page-codes-vs"
         },
         "name": "Study Page Codes",
