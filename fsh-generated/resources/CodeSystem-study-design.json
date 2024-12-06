@@ -1,0 +1,51 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "StudyDesign",
+  "id": "study-design",
+  "title": "Study Designs",
+  "description": "Study Designs Used in INCLUDE Datasets",
+  "url": "https://includedcc.org/fhir/code-systems/study_design",
+  "concept": [
+    {
+      "code": "case_control",
+      "display": "Case Control"
+    },
+    {
+      "code": "case_set",
+      "display": "Case Set"
+    },
+    {
+      "code": "control_set",
+      "display": "Control Set"
+    },
+    {
+      "code": "clinical_trial",
+      "display": "Clinical Trial"
+    },
+    {
+      "code": "cross_sectional",
+      "display": "Cross-Sectional"
+    },
+    {
+      "code": "family_twins_trios",
+      "display": "Family/Twins/Trios"
+    },
+    {
+      "code": "interventional",
+      "display": "Interventional"
+    },
+    {
+      "code": "longitudinal",
+      "display": "Longitudinal"
+    },
+    {
+      "code": "tumor_vs_matched_normal",
+      "display": "Tumor vs Matched Normal"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "NCPI FHIR Works"
+}

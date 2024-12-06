@@ -67,6 +67,10 @@
     {
       "code": "other",
       "display": "Other"
+    },
+    {
+      "code": "sleep_study",
+      "display": "Sleep Study"
     }
   ],
   "version": "0.1.0",

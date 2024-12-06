@@ -1,8 +1,8 @@
 Output File                                                 Name                                       Type        FSH File                                            Lines
 CodeSystem-clinical-data-source-types.json                  ClinicalDataSourceTypes                    CodeSystem  codesystems/CodeSystem-ClinicalDataSourceTypes.fsh  1 - 15
 CodeSystem-data-access-types.json                           DataAccessTypes                            CodeSystem  codesystems/CodeSystem-DataAccessTypes.fsh          1 - 13
-CodeSystem-data-categories.json                             DataCategories                             CodeSystem  codesystems/CodeSystem-DataCategories.fsh           1 - 25
-CodeSystem-data-types.json                                  DataTypes                                  CodeSystem  codesystems/CodeSystem-DataType.fsh                 1 - 30
+CodeSystem-data-categories.json                             DataCategories                             CodeSystem  codesystems/CodeSystem-DataCategories.fsh           1 - 26
+CodeSystem-data-types.json                                  DataTypes                                  CodeSystem  codesystems/CodeSystem-DataType.fsh                 1 - 134
 CodeSystem-dataset-page-codes.json                          DatasetPageCodes                           CodeSystem  codesystems/CodeSystem-DatasetMeta.fsh              1 - 32
 CodeSystem-enum-dataCategory.json                           EnumDataCategory                           CodeSystem  profiles/Profile-StudyDataset.fsh                   227 - 246
 CodeSystem-expected-data-category.json                      ExpectedDataCategory                       CodeSystem  codesystems/CodeSystem-ExpectedDataCategory.fsh     1 - 21
@@ -14,6 +14,7 @@ CodeSystem-measurement-codes.json                           MeasurementCodes    
 CodeSystem-participant-lifespan-age.json                    ParticipantLifespanAge                     CodeSystem  codesystems/CodeSystem-ParticipantLifespanAge.fsh   1 - 14
 CodeSystem-preservation-method.json                         PreservationMethod                         CodeSystem  codesystems/CodeSystem-PreservationMethod.fsh       1 - 25
 CodeSystem-sample-types.json                                SampleTypes                                CodeSystem  codesystems/CodeSystem-SampleTypes.fsh              1 - 75
+CodeSystem-study-design.json                                StudyDesign                                CodeSystem  codesystems/CodeSystem-StudyDesign.fsh              1 - 19
 CodeSystem-study-page-codes.json                            StudyPageCodes                             CodeSystem  codesystems/CodeSystem-StudyPageCodes.fsh           1 - 34
 CodeSystem-study-program.json                               StudyProgram                               CodeSystem  codesystems/CodeSystem-IncludeProgram.fsh           1 - 12
 DocumentReference-dsc-example-condition-file.json           dsc-example-condition-file                 Instance    profiles/Profile-StudyDataset.fsh                   138 - 157

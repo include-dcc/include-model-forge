@@ -21,7 +21,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/CodeSystem-DataCategories.fsh",
     "startLine": 1,
-    "endLine": 25
+    "endLine": 26
   },
   {
     "outputFile": "CodeSystem-data-types.json",
@@ -29,7 +29,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/CodeSystem-DataType.fsh",
     "startLine": 1,
-    "endLine": 30
+    "endLine": 134
   },
   {
     "outputFile": "CodeSystem-dataset-page-codes.json",
@@ -118,6 +118,14 @@
     "fshFile": "codesystems/CodeSystem-SampleTypes.fsh",
     "startLine": 1,
     "endLine": 75
+  },
+  {
+    "outputFile": "CodeSystem-study-design.json",
+    "fshName": "StudyDesign",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystem-StudyDesign.fsh",
+    "startLine": 1,
+    "endLine": 19
   },
   {
     "outputFile": "CodeSystem-study-page-codes.json",
