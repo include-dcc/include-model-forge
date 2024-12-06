@@ -89,8 +89,8 @@
       "display": "Publication"
     },
     {
-      "code": "study-expected-number-of-participants",
-      "display": "Study Expected Number of Participants"
+      "code": "expected-number-of-participants",
+      "display": "Expected Number of Participants"
     },
     {
       "code": "guid-type",
