@@ -3,7 +3,7 @@ CodeSystem-clinical-data-source-types.json                  ClinicalDataSourceTy
 CodeSystem-data-access-types.json                           DataAccessTypes                            CodeSystem  codesystems/CodeSystem-DataAccessTypes.fsh          1 - 13
 CodeSystem-data-categories.json                             DataCategories                             CodeSystem  codesystems/CodeSystem-DataCategories.fsh           1 - 26
 CodeSystem-data-types.json                                  DataTypes                                  CodeSystem  codesystems/CodeSystem-DataType.fsh                 1 - 134
-CodeSystem-dataset-page-codes.json                          DatasetPageCodes                           CodeSystem  codesystems/CodeSystem-DatasetMeta.fsh              1 - 32
+CodeSystem-dataset-page-codes.json                          DatasetPageCodes                           CodeSystem  codesystems/CodeSystem-DatasetMeta.fsh              1 - 33
 CodeSystem-enum-dataCategory.json                           EnumDataCategory                           CodeSystem  profiles/Profile-StudyDataset.fsh                   227 - 246
 CodeSystem-expected-data-category.json                      ExpectedDataCategory                       CodeSystem  codesystems/CodeSystem-ExpectedDataCategory.fsh     1 - 21
 CodeSystem-experimental-strategy.json                       ExperimentalStrategy                       CodeSystem  codesystems/CodeSystem-ExperimentalStrategy.fsh     1 - 14
@@ -15,7 +15,7 @@ CodeSystem-participant-lifespan-age.json                    ParticipantLifespanA
 CodeSystem-preservation-method.json                         PreservationMethod                         CodeSystem  codesystems/CodeSystem-PreservationMethod.fsh       1 - 25
 CodeSystem-sample-types.json                                SampleTypes                                CodeSystem  codesystems/CodeSystem-SampleTypes.fsh              1 - 75
 CodeSystem-study-design.json                                StudyDesign                                CodeSystem  codesystems/CodeSystem-StudyDesign.fsh              1 - 19
-CodeSystem-study-page-codes.json                            StudyPageCodes                             CodeSystem  codesystems/CodeSystem-StudyPageCodes.fsh           1 - 34
+CodeSystem-study-page-codes.json                            StudyPageCodes                             CodeSystem  codesystems/CodeSystem-StudyPageCodes.fsh           1 - 35
 CodeSystem-study-program.json                               StudyProgram                               CodeSystem  codesystems/CodeSystem-IncludeProgram.fsh           1 - 12
 DocumentReference-dsc-example-condition-file.json           dsc-example-condition-file                 Instance    profiles/Profile-StudyDataset.fsh                   138 - 157
 DocumentReference-dsc-example-dd-file.json                  dsc-example-dd-file                        Instance    profiles/Profile-StudyDataset.fsh                   159 - 179
@@ -50,10 +50,10 @@ StructureDefinition-study-dataset-details.json              StudyDatasetDetails 
 StructureDefinition-study-dataset.json                      StudyDataset                               Profile     profiles/Profile-StudyDataset.fsh                   69 - 87
 StructureDefinition-study-page-observation.json             StudyPageObservation                       Profile     profiles/Profile-StudyPageObservations.fsh          16 - 24
 StructureDefinition-study-program.json                      StudyProgram                               Extension   profiles/Profile-StudyPageObservations.fsh          8 - 14
-ValueSet-dataset-page-codes-vs.json                         DatasetPageCodesVS                         ValueSet    codesystems/CodeSystem-DatasetMeta.fsh              34 - 40
+ValueSet-dataset-page-codes-vs.json                         DatasetPageCodesVS                         ValueSet    codesystems/CodeSystem-DatasetMeta.fsh              35 - 41
 ValueSet-enum-dataCategory-vs.json                          EnumDataCategoryVS                         ValueSet    profiles/Profile-StudyDataset.fsh                   249 - 254
 ValueSet-family-types-vs.json                               FamilyTypesVS                              ValueSet    codesystems/CodeSystem-FamilyTypes.fsh              18 - 24
 ValueSet-measurement-vs.json                                MeasurementVS                              ValueSet    codesystems/CodeSystem-MeasurementCodes.fsh         24 - 30
 ValueSet-sample-types-vs.json                               SampleTypesVS                              ValueSet    codesystems/CodeSystem-SampleTypes.fsh              77 - 83
-ValueSet-study-page-codes-vs.json                           StudyPageCodesVS                           ValueSet    codesystems/CodeSystem-StudyPageCodes.fsh           36 - 42
+ValueSet-study-page-codes-vs.json                           StudyPageCodesVS                           ValueSet    codesystems/CodeSystem-StudyPageCodes.fsh           37 - 43
 ValueSet-study-program-vs.json                              StudyProgramVS                             ValueSet    codesystems/CodeSystem-IncludeProgram.fsh           14 - 20
