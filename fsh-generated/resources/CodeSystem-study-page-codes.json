@@ -97,6 +97,10 @@
       "display": "GUID type"
     },
     {
+      "code": "guid_mapped",
+      "display": "GUID Mapped"
+    },
+    {
       "code": "acknowledgments",
       "display": "Acknowledgments"
     },
