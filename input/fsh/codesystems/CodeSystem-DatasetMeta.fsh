@@ -15,14 +15,14 @@ Description: "Variables associated with table, dataset_meta, from INCLUDE datase
 * #dataset-description "Dataset Description"
 * #dataset-global-id "Dataset Global ID"
 * #dataset-external-id "Dataset External ID"
-* #dataset-expected-number-of-participants "Dataset Expected Number of Participants"
+* #expected-number-of-participants "Expected Number of Participants"
 * #expected-number-of-files "Expected Number of Files"
 * #data-collection-start-year "Data Collection Start Year"
 * #data-collection-end-year "Data Collection End Year"
 * #data-category "Dataset Data Category"
 * #data-type "Dataset Data Type"
-* #experimental-strategy "Dataset Experimental Strategy"
-* #experimental-platform "Dataset Experimental Platform"
+* #experimental-strategy "Experimental Strategy"
+* #experimental-platform "Experimental Platform"
 * #publication "Dataset Publication"
 * #access-limitations "Access Limitations"
 * #access-requirements "Access Requirements"
@@ -30,6 +30,7 @@ Description: "Variables associated with table, dataset_meta, from INCLUDE datase
 * #other-repository "Other Repository"
 * #other-access-authority "Other Access Authority"
 * #is-harmonized "Is Harmonized"
+* #dataset-manifest-location "Dataset Manifest Location"
 
 ValueSet: DatasetPageCodesVS
 Id: dataset-page-codes-vs

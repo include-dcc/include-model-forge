@@ -29,8 +29,8 @@
       "display": "Dataset External ID"
     },
     {
-      "code": "dataset-expected-number-of-participants",
-      "display": "Dataset Expected Number of Participants"
+      "code": "expected-number-of-participants",
+      "display": "Expected Number of Participants"
     },
     {
       "code": "expected-number-of-files",
@@ -54,11 +54,11 @@
     },
     {
       "code": "experimental-strategy",
-      "display": "Dataset Experimental Strategy"
+      "display": "Experimental Strategy"
     },
     {
       "code": "experimental-platform",
-      "display": "Dataset Experimental Platform"
+      "display": "Experimental Platform"
     },
     {
       "code": "publication",
@@ -87,6 +87,10 @@
     {
       "code": "is-harmonized",
       "display": "Is Harmonized"
+    },
+    {
+      "code": "dataset-manifest-location",
+      "display": "Dataset Manifest Location"
     }
   ],
   "identifier": [
@@ -98,5 +102,5 @@
   ],
   "publisher": "NCPI FHIR Working Group",
   "experimental": false,
-  "count": 20
+  "count": 21
 }
