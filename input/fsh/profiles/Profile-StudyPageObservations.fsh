@@ -21,7 +21,7 @@ Description: "Study Page Observation"
 * ^version = "0.1.0"
 * ^status = #draft
 * code.coding.code from study-page-codes-vs (required)
-* value[x] only CodeableConcept or integer or string
+* value[x] only CodeableConcept or integer or string or boolean
 /* TODO: We should add support for slicing these by study-page-code and 
 restricting the assignment to corresponding codes. But there is no time
 for that, right now. */
