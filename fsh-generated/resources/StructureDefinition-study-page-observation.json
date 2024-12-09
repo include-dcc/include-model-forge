@@ -34,6 +34,9 @@
             "code": "string"
           },
           {
+            "code": "boolean"
+          },
+          {
             "code": "integer"
           }
         ]
