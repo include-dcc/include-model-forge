@@ -30,6 +30,7 @@ Description: "Each column from the study page model as terms"
 * #publication "Publication"
 * #expected-number-of-participants "Expected Number of Participants"
 * #guid-type "GUID type"
+* #guid_mapped "GUID Mapped"
 * #acknowledgments "Acknowledgments"
 * #citation-statement "Citation Statement"
 
