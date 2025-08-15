@@ -91,6 +91,14 @@
     {
       "code": "dataset-manifest-location",
       "display": "Dataset Manifest Location"
+    },
+    {
+      "code": "doi",
+      "display": "DOI"
+    },
+    {
+      "code": "doi_citation",
+      "display": "DOI Citation"
     }
   ],
   "identifier": [
@@ -102,5 +110,5 @@
   ],
   "publisher": "NCPI FHIR Working Group",
   "experimental": false,
-  "count": 21
+  "count": 23
 }

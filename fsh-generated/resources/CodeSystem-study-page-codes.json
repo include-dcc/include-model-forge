@@ -107,6 +107,14 @@
     {
       "code": "citation-statement",
       "display": "Citation Statement"
+    },
+    {
+      "code": "doi",
+      "display": "DOI"
+    },
+    {
+      "code": "doi_citation",
+      "display": "DOI Citation"
     }
   ],
   "version": "0.1.0",

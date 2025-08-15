@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "status": "active",
-  "content": "complete",
+  "content": "fragment",
   "name": "ExperimentalStrategy",
   "id": "experimental-strategy",
   "title": "Experimental Strategy",
@@ -27,6 +27,5 @@
   ],
   "version": "0.1.0",
   "experimental": false,
-  "publisher": "NCPI FHIR Works",
-  "count": 4
+  "publisher": "NCPI FHIR Works"
 }

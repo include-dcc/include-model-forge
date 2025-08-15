@@ -3,7 +3,7 @@
   "id" : "participant-lifespan-age",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem participant-lifespan-age</b></p><a name=\"participant-lifespan-age\"> </a><a name=\"hcparticipant-lifespan-age\"> </a><a name=\"participant-lifespan-age-en-US\"> </a><p>This  code system <code>https://includedcc.org/fhir/code-systems/participant_lifespan_age</code> provides <b>a fragment</b> that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">fetal<a name=\"participant-lifespan-age-fetal\"> </a></td><td>Fetal</td></tr><tr><td style=\"white-space:nowrap\">Neonatal<a name=\"participant-lifespan-age-Neonatal\"> </a></td><td>Neonatal</td></tr><tr><td style=\"white-space:nowrap\">Pediatric<a name=\"participant-lifespan-age-Pediatric\"> </a></td><td>Pediatric</td></tr><tr><td style=\"white-space:nowrap\">Adult<a name=\"participant-lifespan-age-Adult\"> </a></td><td>Adult</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem participant-lifespan-age</b></p><a name=\"participant-lifespan-age\"> </a><a name=\"hcparticipant-lifespan-age\"> </a><p>This  code system <code>https://includedcc.org/fhir/code-systems/participant_lifespan_age</code> provides <b>a fragment</b> that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">fetal<a name=\"participant-lifespan-age-fetal\"> </a></td><td>Fetal</td></tr><tr><td style=\"white-space:nowrap\">Neonatal<a name=\"participant-lifespan-age-Neonatal\"> </a></td><td>Neonatal</td></tr><tr><td style=\"white-space:nowrap\">Pediatric<a name=\"participant-lifespan-age-Pediatric\"> </a></td><td>Pediatric</td></tr><tr><td style=\"white-space:nowrap\">Adult<a name=\"participant-lifespan-age-Adult\"> </a></td><td>Adult</td></tr></table></div>"
   },
   "url" : "https://includedcc.org/fhir/code-systems/participant_lifespan_age",
   "version" : "0.1.0",
@@ -11,7 +11,7 @@
   "title" : "Participant Lifespan Age",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-13T12:37:19-05:00",
+  "date" : "2025-08-15T12:22:07-05:00",
   "publisher" : "NCPI FHIR Working Group",
   "contact" : [{
     "name" : "NCPI FHIR Working Group",
