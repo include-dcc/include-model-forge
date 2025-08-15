@@ -33,6 +33,8 @@ Description: "Each column from the study page model as terms"
 * #guid_mapped "GUID Mapped"
 * #acknowledgments "Acknowledgments"
 * #citation-statement "Citation Statement"
+* #doi "DOI"
+* #doi_citation "DOI Citation"
 
 ValueSet: StudyPageCodesVS
 Id: study-page-codes-vs

@@ -7,7 +7,7 @@ Description: "Experimental Strategies"
 * ^status = #active
 * ^experimental = false
 * ^publisher = "NCPI FHIR Works"
-* ^content = #complete
+* ^content = #fragment
 * #LCMS-Metabolomics "LCMS Metabolomics"
 * #Multiplex-Immunoassay "Multiplex Immunoassay"
 * #WGS "Whole Genome Sequencing"

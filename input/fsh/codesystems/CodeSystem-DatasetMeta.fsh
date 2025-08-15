@@ -31,6 +31,8 @@ Description: "Variables associated with table, dataset_meta, from INCLUDE datase
 * #other-access-authority "Other Access Authority"
 * #is-harmonized "Is Harmonized"
 * #dataset-manifest-location "Dataset Manifest Location"
+* #doi "DOI"
+* #doi_citation "DOI Citation"
 
 ValueSet: DatasetPageCodesVS
 Id: dataset-page-codes-vs
