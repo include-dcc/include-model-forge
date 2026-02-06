@@ -1,0 +1,47 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "TrialPhase",
+  "id": "trial-phase",
+  "title": "Trial Phase",
+  "description": "Trial Phases Used in INCLUDE Clinical Trials Data",
+  "url": "https://includedcc.org/fhir/code-systems/trial_phase",
+  "concept": [
+    {
+      "code": "not_applicable",
+      "display": "Not Applicable"
+    },
+    {
+      "code": "early-phase-1",
+      "display": "Early Phase 1"
+    },
+    {
+      "code": "phase-1",
+      "display": "Phase 1"
+    },
+    {
+      "code": "phase-1-2",
+      "display": "Phase 1/2"
+    },
+    {
+      "code": "phase-2",
+      "display": "Phase 2"
+    },
+    {
+      "code": "phase-2-3",
+      "display": "Phase 2/3"
+    },
+    {
+      "code": "phase-3",
+      "display": "Phase 3"
+    },
+    {
+      "code": "phase-4",
+      "display": "Phase 4"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "NCPI FHIR Works"
+}

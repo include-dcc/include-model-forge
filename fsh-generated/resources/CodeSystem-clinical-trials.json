@@ -1,0 +1,63 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "ClinicalTrials",
+  "id": "clinical-trials",
+  "title": "Clinical Trials",
+  "description": "Clinical Trial Fields Used in INCLUDE Datasets",
+  "url": "https://includedcc.org/fhir/code-systems/clinical_trials",
+  "concept": [
+    {
+      "code": "study-code",
+      "display": "Study Code"
+    },
+    {
+      "code": "nct-id",
+      "display": "NCT ID"
+    },
+    {
+      "code": "trial-phase",
+      "display": "Trial Phase"
+    },
+    {
+      "code": "primary-purpose",
+      "display": "Primary Purpose"
+    },
+    {
+      "code": "intervention-type",
+      "display": "Intervention Type"
+    },
+    {
+      "code": "intervention",
+      "display": "Intervention"
+    },
+    {
+      "code": "arm-information",
+      "display": "Arm Information"
+    },
+    {
+      "code": "arm-allocation",
+      "display": "Arm Allocation"
+    },
+    {
+      "code": "intervention-assignment-strategy",
+      "display": "Intervention Assignment Strategy"
+    },
+    {
+      "code": "primary-outcome-measure",
+      "display": "Primary Outcome Measure"
+    },
+    {
+      "code": "secondary-outcome-measure",
+      "display": "Secondary Outcome Measure"
+    },
+    {
+      "code": "other-outcome-measure",
+      "display": "Other Outcome Measure"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "NCPI FHIR Works"
+}

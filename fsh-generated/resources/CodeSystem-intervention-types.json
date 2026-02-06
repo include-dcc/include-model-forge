@@ -1,0 +1,59 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "InterventionTypes",
+  "id": "intervention-types",
+  "title": "Intervention Types",
+  "description": "Intervention Types Used in INCLUDE Clinical Trials Data",
+  "url": "https://includedcc.org/fhir/code-systems/intervention_types",
+  "concept": [
+    {
+      "code": "drug",
+      "display": "Drug"
+    },
+    {
+      "code": "device",
+      "display": "Device"
+    },
+    {
+      "code": "biological/vaccine",
+      "display": "Biological/Vaccine"
+    },
+    {
+      "code": "procedure/surgery",
+      "display": "Procedure/Surgery"
+    },
+    {
+      "code": "radiation",
+      "display": "Radiation"
+    },
+    {
+      "code": "behavioral",
+      "display": "Behavioral"
+    },
+    {
+      "code": "dietary-supplement",
+      "display": "Dietary Supplement"
+    },
+    {
+      "code": "genetic",
+      "display": "Genetic"
+    },
+    {
+      "code": "other",
+      "display": "Other"
+    },
+    {
+      "code": "combination-product",
+      "display": "Combination Product"
+    },
+    {
+      "code": "diagnostic-test",
+      "display": "Diagnostic Test"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "NCPI FHIR Works"
+}

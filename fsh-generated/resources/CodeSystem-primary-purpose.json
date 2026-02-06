@@ -1,0 +1,51 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "PrimaryPurpose",
+  "id": "primary-purpose",
+  "title": "Primary Purpose",
+  "description": "Primary Purpose Used in INCLUDE Clinical Trials Data",
+  "url": "https://includedcc.org/fhir/code-systems/primary_purpose",
+  "concept": [
+    {
+      "code": "treatment",
+      "display": "Treatment"
+    },
+    {
+      "code": "prevention",
+      "display": "Prevention"
+    },
+    {
+      "code": "diagnostic",
+      "display": "Diagnostic"
+    },
+    {
+      "code": "supportive-care",
+      "display": "Supportive Care"
+    },
+    {
+      "code": "screening",
+      "display": "Screening"
+    },
+    {
+      "code": "health-services-research",
+      "display": "Health Services Research"
+    },
+    {
+      "code": "basic-science",
+      "display": "Basic Science"
+    },
+    {
+      "code": "device-feasibility",
+      "display": "Device Feasibility"
+    },
+    {
+      "code": "other",
+      "display": "Other"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "NCPI FHIR Works"
+}

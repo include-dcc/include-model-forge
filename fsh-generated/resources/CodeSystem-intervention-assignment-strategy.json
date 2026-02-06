@@ -1,0 +1,35 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "InterventionAssignmentStrategy",
+  "id": "intervention-assignment-strategy",
+  "title": "Intervention Assignment Strategy",
+  "description": "Intervention Assignment Strategy Used in INCLUDE Clinical Trials Data",
+  "url": "https://includedcc.org/fhir/code-systems/intervention_assignment_strategy",
+  "concept": [
+    {
+      "code": "single-group",
+      "display": "Single Group"
+    },
+    {
+      "code": "parallel",
+      "display": "Parallel"
+    },
+    {
+      "code": "crossover",
+      "display": "Crossover"
+    },
+    {
+      "code": "factorial",
+      "display": "Factorial"
+    },
+    {
+      "code": "sequential",
+      "display": "Sequential"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "NCPI FHIR Works"
+}
