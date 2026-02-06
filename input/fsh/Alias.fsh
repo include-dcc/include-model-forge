@@ -49,6 +49,12 @@ Alias: $study_programs = https://includedcc.org/fhir/code-systems/programs
 Alias: $data_access_types = https://includedcc.org/fhir/code-systems/data_access_types
 Alias: $dataset-meta = https://includedcc.org/fhir/CodeSystem/data-dictionary/dataset_meta
 Alias: $study_design = https://includedcc.org/fhir/code-systems/study_design
+Alias: $clinical_trials = https://includedcc.org/fhir/code-systems/clinical_trials
+Alias: $primary_purpose = https://includedcc.org/fhir/code-systems/primary_purpose
+Alias: $arm_allocation = https://includedcc.org/fhir/code-systems/arm_allocation
+Alias: $intervention_assignment_strategy = https://includedcc.org/fhir/code-systems/intervention_assignment_strategy
+Alias: $intervention_types = https://includedcc.org/fhir/code-systems/intervention_types
+Alias: $trial_phase = https://includedcc.org/fhir/code-systems/trial_phase
 // ValueSet
 Alias: $v3-FamilyMember = http://terminology.hl7.org/ValueSet/v3-FamilyMember
 Alias: $measurement_codes = http://includedcc.org/fhir/code-systems/measurement_codes

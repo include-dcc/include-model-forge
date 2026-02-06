@@ -1,0 +1,27 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "ArmAllocation",
+  "id": "arm-allocation",
+  "title": "Arm Allocation",
+  "description": "Arm Allocation Used in INCLUDE Clinical Trials Data",
+  "url": "https://includedcc.org/fhir/code-systems/arm_allocation",
+  "concept": [
+    {
+      "code": "randomized",
+      "display": "Randomized"
+    },
+    {
+      "code": "nonrandomized",
+      "display": "Nonrandomized"
+    },
+    {
+      "code": "not-applicable",
+      "display": "Not Applicable"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "NCPI FHIR Works"
+}
