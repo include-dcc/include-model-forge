@@ -13,8 +13,8 @@
       "display": "Unharmonized Demographic/Clinical Data"
     },
     {
-      "code": "harmonized_demographic_clinical_data",
-      "display": "Harmonized Demographic/Clinical Data"
+      "code": "demographic_clinical_data",
+      "display": "Demographic/Clinical Data"
     },
     {
       "code": "Clinical",
@@ -69,8 +69,8 @@
       "display": "Other"
     },
     {
-      "code": "sleep_study",
-      "display": "Sleep Study"
+      "code": "sleep",
+      "display": "Sleep"
     }
   ],
   "version": "0.1.0",
