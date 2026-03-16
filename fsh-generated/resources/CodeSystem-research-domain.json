@@ -1,0 +1,75 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "fragment",
+  "name": "ResearchDomain",
+  "id": "research-domain",
+  "title": "Research Domain",
+  "description": "Research Domains Used in INCLUDE Clinical Trials Data",
+  "url": "https://includedcc.org/fhir/code-systems/research_domain",
+  "concept": [
+    {
+      "code": "auditory_perception",
+      "display": "Auditory Perception"
+    },
+    {
+      "code": "behavior_and_behavior_mechanisims",
+      "display": "Behavior and Behavior Mechanisms"
+    },
+    {
+      "code": "congenital_heart_defects",
+      "display": "Congenital Heart Defects"
+    },
+    {
+      "code": "embryonic_and_fetal_development",
+      "display": "Embryonic and Fetal Development"
+    },
+    {
+      "code": "immune_system_diseases",
+      "display": "Immune System Diseases"
+    },
+    {
+      "code": "hematologic_diseases",
+      "display": "Hematologic Diseases"
+    },
+    {
+      "code": "neurodevelopment",
+      "display": "Neurodevelopment"
+    },
+    {
+      "code": "nutritional_and_metabolic_diseases",
+      "display": "Nutritional and Metabolic Diseases"
+    },
+    {
+      "code": "sleep_wake_disorders",
+      "display": "Sleep-Wake Disorders"
+    },
+    {
+      "code": "all_co_occuring_conditions",
+      "display": "All Co-Occurring Conditions"
+    },
+    {
+      "code": "physical_fitness",
+      "display": "Physical Fitness"
+    },
+    {
+      "code": "psychiatric_disorders",
+      "display": "Psychiatric Disorders"
+    },
+    {
+      "code": "respiratory_tract_diseases",
+      "display": "Respiratory Tract Diseases"
+    },
+    {
+      "code": "social_determinints_of_health",
+      "display": "Social Determinants of Health"
+    },
+    {
+      "code": "other",
+      "display": "Other"
+    }
+  ],
+  "version": "0.1.0",
+  "experimental": false,
+  "publisher": "NCPI FHIR Works"
+}

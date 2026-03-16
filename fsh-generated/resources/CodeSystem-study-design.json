@@ -41,6 +41,26 @@
       "display": "Longitudinal"
     },
     {
+      "code": "observational",
+      "display": "Observational"
+    },
+    {
+      "code": "registry",
+      "display": "Registry"
+    },
+    {
+      "code": "expanded_access",
+      "display": "Expanded Access"
+    },
+    {
+      "code": "technology_development",
+      "display": "Technology Development"
+    },
+    {
+      "code": "trial_readiness_study",
+      "display": "Trial Readiness Study"
+    },
+    {
       "code": "tumor_vs_matched_normal",
       "display": "Tumor vs Matched Normal"
     }

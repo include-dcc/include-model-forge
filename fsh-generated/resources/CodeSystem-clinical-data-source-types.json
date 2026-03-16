@@ -27,6 +27,10 @@
     {
       "code": "unknown",
       "display": "Unknown"
+    },
+    {
+      "code": "wearable",
+      "display": "Wearable"
     }
   ],
   "version": "0.1.0",
