@@ -8,7 +8,7 @@ Description: "Study Designs Used in INCLUDE Datasets"
 * ^experimental = false
 * ^publisher = "NCPI FHIR Works"
 * ^content = #fragment
-* #case_control "Case Control"
+* #case_control "Case-Control"
 * #case_set "Case Set"
 * #control_set "Control Set"
 * #clinical_trial "Clinical Trial"
